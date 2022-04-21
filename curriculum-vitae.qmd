@@ -2,8 +2,9 @@
 title: "Curriculum Vitae"
 about:
   image: images/2020-Lukas-Juergensmeier.jpg
-  template: solana
+  template: marquee
   image-shape: round
+  image-width: 20em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -16,21 +17,17 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-:::{#hero-heading}
-
 Lukas Jürgensmeier is Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University. In his free time, Lukas enjoys preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
 
-:::
 
 ## Education
 
-| Degree                           | Institution            | Location            | Duration                       |
-|--------------------|-----------------|-----------------|-------------------|
-| Ph.D. in Quantitative Marketing  | Goethe University      | Frankfurt, Germany  | April 2021 -- 2024             |
-| M.Sc. in Business Administration | Goethe University      | Frankfurt, Germany  | October 2018 -- March 2021     |
-| Washington Semester Program      | American University    | Washington, DC, USA | August 2017 -- December 2017   |
-| B.Sc. in Business Administration | University of Augsburg | Augsburg, Germany   | October 2015 -- September 2018 |
-
+| Degree                           | Institution                              | Date         |
+|--------------------------|-----------------------------|-----------------|
+| Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
+| M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
+| Washington Semester Program      | American University, Washington, DC, USA | 2017         |
+| B.Sc. in Business Administration | University of Augsburg, Germany          | 2015 -- 2018 |
 
 ## Experience
 
@@ -66,7 +63,7 @@ Awarded for my work at [TechAcademy e.V.](https://tech-academy.io/) by the Germa
 
 > The award recognizes students who demonstrate outstanding commitment above and beyond their academic achievements, which should be as unique and innovative as possible. In the unanimous opinion of the six-member DHV/DSW jury, the TechAcademy meets these criteria through its exceptional and exemplary commitment in every respect.
 
-> "With its initiative, the TechAcademy contributes to enabling students from less computer science-related courses of study, in particular, to get started in programming. TechAcademy addresses students in a field that is often closed to many students. This interdisciplinary, self-developed offering for students of all disciplines is exemplary, and it is a lighthouse project for the educationally central topic of digital education. It points the way to the future for self-initiated learning, for the promotion of IT skills through a sense of community," said DHV President Prof. Dr. Bernhard Kempen and DSW President Prof. Dr. Rolf-Dieter Postlep, jointly explaining the award.
+> "With its initiative, TechAcademy contributes to enabling students from less computer science-related courses of study, in particular, to get started in programming. TechAcademy addresses students in a field that is often closed to many students. This interdisciplinary, self-developed offering for students of all disciplines is exemplary, and it is a lighthouse project for the educationally central topic of digital education. It points the way to the future for self-initiated learning, for the promotion of IT skills through a sense of community," said DHV President Prof. Dr. Bernhard Kempen and DSW President Prof. Dr. Rolf-Dieter Postlep, jointly explaining the award.
 
 Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der Goethe-Universität Frankfurt am Main sind Studierende des Jahres](https://www.studentenwerke.de/de/content/techacademy-e-v-werden-studierende-des)", Press Release.
 
@@ -79,3 +76,5 @@ For the best Master's-level seminar theses in business and economics at Goethe U
 #### Schmalenbach Scholarship (2019 -- 2021)
 
 For outstanding students in a Master's program in Business. Awarded based on academic qualification and social engagement by the [Schmalenbach Gesellschaft für Betriebswirtschaft e.V.](https://www.schmalenbach.org/index.php/careercenter/schmalenbach-stipendium)
+
+</p>
