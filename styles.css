@@ -1,0 +1,25 @@
+/* css styles */
+
+/* unvisited link */
+a:link {
+  color: #520a19;
+}
+
+/* visited link */
+a:visited {
+  color: #19520a;
+}
+
+body{
+  font-size: 12pt;
+}
+/* Headers */
+h1{
+  font-size: 16pt;
+}
+h2{
+  font-size: 14pt;
+}
+h3,h4,h5,h6{
+  font-size: 12pt;
+}

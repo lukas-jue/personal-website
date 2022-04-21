@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lukas Jürgensmeier"
+  favicon: images/favicon.png
+  site-url: https://lukas-juergensmeier.com
+  repo-url: https://github.com/lukas-jue/personal-website
+  repo-actions: [edit, issue]
+  google-analytics: "G-SRCXLB0QJK"
+  navbar:
+  #sidebar:
+    background: "#0a1952"
+    foreground: "white"
+    style: "docked"
+    search: true
+    left:
+    #contents:
+      - text: "Home"
+        href: index.qmd
+      - research.qmd
+      - teaching.qmd
+      - curriculum-vitae.qmd
+      - techacademy.qmd
+      - contact.qmd
+  #cookie-consent: true
+
+format:
+  html:
+    theme:
+      light:
+        - flatly
+        - custom.scss
+      # dark:
+      #   - darkly
+      #   - custom.scss
+    css: styles.css
+    toc: true
+
+
+

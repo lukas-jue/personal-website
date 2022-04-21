@@ -1,0 +1,105 @@
+---
+title: "Teaching"
+---
+
+# Introduction to Data Science with R and Tidyverse
+
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Course Name**         | Introduction to Data Science with R and the Tidyverse                                                                                                                                                                                                               |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Course level**        | Ph.D.                                                                                                                                                                                                                                                               |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Institution**         | Goethe University Frankfurt (GRADE)                                                                                                                                                                                                                                 |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Target group**        | All fields                                                                                                                                                                                                                                                          |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Role**                | Lead teacher, course designer                                                                                                                                                                                                                                       |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Jointly taught with** | Lara Zaremba, M.Sc.                                                                                                                                                                                                                                                 |
+|                         |                                                                                                                                                                                                                                                                     |
+|                         | Karlo Lukic, M.Sc.                                                                                                                                                                                                                                                  |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Duration**            | 3 x 2 hours over three weeks or 1 x 6 hours                                                                                                                                                                                                                         |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Semesters**           | Summer 2021, Winter 2021/22, Summer 2022                                                                                                                                                                                                                            |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Language**            | English                                                                                                                                                                                                                                                             |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Resources**           | Link to course materials ([Summer 2021](https://lukas-jue.github.io/intro-tidyverse/ "Introduction to Data Science with R and Tidyverse"), [Winter 2021/22](https://lukas-jue.github.io/intro-tidyverse-2022/ "Introduction to Data Science with R and Tidyverse")) |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Course Objective
+
+Most academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging---primarily if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the essential parts of a Data Science project in R. We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools. We'll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
+
+Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
+
+## Course Description
+
+We aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective `tidyverse` tools:
+
+-   Plotting with `ggplot2`
+-   Data wrangling with `dplyr`
+-   Communicating your results with R Markdown
+-   Regressions with `tidymodels`
+
+We will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.
+
+## Methods
+
+We will *let you eat cake first*. What does that mean? Many programming courses start with the absolute basics --- variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.
+
+Each topic will start with a very friendly and sometimes a bit complicated *cake*. And you will dive right into it by executing and adapting the code for that "data science cake."
+
+For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (*"how should I ever be able to code that from scratch?"*), we will walk you through the steps and introduce the methods to get there during the course.
+
+The course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.
+
+## This Course at Your Company or Institution?
+
+Please contact me via E-Mail if you are interested in hosting this R course or a similar Python course at your institution.
+
+<span id="obf">
+
+```{=html}
+<script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">Fraq zr na R-Znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+```
+<noscript>
+
+[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}
+
+</noscript>
+
+</span>
+
+# Marketing Analytics (Econometrics in Management)
+
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Course Name**         | Marketing Analytics (Econometrics in Management)                                                                          |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Course level**        | Bachelor's                                                                                                                |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Institution**         | Goethe University Frankfurt                                                                                               |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Target group**        | Business and Economics students                                                                                           |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Role**                | Teaching assistant                                                                                                        |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Jointly taught with** | Prof. Dr. Bernd Skiera                                                                                                    |
+|                         |                                                                                                                           |
+|                         | Prof. Dr. Jochen Reiner                                                                                                   |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Duration**            | 3 hours per week (\~15 weeks)                                                                                             |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Semesters**           | Summer 2021, Winter 2021/22, Summer 2022, Winter 2022/23                                                                  |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Language**            | German                                                                                                                    |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Resources**           | Link to course materials ([Summer 2022](https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/14664237060?3)) |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+
+## Course Description
+
+This course teaches around 200 students per semester the basics of data analysis with the software R. We aim to enable the students with a valuable toolkit enabling them to answer data-driven economic questions with a modern Data Science toolkit. The course follows the "Flipped Classroom" principle.
+
+That means the course content is provided in videos that can be accessed "on-demand" prior to the face-to-face event. In the classroom session, questions about the videos are answered first. Afterwards, students work on tasks related to the video content in about 60 minutes.

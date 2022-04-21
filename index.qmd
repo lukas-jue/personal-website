@@ -1,0 +1,31 @@
+---
+title: "Lukas Jürgensmeier"
+image: images/2020-Lukas-Juergensmeier.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lukas-juergensmeier/
+    - icon: github
+      text: Github
+      href: https://github.com/lukas-jue
+    - icon: mortarboard-fill
+      text: Goethe University Profile
+      href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
+---
+
+# Welcome!
+
+I am a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University. In my free time, I enjoy preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
+
+On this website, you will find information about my Academic [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum Vitae](curriculum-vitae.qmd), and my passion project --- [TechAcademy e.V.](curriculum-vitae.qmd)
+
+You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or <span id="obf">
+<script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">R-Znvy.</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+<noscript>
+[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}
+</noscript>
+</span>
