@@ -17,15 +17,61 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-# Welcome!
+I am a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. My research focuses on the interface between Data Science and Marketing. I like applying modern econometric methods to novel data sources in the digital economy---especially with the `R` programming language.
 
-I am a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University. In my free time, I enjoy preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
+In my research project [Measuring Fair Competition on Digital Platforms](research.qmd#research.html#measuring-fair-competition-on-digital-platforms), we develop an approach to test for fair competition on digital platforms. Combining extensive data from Amazon's search results with high-frequency Amazon product data, we describe a toolkit for regulators and researchers to test for potentially anti-competitive recommendations on digital platforms.
 
-On this website, you will find information about my Academic [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum Vitae](curriculum-vitae.qmd), and my passion project --- [TechAcademy e.V.](curriculum-vitae.qmd)
+Another research project---[Does Media Reporting Matter for Daily Consumption Choices?](https://lukas-juergensmeier.com/research.html#does-media-reporting-matter-for-daily-consumption-choices)---combines vast smartphone location data and textual analysis of newspaper articles to assess the impact of media on consumption.
+
+I am an expert in the `R` programming language and love [teaching](teaching.qmd) `R` to Bachelor's, Master's and Ph.D. students, using the language in my [research](research.qmd), and even for designing this website.
+
+In my free time, I enjoy preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
+
+On this website, you will find information about my Academic [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy e.V.](techacademy.qmd).
 
 You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or <span id="obf">
+
+```{=html}
 <script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">R-Znvy.</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+```
 <noscript>
+
 [moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}
+
 </noscript>
+
 </span>
+
+# Upcoming Talks
+
+I (or my co-authors) will present my research at the following scheduled conferences. Please check the [Research](research.qmd) page for details on past conference presentations.
+
+## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| Conference                                                                                                                                                                                                                                                                         | Date           | Location                                                                 |
++====================================================================================================================================================================================================================================================================================+================+==========================================================================+
+| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022)                                                                                                                                                                                                          | May 2022       | Corvinus University, Budapest, Hungary                                   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)                                                                                                                                                                                                            | May 2022       | Corvinus University, Budapest, Hungary                                   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| [ISMS Marketing Science 2022](https://www.chicagobooth.edu/research/kilts/events/isms-marketing-science-conference)                                                                                                                                                                | June 2022      | ~~University of Chicago Booth School of Business, USA~~                  |
+|                                                                                                                                                                                                                                                                                    |                |                                                                          |
+|                                                                                                                                                                                                                                                                                    |                | online                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| [Munich Summer Institute 2022](http://munich-summer-institute.org/)                                                                                                                                                                                                                | June 2022      | Bavarian Academy of Sciences and Humanities, Munich, Germany             |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| [20th ZEW Conference on the Economics of Information and Communication Technologies](https://www.zew.de/en/events-and-professional-training/detail/20th-zew-conference-on-the-economics-of-information-and-communication-technologies/3723?cHash=ad35d0cb7616bc26ea8d6603c5c1cd55) | July 2022      | ZEW --- Leibniz Centre for European Economic Research, Mannheim, Germany |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+| [SALTY 2022 --- Quantiative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/)                                                                                                                                               | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany          |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+
+
+## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
+
++---------------------------------------------------------------------------+-----------+----------------------------------------+
+| Conference                                                                | Date      | Location                               |
++===========================================================================+===========+========================================+
+| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022) | May 2022  | Corvinus University, Budapest, Hungary |
++---------------------------------------------------------------------------+-----------+----------------------------------------+
+| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)   | May 2022  | Corvinus University, Budapest, Hungary |
++---------------------------------------------------------------------------+-----------+----------------------------------------+

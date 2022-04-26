@@ -9,6 +9,10 @@ website:
   repo-url: https://github.com/lukas-jue/personal-website
   repo-actions: [edit, issue]
   google-analytics: "G-SRCXLB0QJK"
+  open-graph:
+    title: "Lukas Jürgensmeier"
+    description: "Lukas Jürgensmeier is a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing. Lukas applies modern econometric methods to novel data sources in the digital economy---especially with the `R` programming language."
+  
   navbar:
   #sidebar:
     background: "#0a1952"
