@@ -44,7 +44,7 @@ You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeie
 
 # Upcoming Talks
 
-I (or my co-authors) will present my research at the following scheduled conferences. Please check the [Research](research.qmd) page for details on past conference presentations.
+You can find out more about my research at the following scheduled conferences. Please check the [Research](research.qmd) page for details on past conference presentations.
 
 ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
 
@@ -68,10 +68,10 @@ I (or my co-authors) will present my research at the following scheduled confere
 
 ## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
 
-+---------------------------------------------------------------------------+-----------+----------------------------------------+
-| Conference                                                                | Date      | Location                               |
-+===========================================================================+===========+========================================+
-| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022) | May 2022  | Corvinus University, Budapest, Hungary |
-+---------------------------------------------------------------------------+-----------+----------------------------------------+
-| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)   | May 2022  | Corvinus University, Budapest, Hungary |
-+---------------------------------------------------------------------------+-----------+----------------------------------------+
++---------------------------------------------------------------------------+-------------+----------------------------------------+
+| Conference                                                                | Date        | Location                               |
++===========================================================================+=============+========================================+
+| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022) | May 2022    | Corvinus University, Budapest, Hungary |
++---------------------------------------------------------------------------+-------------+----------------------------------------+
+| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)   | May 2022    | Corvinus University, Budapest, Hungary |
++---------------------------------------------------------------------------+-------------+----------------------------------------+
