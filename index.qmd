@@ -51,12 +51,12 @@ You can find out more about my research at the following scheduled conferences. 
 ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
 
 | Conference                                                                                                                                                                                                                                                                         | Date           | Location                                                                 |
-|-----------------------------------------|-------------|------------------|
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------------------------------------------------------------|
 | [20th ZEW Conference on the Economics of Information and Communication Technologies](https://www.zew.de/en/events-and-professional-training/detail/20th-zew-conference-on-the-economics-of-information-and-communication-technologies/3723?cHash=ad35d0cb7616bc26ea8d6603c5c1cd55) | July 2022      | ZEW --- Leibniz Centre for European Economic Research, Mannheim, Germany |
 | [SALTY 2022 --- Quantiative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/)                                                                                                                                               | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany          |
 
 ## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
 
 | Conference                                                                                                       | Date                     | Location                         |
-|--------------------------------------|---------------|-------------------|
+|------------------------------------------------------------------------------------------------------------------|--------------------------|----------------------------------|
 | [VfS Annual Conference 2022 --- Big Data in Economics](https://www.socialpolitik.de/en/termin/jahrestagung-2022) | September 11 -- 14, 2022 | University of Basel, Switzerland |
