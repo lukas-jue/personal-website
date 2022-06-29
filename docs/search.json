@@ -12,5 +12,40 @@
     "title": "Lukas Jürgensmeier",
     "section": "Does Media Reporting Matter for Daily Consumption Choices?",
     "text": "Does Media Reporting Matter for Daily Consumption Choices?\n\n\n\nConference\nDate\nLocation\n\n\n\n\nVfS Annual Conference 2022 — Big Data in Economics\nSeptember 11 – 14, 2022\nUniversity of Basel, Switzerland"
+  },
+  {
+    "objectID": "teaching.html#course-objective",
+    "href": "teaching.html#course-objective",
+    "title": "Teaching",
+    "section": "Course Objective",
+    "text": "Course Objective\nMost academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging—primarily if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the essential parts of a Data Science project in R. We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools. We’ll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.\nOur goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R—primarily data wrangling, data visualization, and communicating results."
+  },
+  {
+    "objectID": "teaching.html#course-description",
+    "href": "teaching.html#course-description",
+    "title": "Teaching",
+    "section": "Course Description",
+    "text": "Course Description\nWe aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective tidyverse tools:\n\nPlotting with ggplot2\nData wrangling with dplyr\nCommunicating your results with R Markdown\nRegressions with tidymodels\n\nWe will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding."
+  },
+  {
+    "objectID": "teaching.html#methods",
+    "href": "teaching.html#methods",
+    "title": "Teaching",
+    "section": "Methods",
+    "text": "Methods\nWe will let you eat cake first. What does that mean? Many programming courses start with the absolute basics — variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.\nEach topic will start with a very friendly and sometimes a bit complicated cake. And you will dive right into it by executing and adapting the code for that “data science cake.”\nFor example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (“how should I ever be able to code that from scratch?”), we will walk you through the steps and introduce the methods to get there during the course.\nThe course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding."
+  },
+  {
+    "objectID": "teaching.html#this-course-at-your-company-or-institution",
+    "href": "teaching.html#this-course-at-your-company-or-institution",
+    "title": "Teaching",
+    "section": "This Course at Your Company or Institution?",
+    "text": "This Course at Your Company or Institution?\nPlease contact me via E-Mail if you are interested in hosting this R course or a similar Python course at your institution.\n\n\n\nmoc.liamg@reiemsnegreuj.l"
+  },
+  {
+    "objectID": "teaching.html#course-description-1",
+    "href": "teaching.html#course-description-1",
+    "title": "Teaching",
+    "section": "Course Description",
+    "text": "Course Description\nThis course teaches around 200 students per semester the basics of data analysis with the software R. We aim to enable the students with a valuable toolkit to answer data-driven economic questions with a modern Data Science toolkit. The course follows the Flipped Classroom principle.\nWe provide the course content in videos “on-demand” before the face-to-face classroom session. Students watch the videos before coming to class and hence learn theoretical concepts. We then build upon that foundation and use the face-to-face time in class to deepen students’ understanding. In particular, we fully allocate the time in class for interaction in the form of small 60-minutes hands-on data science exercises in small groups and effective Q&A sessions."
   }
 ]
