@@ -34,11 +34,7 @@ You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeie
 ```{=html}
 <script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">R-Znvy.</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
 ```
-<noscript>
-
-[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}
-
-</noscript>
+<noscript>[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}</noscript>
 
 </span>
 
@@ -50,13 +46,13 @@ You can find out more about my research at the following scheduled conferences. 
 
 ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
 
-| Conference                                                                                                                                                                                                                                                                         | Date           | Location                                                                 |
-|-----------------------------------------------|-------------|-------------|
-| [20th ZEW Conference on the Economics of Information and Communication Technologies](https://www.zew.de/en/events-and-professional-training/detail/20th-zew-conference-on-the-economics-of-information-and-communication-technologies/3723?cHash=ad35d0cb7616bc26ea8d6603c5c1cd55) | July 2022      | ZEW --- Leibniz Centre for European Economic Research, Mannheim, Germany |
-| [SALTY 2022 --- Quantiative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/)                                                                                                                                               | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany          |
+| Conference                                                                                                                           | Date           | Location                                                        |
+|------------------------------------------|---------------|---------------|
+| [SALTY 2022 --- Quantiative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/) | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany |
 
 ## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
 
-| Conference                                                                                                       | Date                     | Location                         |
-|------------------------------------------|---------------|---------------|
-| [VfS Annual Conference 2022 --- Big Data in Economics](https://www.socialpolitik.de/en/termin/jahrestagung-2022) | September 11 -- 14, 2022 | University of Basel, Switzerland |
+| Conference                                                                                                       | Date                     | Location                                                           |
+|------------------------------------------------------------------------------------------------------------------|--------------------------|--------------------------------------------------------------------|
+| [VfS Annual Conference 2022 --- Big Data in Economics](https://www.socialpolitik.de/en/termin/jahrestagung-2022) | September 11 -- 14, 2022 | University of Basel, Switzerland                                   |
+| Economics of Media Workshop: Industrial Organization meets Political Economy                                     | September 15, 2022       | Smith School of Business, Queen's University, Kingston, ON, Canada |

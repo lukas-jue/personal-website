@@ -70,11 +70,7 @@ Please contact me via E-Mail if you are interested in hosting this R course or a
 ```{=html}
 <script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">Fraq zr na R-Znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
 ```
-<noscript>
-
-[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}
-
-</noscript>
+<noscript>[moc.liamg\@reiemsnegreuj.l]{style="unicode-bidi:bidi-override;direction:rtl;"}</noscript>
 
 </span>
 
