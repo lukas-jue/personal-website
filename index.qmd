@@ -14,7 +14,7 @@ about:
       href: https://github.com/lukas-jue
     - icon: mortarboard-fill
       text: Goethe University Profile
-      href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
+      href: https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
 I am a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. My research focuses on the interface between Data Science and Marketing. I like applying modern econometric methods to novel data sources in the digital economy---especially with the `R` programming language.
