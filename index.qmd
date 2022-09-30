@@ -42,17 +42,16 @@ You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeie
 
 ![Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest" width="1000"}
 
-You can find out more about my research at the following scheduled conferences. Please check the [Research](research.qmd) page for details on past conference presentations.
+Please check the [Research](research.qmd) page for details on past conference presentations. You can find out more about my research by attending one of the following scheduled conference presentations.
 
 ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
 
-| Conference                                                                                                                           | Date           | Location                                                        |
-|------------------------------------------|---------------|---------------|
-| [SALTY 2022 --- Quantiative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/) | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany |
+| Conference                                                                         | Date          | Location                                        |
+|---------------------------------------|-----------------|-----------------|
+| [WISE 2022 --- Workshop on Information Systems in Economics](http://wiseconf.org/) | December 2022 | Copenhagen Business School, Copenhagen, Denmark |
 
 ## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
 
-| Conference                                                                                                       | Date                     | Location                                                           |
-|------------------------------------------------------------------------------------------------------------------|--------------------------|--------------------------------------------------------------------|
-| [VfS Annual Conference 2022 --- Big Data in Economics](https://www.socialpolitik.de/en/termin/jahrestagung-2022) | September 11 -- 14, 2022 | University of Basel, Switzerland                                   |
-| Economics of Media Workshop: Industrial Organization meets Political Economy                                     | September 15, 2022       | Smith School of Business, Queen's University, Kingston, ON, Canada |
+| Conference                                    | Date         | Location           |
+|------------------------------------|----------------|---------------------|
+| efl --- the Data Science Institute, Jour Fixe | January 2023 | Frankfurt, Germany |
