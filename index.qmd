@@ -17,19 +17,43 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-I am a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. My research focuses on the interface between Data Science and Marketing. I like applying modern econometric methods to novel data sources in the digital economy---especially with the `R` programming language.
+I am a Ph.D. Student and Research Assistant in Quantitative Marketing at
+Goethe University Frankfurt. My research focuses on the interface
+between Data Science and Marketing. I like applying modern econometric
+methods to novel data sources in the digital economy---especially with
+the `R` programming language.
 
-In my research project [Measuring Fair Competition on Digital Platforms](research.qmd#research.html#measuring-fair-competition-on-digital-platforms), we develop an approach to test for fair competition on digital platforms. Combining extensive data from Amazon's search results with high-frequency Amazon product data, we describe a toolkit for regulators and researchers to test for potentially anti-competitive recommendations on digital platforms.
+In my research project [Measuring Fair Competition on Digital
+Platforms](research.qmd#research.html#measuring-fair-competition-on-digital-platforms),
+we develop an approach to test for fair competition on digital
+platforms. Combining extensive data from Amazon's search results with
+high-frequency Amazon product data, we describe a toolkit for regulators
+and researchers to test for potentially anti-competitive recommendations
+on digital platforms.
 
-Another research project---[Does Media Reporting Matter for Daily Consumption Choices?](https://lukas-juergensmeier.com/research.html#does-media-reporting-matter-for-daily-consumption-choices)---combines vast smartphone location data and textual analysis of newspaper articles to assess the impact of media on consumption.
+Another research project---[Do Political Conflicts Influence Daily
+Consumption
+Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)---combines
+vast smartphone location data and textual analysis of newspaper articles
+to assess the impact of political conflict on consumption.
 
-I am an expert in the `R` programming language and love [teaching](teaching.qmd) `R` to Bachelor's, Master's and Ph.D. students, using the language in my [research](research.qmd), and even for designing this website.
+I am an expert in the `R` programming language and love
+[teaching](teaching.qmd) `R` to Bachelor's, Master's and Ph.D. students,
+using the language in my [research](research.qmd), and even for
+designing this website.
 
-In my free time, I enjoy preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
+In my free time, I enjoy preparing the next generation for the digital
+future as a Member of the Board at TechAcademy e.V., a non-profit
+organization teaching coding and promoting tech literacy.
 
-On this website, you will find information about my Academic [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy e.V.](techacademy.qmd).
+On this website, you will find information about my Academic
+[Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum
+Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy
+e.V.](techacademy.qmd).
 
-You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or <span id="obf">
+You can contact me via
+[LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or
+<span id="obf">
 
 ```{=html}
 <script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:y.whretrafzrvre@tznvy.pbz\" gnetrg=\"_oynax\">R-Znvy.</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
@@ -40,18 +64,39 @@ You can contact me via [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeie
 
 # Upcoming Talks
 
-![Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest" width="1000"}
+![Lukas Jürgensmeier presenting at EMAC Conference 2022 in
+Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest"
+width="1000"}
 
-Please check the [Research](research.qmd) page for details on past conference presentations. You can find out more about my research by attending one of the following scheduled conference presentations.
+Please check the [Research](research.qmd) page for details on past
+conference presentations. You can find out more about my research by
+attending one of the following scheduled conference presentations.
 
 ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
 
-| Conference                                                                         | Date          | Location                                        |
-|---------------------------------------|-----------------|-----------------|
-| [WISE 2022 --- Workshop on Information Systems in Economics](http://wiseconf.org/) | December 2022 | Copenhagen Business School, Copenhagen, Denmark |
++--------------------------------------+--------------+--------------+
+| Conference                           | Date         | Location     |
++======================================+==============+==============+
+| [ISMS Marketing Science Conference   | June 2023    | Miami,       |
+| 2023](https://www.herbert.miami.edu/ |              | United       |
+| faculty-research/business-conference |              | States       |
+| s/isms-marketing-science/index.html) |              |              |
+|                                      |              |              |
+| (special session for winners of the  |              |              |
+| *2022 ISMS Doctoral Dissertation     |              |              |
+| Proposal Competition*)               |              |              |
++--------------------------------------+--------------+--------------+
 
-## [Does Media Reporting Matter for Daily Consumption Choices?](research.qmd#does-media-reporting-matter-for-daily-consumption-choices)
+<!-- ## [Do Political Conflicts Influence Daily Consumption Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices) -->
 
-| Conference                                    | Date         | Location           |
-|------------------------------------|----------------|---------------------|
-| efl --- the Data Science Institute, Jour Fixe | January 2023 | Frankfurt, Germany |
+<!-- +---------------------------------+----------------+------------------+ -->
+
+<!-- | Conference                      | Date           | Location         | -->
+
+<!-- +=================================+================+==================+ -->
+
+<!-- | efl --- the Data Science        | January 2023   | Frankfurt,       | -->
+
+<!-- | Institute, Jour Fixe            |                | Germany          | -->
+
+<!-- +---------------------------------+----------------+------------------+ -->

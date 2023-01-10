@@ -2,68 +2,127 @@
 title: "Teaching"
 ---
 
-My teaching focuses on programming with R and applied econometrics in Marketing. I aim to convey a valuable data science toolkit that enables students to answer complex economic or business questions with data and statistics.
+My teaching focuses on programming with R and applied econometrics in
+Marketing. I aim to convey a valuable data science toolkit that enables
+students to answer complex economic or business questions with data and
+statistics.
 
-To convey the---sometimes technical and challenging---programming and statistical methods, I follow a teaching philosophy that avoids teacher's monologues in lengthy lectures but instead forces students to *get their hands dirty* quickly and learn by doing. Hence, my courses involve short primers on technical concepts but heavily rely on the students working in small groups to solve small case studies. From my experience, students learn (sometimes challenging) topics such as programming and statistics in a more motivating and effective way.
+To convey the---sometimes technical and challenging---programming and
+statistical methods, I follow a teaching philosophy that avoids
+teacher's monologues in lengthy lectures but instead forces students to
+*get their hands dirty* quickly and learn by doing. Hence, my courses
+involve short primers on technical concepts but heavily rely on the
+students working in small groups to solve small case studies. From my
+experience, students learn (sometimes challenging) topics such as
+programming and statistics in a more motivating and effective way.
 
-Below, you will find my teaching portfolio and links to my teaching materials.
+Below, you will find my teaching portfolio and links to my teaching
+materials.
 
 # Introduction to Data Science with R and Tidyverse
 
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Course Name**         | Introduction to Data Science with R and the Tidyverse                                                                                                                                                                                                                                                                                        |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Course level**        | Ph.D.                                                                                                                                                                                                                                                                                                                                        |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Institution**         | Goethe University Frankfurt (GRADE)                                                                                                                                                                                                                                                                                                          |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Target group**        | Doctoral students from STEM fields with none or little `R` experience                                                                                                                                                                                                                                                                        |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Role**                | Lead teacher, course designer                                                                                                                                                                                                                                                                                                                |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Jointly taught with** | Lara Zaremba, M.Sc.                                                                                                                                                                                                                                                                                                                          |
-|                         |                                                                                                                                                                                                                                                                                                                                              |
-|                         | Karlo Lukic, M.Sc.                                                                                                                                                                                                                                                                                                                           |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Duration**            | 3 x 2 hours over three weeks or 1 x 6 hours                                                                                                                                                                                                                                                                                                  |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Semesters**           | Summer 2021, Winter 2021/22, Summer 2022                                                                                                                                                                                                                                                                                                     |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Language**            | English                                                                                                                                                                                                                                                                                                                                      |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Resources**           | Link to course materials ([Summer 2021](https://lukas-jue.github.io/intro-tidyverse/ "Introduction to Data Science with R and Tidyverse"), [Winter 2021/22](https://lukas-jue.github.io/intro-tidyverse-2022/ "Introduction to Data Science with R and Tidyverse"), [Summer 2022](https://lukas-jue.github.io/intro-tidyverse-2022-summer/)) |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------+-------------------------------------------+
+| **Course Name**         | Introduction to Data Science with R and   |
+|                         | the Tidyverse                             |
++-------------------------+-------------------------------------------+
+| **Course level**        | Ph.D.                                     |
++-------------------------+-------------------------------------------+
+| **Institution**         | Goethe University Frankfurt (GRADE)       |
++-------------------------+-------------------------------------------+
+| **Target group**        | Doctoral students from STEM fields with   |
+|                         | none or little `R` experience             |
++-------------------------+-------------------------------------------+
+| **Role**                | Lead teacher, course designer             |
++-------------------------+-------------------------------------------+
+| **Jointly taught with** | Lara Zaremba, M.Sc.                       |
+|                         |                                           |
+|                         | Karlo Lukic, M.Sc.                        |
++-------------------------+-------------------------------------------+
+| **Duration**            | 3 x 2 hours over three weeks or 1 x 6     |
+|                         | hours                                     |
++-------------------------+-------------------------------------------+
+| **Semesters**           | Summer 2021, Winter 2021/22, Summer 2022  |
++-------------------------+-------------------------------------------+
+| **Language**            | English                                   |
++-------------------------+-------------------------------------------+
+| **Resources**           | Link to course materials ([Summer         |
+|                         | 2021](https://lukas-ju                    |
+|                         | e.github.io/intro-tidyverse/ "Introductio |
+|                         | n to Data Science with R and Tidyverse"), |
+|                         | [Winter                                   |
+|                         | 2021/22](https://lukas-jue.git            |
+|                         | hub.io/intro-tidyverse-2022/ "Introductio |
+|                         | n to Data Science with R and Tidyverse"), |
+|                         | [Summer                                   |
+|                         | 2022](https://lukas-jue                   |
+|                         | .github.io/intro-tidyverse-2022-summer/)) |
++-------------------------+-------------------------------------------+
 
 ## Course Objective
 
-Most academic fields require proficiency in at least one data-centered analysis tool. For many, the R programming language has become the tool of choice. However, the first steps in coding can be intimidating and discouraging---primarily if you have never worked with a programming language before. This course aims at providing a results-oriented, applied, and hands-on introduction to the essential parts of a Data Science project in R. We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools. We'll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
+Most academic fields require proficiency in at least one data-centered
+analysis tool. For many, the R programming language has become the tool
+of choice. However, the first steps in coding can be intimidating and
+discouraging---primarily if you have never worked with a programming
+language before. This course aims at providing a results-oriented,
+applied, and hands-on introduction to the essential parts of a Data
+Science project in R. We will introduce the libraries and frameworks
+necessary for your analysis and focus on teaching you the implementation
+and application of those tools. We'll present small examples throughout
+the lecture and provide you with application exercises that you can work
+on for yourself.
 
-Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R. We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish. After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
+Our goal is to show you the scope of possibilities within R and leave
+you with the impression that you can confidently implement your
+empirical projects in R. We will focus on the Tidyverse ecosystem, a
+consistent and intuitive framework for building your data analysis from
+start to finish. After completing this course, you know how to apply the
+essential Tidyverse tools for everyday Data Science tasks in
+R---primarily data wrangling, data visualization, and communicating
+results.
 
 ## Course Description
 
-We aim this course at beginners who are either entirely new to R as a programming language and/or want to learn about the Tidyverse ecosystem. The course covers four primary areas of the typical data science process and introduces the respective `tidyverse` tools:
+We aim this course at beginners who are either entirely new to R as a
+programming language and/or want to learn about the Tidyverse ecosystem.
+The course covers four primary areas of the typical data science process
+and introduces the respective `tidyverse` tools:
 
 -   Plotting with `ggplot2`
 -   Data wrangling with `dplyr`
 -   Communicating your results with R Markdown
 -   Regressions with `tidymodels`
 
-We will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.
+We will not cover statistical or theoretical concepts in this course, as
+the focus will lie on applied coding.
 
 ## Methods
 
-We will *let you eat cake first*. What does that mean? Many programming courses start with the absolute basics --- variable types, syntax, loops, etc. Those are important but quite dull in the beginning. Instead of monotonously walking you through those, we follow a different teaching philosophy.
+We will *let you eat cake first*. What does that mean? Many programming
+courses start with the absolute basics --- variable types, syntax,
+loops, etc. Those are important but quite dull in the beginning. Instead
+of monotonously walking you through those, we follow a different
+teaching philosophy.
 
-Each topic will start with a very friendly and sometimes a bit complicated *cake*. And you will dive right into it by executing and adapting the code for that "data science cake."
+Each topic will start with a very friendly and sometimes a bit
+complicated *cake*. And you will dive right into it by executing and
+adapting the code for that "data science cake."
 
-For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually. While this might appear intimidating at first (*"how should I ever be able to code that from scratch?"*), we will walk you through the steps and introduce the methods to get there during the course.
+For example, we will show you an advanced visualization right at the
+beginning of the course and focus on what is possible eventually. While
+this might appear intimidating at first (*"how should I ever be able to
+code that from scratch?"*), we will walk you through the steps and
+introduce the methods to get there during the course.
 
-The course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises. In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.
+The course will alternate between short introductions to a concept or
+method and small do-it-yourself coding exercises. In between the three
+sessions, you are encouraged to work on provided exercises that further
+deepen your understanding.
 
 ## This Course at Your Company or Institution?
 
-Please contact me via E-Mail if you are interested in hosting this R course or a similar Python course at your institution.
+Please contact me via E-Mail if you are interested in hosting this R
+course or a similar Python course at your institution.
 
 <span id="obf">
 
@@ -76,40 +135,63 @@ Please contact me via E-Mail if you are interested in hosting this R course or a
 
 # Marketing Analytics (Econometrics in Management)
 
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Course Name**  | Marketing Analytics (Econometrics in Management)                                                                          |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Course level** | Bachelor's                                                                                                                |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Institution**  | Goethe University Frankfurt                                                                                               |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Target group** | Business and Economics students                                                                                           |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Role**         | Teaching assistant                                                                                                        |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Faculty**      | Prof. Dr. Bernd Skiera                                                                                                    |
-|                  |                                                                                                                           |
-|                  | Prof. Dr. Jochen Reiner                                                                                                   |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Duration**     | 3 hours per week (\~15 weeks)                                                                                             |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Semesters**    | Summer 2021, Winter 2021/22, Summer 2022, Winter 2022/23                                                                  |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Language**     | German                                                                                                                    |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
-| **Resources**    | Link to course materials ([Summer 2022](https://olat-ce.server.uni-frankfurt.de/olat/auth/RepositoryEntry/14664237060?3)) |
-+------------------+---------------------------------------------------------------------------------------------------------------------------+
++------------------+--------------------------------------------------+
+| **Course Name**  | Marketing Analytics (Econometrics in Management) |
++------------------+--------------------------------------------------+
+| **Course level** | Bachelor's                                       |
++------------------+--------------------------------------------------+
+| **Institution**  | Goethe University Frankfurt                      |
++------------------+--------------------------------------------------+
+| **Target group** | Business and Economics students                  |
++------------------+--------------------------------------------------+
+| **Role**         | Teaching assistant                               |
++------------------+--------------------------------------------------+
+| **Faculty**      | Prof. Dr. Bernd Skiera                           |
+|                  |                                                  |
+|                  | Prof. Dr. Jochen Reiner                          |
++------------------+--------------------------------------------------+
+| **Duration**     | 3 hours per week (\~15 weeks)                    |
++------------------+--------------------------------------------------+
+| **Semesters**    | Summer 2021, Winter 2021/22, Summer 2022, Winter |
+|                  | 2022/23                                          |
++------------------+--------------------------------------------------+
+| **Language**     | German                                           |
++------------------+--------------------------------------------------+
+| **Resources**    | Link to course materials ([Summer                |
+|                  | 2022](https://olat-ce.server.uni-frankf          |
+|                  | urt.de/olat/auth/RepositoryEntry/14664237060?3)) |
++------------------+--------------------------------------------------+
 
 ## Course Description
 
-This course teaches around 200 students per semester the basics of data analysis with the software R. We aim to enable the students with a valuable toolkit to answer data-driven economic questions with a modern Data Science toolkit. The course follows the *Flipped Classroom* principle.
+This course teaches around 200 students per semester the basics of data
+analysis with the software R. We aim to enable the students with a
+valuable toolkit to answer data-driven economic questions with a modern
+Data Science toolkit. The course follows the *Flipped Classroom*
+principle.
 
-We provide the course content in videos "on-demand" before the face-to-face classroom session. Students watch the videos before coming to class and hence learn theoretical concepts. We then build upon that foundation and use the face-to-face time in class to deepen students' understanding. In particular, we fully allocate the time in class for interaction in the form of small 60-minutes hands-on data science exercises in small groups and effective Q&A sessions.
+We provide the course content in videos "on-demand" before the
+face-to-face classroom session. Students watch the videos before coming
+to class and hence learn theoretical concepts. We then build upon that
+foundation and use the face-to-face time in class to deepen students'
+understanding. In particular, we fully allocate the time in class for
+interaction in the form of small 60-minutes hands-on data science
+exercises in small groups and effective Q&A sessions.
 
 # TechAcademy
 
-At TechAcademy, we teach coding in Data Science with R and Python, Web Development, and App Development to university students from all fields and previous experiences. We do so using an innovative blended learning approach that combines e-learning courses with offline Coding Meetups, group projects, a strong community, and individualized support from mentors.
+At TechAcademy, we teach coding in Data Science with R and Python, Web
+Development, and App Development to university students from all fields
+and previous experiences. We do so using an innovative blended learning
+approach that combines e-learning courses with offline Coding Meetups,
+group projects, a strong community, and individualized support from
+mentors.
 
-Before joining the executive board of the non-profit organization, I led the organization's data science and learning development team. Together with that team, we developed the innovative learning concept that significantly lowers the entry barrier to coding education and opens once closed (career) opportunities for students---especially from fields other than computer science.
+Before joining the executive board of the non-profit organization, I led
+the organization's data science and learning development team. Together
+with that team, we developed the innovative learning concept that
+significantly lowers the entry barrier to coding education and opens
+once closed (career) opportunities for students---especially from fields
+other than computer science.
 
 [More information on TechAcademy e.V.](techacademy.qmd)

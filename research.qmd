@@ -2,83 +2,217 @@
 title: "Research"
 ---
 
-My research investigates economic phenomena in the digital economy. I do so using novel big data sources and applying modern statistical methods.
+My research investigates economic phenomena in the digital economy. I do
+so using novel big data sources and applying modern statistical methods.
 
-On this website, you will find a summary of my current research projects that use search engine and Amazon product data to assess [fair competition on digital platforms](research.qmd#measuring-fair-competition-on-digital-platforms), as well as smartphone location data and large amounts of unstructured newspaper articles to [estimate the effect of media reporting on consumption](research.qmd#does-media-reporting-matter-for-daily-consumption-choices).
+On this website, you will find a summary of my current research projects
+that use search engine and Amazon product data to assess [fair
+competition on digital
+platforms](research.qmd#measuring-fair-competition-on-digital-platforms),
+as well as smartphone location data and large amounts of unstructured
+newspaper articles to estimate the [effect of political conflict on
+consumption](research.qmd#do-political-conflicts-influence-daily-consumption-choices).
 
 # Working Papers
 
 ## Measuring Fair Competition on Digital Platforms
 
-*Authors:* Lukas Jürgensmeier and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
+*Authors:* Lukas Jürgensmeier and [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
 
 *Status:* Revise & Resubmit at the Journal of Marketing
 
 ### Abstract
 
-Providers of digital platforms commonly recommend specific platform offers, through labels (e.g., "Amazon's Choice") or through rankings in search results. However, there is currently no systematic way of verifying that a platform's recommendations are fair and neutral, based on offers' merits. This manuscript describes a novel approach to detect discriminatory platform recommendations, by analyzing whether recommendations are dependent on "unfair" factors that do not influence consumers' utility. We focus on a scenario in which a platform provider serves as a platform actor (e.g., Amazon, which sells products on the Amazon Marketplace platform), and might leverage its position to unfairly promote its own offers. We apply our approach to test for discrimination in search visibility on Amazon Marketplace, in two empirical studies covering more than a million daily observations from three countries. Study A, which focuses on identical offers supplied by multiple sellers, does not find consistent evidence that Amazon's search engine results discriminate against third-party sellers. Study B, which compares private-label products supplied exclusively by either Amazon or a third party, finds that Amazon's products are significantly *less* visible than justified. Our approach can serve as a tool for platform actors, regulators, and lawmakers to test for discrimination on platforms.
+Digital platforms use recommendations to facilitate the exchange between
+platform actors, such as buyers and sellers. Platform actors expect and
+legislators increasingly demand that competition, including
+recommendations, is fair, especially for a market-dominating platform on
+which self-preferencing could occur. However, testing for fairness on
+platforms is challenging because offers from competing platform actors
+usually differ in their characteristics, and many distinct fairness
+definitions exist. This article considers these challenges and develops
+a five-step approach to measure fair competition through recommendations
+on digital platforms. The article illustrates this approach by
+conducting two empirical studies that examine Amazon's search engine
+recommendations on the Amazon marketplace for more than a million daily
+observations from three countries. It finds no consistent evidence for
+unfair competition in these studies. The article also discusses applying
+the five-step approach in other settings to ensure compliance with new
+regulations governing fair competition on digital platforms, such as the
+Digital Markets Act.
 
-**Keywords:** Digital Platforms, Amazon, Competition, Antitrust, Search Engines
+**Keywords:** Digital Platforms, Amazon, Competition, Antitrust, Search
+Engines
 
 ### Conference Presentations
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Conference                                                                                                                                                                                                                                                                         | Date           | Location                                                                 | Presenting Author                                                                                                         |
-+====================================================================================================================================================================================================================================================================================+================+==========================================================================+===========================================================================================================================+
-| [17th Symposium on Statistical Challenges in Electronic Commerce Research](https://web.archive.org/web/20210507005842/http://www.scecr.org/) (SCECR 2021)                                                                                                                          | June 2021      | ~~Madrid, Spain~~                                                        | Lukas Jürgensmeier                                                                                                        |
-|                                                                                                                                                                                                                                                                                    |                |                                                                          |                                                                                                                           |
-|                                                                                                                                                                                                                                                                                    |                | online                                                                   |                                                                                                                           |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| Interactive Marketing Research Conference (IMRC 2021)                                                                                                                                                                                                                              | October 2021   | ~~Gabelli School of Business, Fordham University, New York City, USA~~   | Lukas Jürgensmeier                                                                                                        |
-|                                                                                                                                                                                                                                                                                    |                |                                                                          |                                                                                                                           |
-|                                                                                                                                                                                                                                                                                    |                | online                                                                   |                                                                                                                           |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [13th Paris Conference on Digital Economics 2022](https://sites.google.com/view/parisdigitaleconomics/conference/conference)                                                                                                                                                       | April 2022     | Télécom Paris, Paliseau, France                                          | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022)                                                                                                                                                                                                          | May 2022       | Corvinus University, Budapest, Hungary                                   | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)                                                                                                                                                                                                            | May 2022       | Corvinus University, Budapest, Hungary                                   | [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [Munich Summer Institute 2022](http://munich-summer-institute.org/)                                                                                                                                                                                                                | June 2022      | Bavarian Academy of Sciences and Humanities, Munich, Germany             | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [ISMS Marketing Science 2022](https://www.chicagobooth.edu/research/kilts/events/isms-marketing-science-conference)                                                                                                                                                                | June 2022      | ~~University of Chicago Booth School of Business, USA~~                  | Lukas Jürgensmeier                                                                                                        |
-|                                                                                                                                                                                                                                                                                    |                |                                                                          |                                                                                                                           |
-|                                                                                                                                                                                                                                                                                    |                | online                                                                   |                                                                                                                           |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [20th ZEW Conference on the Economics of Information and Communication Technologies](https://www.zew.de/en/events-and-professional-training/detail/20th-zew-conference-on-the-economics-of-information-and-communication-technologies/3723?cHash=ad35d0cb7616bc26ea8d6603c5c1cd55) | July 2022      | ZEW --- Leibniz Centre for European Economic Research, Mannheim, Germany | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [SALTY 2022 --- Quantitative Marketing Conference](https://www.whu.edu/en/faculty/marketing-and-sales-group/digital-marketing/salty/)                                                                                                                                              | September 2022 | WHU --- Otto Beisheim School of Management, Düsseldorf, Germany          | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-| [WISE 2022 --- Workshop on Information Systems in Economics](http://wiseconf.org/)                                                                                                                                                                                                 | December 2022  | Copenhagen Business School, Copenhagen, Denmark                          | Lukas Jürgensmeier                                                                                                        |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
++------------------------------------+------------+----------------+----------------+
+| Conference                         | Date       | Location       | Presenting     |
+|                                    |            |                | Author         |
++====================================+============+================+================+
+| 17th Symposium on Statistical      | June 2021  | ~~Madrid,      | Lukas          |
+| Challenges in Electronic Commerce  |            | Spain~~        | Jürgensmeier   |
+| Research ([SCECR                   |            |                |                |
+| 2021                               |            | online         |                |
+| ](https://web.archive.org/web/2021 |            |                |                |
+| 0507005842/http://www.scecr.org/)) |            |                |                |
++------------------------------------+------------+----------------+----------------+
+| Interactive Marketing Research     | October    | ~~Gabelli      | Lukas          |
+| Conference (IMRC 2021)             | 2021       | School of      | Jürgensmeier   |
+|                                    |            | Business,      |                |
+|                                    |            | Fordham        |                |
+|                                    |            | University,    |                |
+|                                    |            | New York City, |                |
+|                                    |            | United         |                |
+|                                    |            | States~~       |                |
+|                                    |            |                |                |
+|                                    |            | online         |                |
++------------------------------------+------------+----------------+----------------+
+| [13th Paris Conference on Digital  | April 2022 | Télécom Paris, | Lukas          |
+| Economics                          |            | Paliseau,      | Jürgensmeier   |
+| 2022](https:                       |            | France         |                |
+| //sites.google.com/view/parisdigit |            |                |                |
+| aleconomics/conference/conference) |            |                |                |
++------------------------------------+------------+----------------+----------------+
+| [EMAC Doctoral Colloquium          | May 2022   | Corvinus       | Lukas          |
+| 2022](https:/                      |            | University,    | Jürgensmeier   |
+| /www.uni-corvinus.hu/ind/emac2022) |            | Budapest,      |                |
+|                                    |            | Hungary        |                |
++------------------------------------+------------+----------------+----------------+
+| [EMAC Annual Conference            | May 2022   | Corvinus       | [Bernd         |
+| 2022](https:/                      |            | University,    | Skiera]        |
+| /www.uni-corvinus.hu/ind/emac2022) |            | Budapest,      | (https:/%20/ww |
+|                                    |            | Hungary        | w.mark%20eting |
+|                                    |            |                | .uni%20-frankf |
+|                                    |            |                | ur%20t.de/abte |
+|                                    |            |                | %20ilungen/m%2 |
+|                                    |            |                | 0arketing/%20p |
+|                                    |            |                | rofessor%20en/ |
+|                                    |            |                | skiera%20/prof |
+|                                    |            |                | -dr-%20bernd-s |
+|                                    |            |                | ki%20era.html) |
++------------------------------------+------------+----------------+----------------+
+| [Munich Summer Institute           | June 2022  | Bavarian       | Lukas          |
+| 2022](http://munich-summe          |            | Academy of     | Jürgensmeier   |
+| r-institute.org/past-conferences/) |            | Sciences and   |                |
+|                                    |            | Humanities,    |                |
+|                                    |            | Munich,        |                |
+|                                    |            | Germany        |                |
++------------------------------------+------------+----------------+----------------+
+| [ISMS Marketing Science Conference | June 2022  | ~~University   | Lukas          |
+| 2022](https://www.chica            |            | of Chicago     | Jürgensmeier   |
+| gobooth.edu/research/kilts/events/ |            | Booth School   |                |
+| isms-marketing-science-conference) |            | of Business,   |                |
+|                                    |            | United         |                |
+|                                    |            | States~~       |                |
+|                                    |            |                |                |
+|                                    |            | online         |                |
++------------------------------------+------------+----------------+----------------+
+| [20th ZEW Conference on the        | July 2022  | ZEW ---        | Lukas          |
+| Economics of Information and       |            | Leibniz Centre | Jürgensmeier   |
+| Communication                      |            | for European   |                |
+| Technologies](https://www.zew.de/  |            | Economic       |                |
+| en/events-and-professional-trainin |            | Research,      |                |
+| g/detail/20th-zew-conference-on-th |            | Mannheim,      |                |
+| e-economics-of-information-and-com |            | Germany        |                |
+| munication-technologies/3723?cHash |            |                |                |
+| =ad35d0cb7616bc26ea8d6603c5c1cd55) |            |                |                |
++------------------------------------+------------+----------------+----------------+
+| [SALTY 2022 --- Quantitative       | September  | WHU --- Otto   | Lukas          |
+| Marketing                          | 2022       | Beisheim       | Jürgensmeier   |
+| Conference](https://www.wh         |            | School of      |                |
+| u.edu/en/faculty/marketing-and-sal |            | Management,    |                |
+| es-group/digital-marketing/salty/) |            | Düsseldorf,    |                |
+|                                    |            | Germany        |                |
++------------------------------------+------------+----------------+----------------+
+| [WISE 2022 --- Workshop on         | December   | Copenhagen     | Lukas          |
+| Information Systems in             | 2022       | Business       | Jürgensmeier   |
+| Economics](http://wiseconf.org/)   |            | School,        |                |
+|                                    |            | Copenhagen,    |                |
+|                                    |            | Denmark        |                |
++------------------------------------+------------+----------------+----------------+
+| [ISMS Marketing Science Conference | June 2023  | Miami, United  | Lukas          |
+| 2023](                             |            | States         | Jürgensmeier   |
+| https://www.herbert.miami.edu/facu |            |                |                |
+| lty-research/business-conferences/ |            |                |                |
+| isms-marketing-science/index.html) |            |                |                |
+| (special session for winners of    |            |                |                |
+| the *2022 ISMS Doctoral            |            |                |                |
+| Dissertation Proposal              |            |                |                |
+| Competition*)                      |            |                |                |
++------------------------------------+------------+----------------+----------------+
 
 ### Funding
 
-This project is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft--- DFG) through grant number SK 66/8-1 within the project *Visibility in Digital Markets: Risks and Economic Consequences*.
+This project is funded by the German Research Foundation ([Deutsche
+Forschungsgemeinschaft---DFG](https://www.dfg.de/en/index.jsp)) through
+grant number SK 66/8-1 within the project *Visibility in Digital
+Markets: Risks and Economic Consequences*.
 
-## Does Media Reporting Matter for Daily Consumption Choices?
+## Do Political Conflicts Influence Daily Consumption Choices?
 
-Authors: Celina Proffen and Lukas Jürgensmeier
+*Authors:* [Celina Proffen](https://www.celinaproffen.com/) and Lukas
+Jürgensmeier
+
+*Status:* Working paper (available upon request)
 
 ### Abstract
 
-Previous research has shown that media reporting matters for voting behavior, investment decisions, and even consumer sentiment as measured in surveys. We provide estimates for how media reporting affects actual consumption choices at a daily level, using data on visits to nearly 200,000 restaurants across the US. Exploiting the variation in news coverage about the recent US-China trade conflict, we estimate that a week-long one standard deviation increase in daily reporting negativity about China leads to 1.3 -- 3.7% fewer daily visits to the average Chinese restaurant in our sample. We furthermore provide evidence that around 65% of this effect is explained by the chosen reporting tone, which holds important implications for policymakers, publishers, and firms' branding strategies. We also link our findings to the literature on consumer ethnocentricity and animosity and provide suggestive evidence that media reporting can trigger ethnocentric behavior.
+Political conflict is a fixture of modern democracies. Such conflict
+shapes societal and political outcomes. But does political conflict with
+a foreign county also influence domestic consumers' daily consumption
+choices? This study investigates whether consumers boycott goods
+associated with the opposing country in a setting where the conflict
+does not directly influence the characteristics of these focal goods.
+More concretely, we use the US-China trade conflict to analyze whether
+consumers reduce their visits to Chinese restaurants in the US when
+political relations deteriorate. We measure the degree of political
+conflict through the negativity in media reports and rely on smartphone
+location data of more than 11 million devices to proxy daily visits to
+over 193,926 restaurants in the US. We find that a deterioration in
+US-China relations induces a statistically and economically significant
+decline in visits to Chinese restaurants relative to non-Chinese
+restaurants in the US. At the same time, visits to other foreign
+cuisines also decrease substantially, while visits to traditional
+American restaurants increase. We interpret these results as evidence
+that reporting on international conflicts triggers ethnocentric consumer
+behavior.
 
 ### Conference Presentations
 
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
-| Conference                                                                                                       | Date           | Location                                                           | Presenting Author  |
-+==================================================================================================================+================+====================================================================+====================+
-| [EMAC Doctoral Colloquium 2022](https://www.uni-corvinus.hu/ind/emac2022)                                        | May 2022       | Corvinus University, Budapest, Hungary                             | Celina Proffen     |
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
-| [EMAC Annual Conference 2022](https://www.uni-corvinus.hu/ind/emac2022)                                          | May 2022       | Corvinus University, Budapest, Hungary                             | Lukas Jürgensmeier |
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
-| [VfS Annual Conference 2022 --- Big Data in Economics](https://www.socialpolitik.de/en/termin/jahrestagung-2022) | September 2022 | University of Basel, Switzerland                                   | Celina Proffen     |
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
-| Economics of Media Workshop: Industrial Organization meets Political Economy                                     | September 2022 | Smith School of Business, Queen's University, Kingston, ON, Canada | Lukas Jürgensmeier |
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
-| efl --- the Data Science Institute, Jour Fixe                                                                    | January 2023   | Frankfurt, Germany                                                 |                    |
-+------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------+--------------------+
++----------------------------------+-------------+-------------+-------------------+
+| Conference                       | Date        | Location    | Presenting Author |
++==================================+=============+=============+===================+
+| [EMAC Doctoral Colloquium        | May 2022    | Corvinus    | Celina Proffen    |
+| 2022](https://w                  |             | University, |                   |
+| ww.uni-corvinus.hu/ind/emac2022) |             | Budapest,   |                   |
+|                                  |             | Hungary     |                   |
++----------------------------------+-------------+-------------+-------------------+
+| [EMAC Annual Conference          | May 2022    | Corvinus    | Lukas             |
+| 2022](https://w                  |             | University, | Jürgensmeier      |
+| ww.uni-corvinus.hu/ind/emac2022) |             | Budapest,   |                   |
+|                                  |             | Hungary     |                   |
++----------------------------------+-------------+-------------+-------------------+
+| [VfS Annual Conference           | September   | University  | Celina Proffen    |
+| 2022](https://www.socialpolitik  | 2022        | of Basel,   |                   |
+| .de/en/termin/jahrestagung-2022) |             | Switzerland |                   |
++----------------------------------+-------------+-------------+-------------------+
+| Economics of Media Workshop:     | September   | Smith       | Lukas             |
+| Industrial Organization meets    | 2022        | School of   | Jürgensmeier      |
+| Political Economy                |             | Business,   |                   |
+|                                  |             | Queen's     |                   |
+|                                  |             | University, |                   |
+|                                  |             | Kingston,   |                   |
+|                                  |             | ON, Canada  |                   |
++----------------------------------+-------------+-------------+-------------------+
+| [efl --- the Data Science        | January     | Frankfurt,  | Celina Proffen    |
+| Institute, Jour                  | 2023        | Germany     |                   |
+| Fixe](https://                   |             |             |                   |
+| www.eflab.de/events/detail/jour- |             |             |                   |
+| fixe-do-political-conflicts-infl |             |             |                   |
+| uence-daily-consumption-choices) |             |             |                   |
++----------------------------------+-------------+-------------+-------------------+
 
 ### Funding
 

@@ -2,15 +2,33 @@
 title: "TechAcademy"
 ---
 
-Since its founding in 2018, I volunteer at [TechAcademy e.V.](https://tech-academy.io/) and currently co-lead the non-profit organization as a member of the executive board.
+Since its founding in 2018, I volunteer at [TechAcademy
+e.V.](https://tech-academy.io/) and currently co-lead the non-profit
+organization as a member of the executive board.
 
-TechAcademy e.V. is a student initiative at Goethe University Frankfurt training the next digital leaders. Students of any discipline get the opportunity to acquire coding skills in Data Science and Web Development programs. Students apply their acquired tech skills in projects, solving real-world problems digitally.
+TechAcademy e.V. is a student initiative at Goethe University Frankfurt
+training the next digital leaders. Students of any discipline get the
+opportunity to acquire coding skills in Data Science and Web Development
+programs. Students apply their acquired tech skills in projects, solving
+real-world problems digitally.
 
-In addition to regular coding meetups, TechAcademy actively supports students in developing and implementing their projects through workshops, lectures, and company visits. In this way, participants gain practical experience in the tech sector while still studying and establish contact with relevant companies. TechAcademy currently provides 100 students per semester with the opportunity to participate in the educational program and counts more than 400 students as alumnae.
+In addition to regular coding meetups, TechAcademy actively supports
+students in developing and implementing their projects through
+workshops, lectures, and company visits. In this way, participants gain
+practical experience in the tech sector while still studying and
+establish contact with relevant companies. TechAcademy currently
+provides 100 students per semester with the opportunity to participate
+in the educational program and counts more than 400 students as alumnae.
 
-In addition, TechAcademy organizes the annual TechConference --- a digitization conference with high-ranking speakers from business, politics and science.
+In addition, TechAcademy organizes the annual TechConference --- a
+digitization conference with high-ranking speakers from business,
+politics and science.
 
-For this voluntary engagement TechAcademy won the national award "Students of the Year 2021," awarded jointly by the German National Association for Student Affairs (Deutsches Studentenwerk) and the German Association of University Professors and Lecturers (Deutscher Hochschulverband).
+For this voluntary engagement TechAcademy won the national award
+"Students of the Year 2021," awarded jointly by the German National
+Association for Student Affairs (Deutsches Studentenwerk) and the German
+Association of University Professors and Lecturers (Deutscher
+Hochschulverband).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1L_j2rwB4cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
@@ -24,7 +42,9 @@ For this voluntary engagement TechAcademy won the national award "Students of th
 
 </iframe>
 
-### TechConference 2021 and 2020
+### TechConference 2022, 2021, and 2020
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lcuF2-SlAD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e-a01pGJ9kQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
@@ -36,18 +56,42 @@ For this voluntary engagement TechAcademy won the national award "Students of th
 
 ## Newspaper Articles
 
--   Obinja, Antea (October 28, 2020): "[Initiative ‚TechAcademy': Mit Facebook gegen Corona](https://www.faz.net/aktuell/rhein-main/frankfurt/initiative-tech-academy-mit-facebook-gegen-corona-17021230.html)", in: Frankfurter Allgemeine Zeitung.
--   Haerdle, Benjamin (June 4, 2020) "[Studenteninitiative: Fit im Programmieren,](https://www.sueddeutsche.de/karriere/studenteninitiative-fit-im-programmieren-1.4924457)" in: Süddeutsche Zeitung.
+-   Obinja, Antea (October 28, 2020): "[Initiative ‚TechAcademy': Mit
+    Facebook gegen
+    Corona](https://www.faz.net/aktuell/rhein-main/frankfurt/initiative-tech-academy-mit-facebook-gegen-corona-17021230.html)",
+    in: Frankfurter Allgemeine Zeitung.
+-   Haerdle, Benjamin (June 4, 2020) "[Studenteninitiative: Fit im
+    Programmieren,](https://www.sueddeutsche.de/karriere/studenteninitiative-fit-im-programmieren-1.4924457)"
+    in: Süddeutsche Zeitung.
 
 ## Press Releases
 
--   TechAcademy (September 21, 2021): "[TechConference 2021: With Big Data Comes Big Responsibility,](https://www.tech-academy.io/posts/techconference-with-big-data-comes-big-responsibility/)" Press Release.
--   Goethe-Universität Frankfurt am Main (September 29, 2021): "[8. Oktober / Digitale TechConference zum verantwortungsvollen Umgang mit Big Data](https://aktuelles.uni-frankfurt.de/veranstaltungen/8-oktober-digitale-techconference-zum-verantwortungsvollen-umgang-mit-big-data/)", Press Release.
--   Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der Goethe-Universität Frankfurt am Main sind Studierende des Jahres](https://www.studentenwerke.de/de/content/techacademy-e-v-werden-studierende-des)", Press Release.
--   Goethe University Frankfurt am Main (March 18, 2020): "['Studierende des Jahres' --- TechAcademy ausgezeichnet](https://aktuelles.uni-frankfurt.de/studium/studierende-des-jahres-techacademy-ausgezeichnet/)", Press Release.
--   Goethe University Frankfurt am Main (October 7, 2020): "[Digitale TechConference an der Goethe-Universität mit hochkarätigen Teilnehmern](https://aktuelles.uni-frankfurt.de/veranstaltungen/6-november-digitale-techconference-an-der-goethe-universitaet-mit-hochkaraetigen-teilnehmern/)", Press Release.
--   TechAcademy e.V. (October 5, 2020): "[TechConference: Can Tech Save the World?](https://conference.tech-academy.io/2020-thema/)", Press Release.
+-   TechAcademy (September 21, 2021): "[TechConference 2021: With Big
+    Data Comes Big
+    Responsibility,](https://www.tech-academy.io/posts/techconference-with-big-data-comes-big-responsibility/)"
+    Press Release.
+-   Goethe-Universität Frankfurt am Main (September 29, 2021): "[8.
+    Oktober / Digitale TechConference zum verantwortungsvollen Umgang
+    mit Big
+    Data](https://aktuelles.uni-frankfurt.de/veranstaltungen/8-oktober-digitale-techconference-zum-verantwortungsvollen-umgang-mit-big-data/)",
+    Press Release.
+-   Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der
+    Goethe-Universität Frankfurt am Main sind Studierende des
+    Jahres](https://www.studentenwerke.de/de/content/techacademy-e-v-werden-studierende-des)",
+    Press Release.
+-   Goethe University Frankfurt am Main (March 18, 2020): "['Studierende
+    des Jahres' --- TechAcademy
+    ausgezeichnet](https://aktuelles.uni-frankfurt.de/studium/studierende-des-jahres-techacademy-ausgezeichnet/)",
+    Press Release.
+-   Goethe University Frankfurt am Main (October 7, 2020): "[Digitale
+    TechConference an der Goethe-Universität mit hochkarätigen
+    Teilnehmern](https://aktuelles.uni-frankfurt.de/veranstaltungen/6-november-digitale-techconference-an-der-goethe-universitaet-mit-hochkaraetigen-teilnehmern/)",
+    Press Release.
+-   TechAcademy e.V. (October 5, 2020): "[TechConference: Can Tech Save
+    the World?](https://conference.tech-academy.io/2020-thema/)", Press
+    Release.
 
 ## More Information
 
-Please find more information on TechAcademy e.V. on the organization's website <https://tech-academy.io/>.
+Please find more information on TechAcademy e.V. on the organization's
+website <https://tech-academy.io/>.

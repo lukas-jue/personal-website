@@ -44,12 +44,20 @@ Please see my [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier) profil
 ## Research Grants and Fundraising
 
 -   **Research Grant:** *Does Media Reporting Matter for Daily Consumption Choices?,* \~ 25,000 € provided by the [efl --- the Data Science Institute](https://www.eflab.de/). Jointly with Celina Proffen
--   **Teaching Grant:** *DigiTeLL: Flipped Classroom and Gamification in Marketing Analytics Education*, \~ 80,000 € provided by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for Innovation in University Education) and Goethe University. Jointly with Bernd Skiera.
+- **Teaching Grant:** *DigiTeLL 2023: Coding Intro — A Scalable Concept for Introductory Coding Courses for Students from all Fields*, \~ 80,000 € provided by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for Innovation in University Education) and Goethe University.
+-   **Teaching Grant:** *DigiTeLL 2022: Flipped Classroom and Gamification in Marketing Analytics Education*, \~ 80,000 € provided by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for Innovation in University Education) and Goethe University. Jointly with Bernd Skiera.
 -   **Non-Profit Fundraising:** *TechAcademy e.V.,* since 2019, we have raised more than 130,000 € through corporate sponsorship and prize money to provide free coding education and finance the annual TechConference. Sponsors include Meta, Salesforce, ING, Bearing Point, Huawei, zeb, Lidl.
 
 ## Honors & Awards
 
-#### **Erich-Gutenberg-Award 2021**
+#### ISMS Doctoral Dissertation Proposal Award 2022
+
+Awarded for my dissertation proposal **Measuring Fair Competition** by the INFORMS Society for Marketing Science (ISMS), 5,000 $ prize money.
+
+Please access the [ISMS website](https://connect.informs.org/isms/awards/isms-doctoral-awards) for more information on the ISMS Doctoral Dissertation Proposal Award.
+
+
+#### Erich-Gutenberg-Award 2021
 
 Awarded for my Master's Thesis **Measuring Fair Competition on Digital Platforms: Visibility as a Novel Metric in Antitrust Cases**, 1,000 € prize money.
 
@@ -69,7 +77,7 @@ Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der Goethe-Universitä
 
 Goethe University Frankfurt am Main (March 18, 2020): "['Studierende des Jahres' --- TechAcademy ausgezeichnet](https://aktuelles.uni-frankfurt.de/studium/studierende-des-jahres-techacademy-ausgezeichnet/)", Press Release.
 
-#### **Norbert-Walter-Prize 2019**
+#### Norbert-Walter-Prize 2019
 
 For the best Master's-level seminar theses in business and economics at Goethe University for my paper "Un-Black-Boxing Artificial Neural Networks: Predicting and Explaining Bank Customer's Cross-Sell Likelihood" (second price). Awarded by the Frankfurter Wirtschaftswissenschaftliche Gesellschaft (fwwg), 400 € prize money.
 
