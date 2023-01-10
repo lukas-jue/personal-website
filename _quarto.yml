@@ -41,6 +41,8 @@ format:
       #   - custom.scss
     css: styles.css
     toc: true
+resources:
+  - CNAME
 
 
 
