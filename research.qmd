@@ -80,18 +80,9 @@ Engines
 | /www.uni-corvinus.hu/ind/emac2022) |            | Budapest,      |                |
 |                                    |            | Hungary        |                |
 +------------------------------------+------------+----------------+----------------+
-| [EMAC Annual Conference            | May 2022   | Corvinus       | [Bernd         |
-| 2022](https:/                      |            | University,    | Skiera]        |
-| /www.uni-corvinus.hu/ind/emac2022) |            | Budapest,      | (https:/%20/ww |
-|                                    |            | Hungary        | w.mark%20eting |
-|                                    |            |                | .uni%20-frankf |
-|                                    |            |                | ur%20t.de/abte |
-|                                    |            |                | %20ilungen/m%2 |
-|                                    |            |                | 0arketing/%20p |
-|                                    |            |                | rofessor%20en/ |
-|                                    |            |                | skiera%20/prof |
-|                                    |            |                | -dr-%20bernd-s |
-|                                    |            |                | ki%20era.html) |
+| [EMAC Annual Conference            | May 2022   | Corvinus       |  Bernd Skiera  |
+| 2022](https:/                      |            | University,    |                |
+| /www.uni-corvinus.hu/ind/emac2022) |            | Budapest,      |                |
 +------------------------------------+------------+----------------+----------------+
 | [Munich Summer Institute           | June 2022  | Bavarian       | Lukas          |
 | 2022](http://munich-summe          |            | Academy of     | Jürgensmeier   |
