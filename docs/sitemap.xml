@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lukas-juergensmeier.com/contact.html</loc>
-    <lastmod>2023-03-29T08:05:05.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lukas-juergensmeier.com/curriculum-vitae.html</loc>
-    <lastmod>2023-03-29T08:05:05.535Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lukas-juergensmeier.com/index.html</loc>
-    <lastmod>2023-03-29T08:05:05.979Z</lastmod>
+    <loc>https://lukas-juergensmeier.com/techacademy.html</loc>
+    <lastmod>2023-11-03T11:40:42.672Z</lastmod>
   </url>
   <url>
     <loc>https://lukas-juergensmeier.com/research.html</loc>
-    <lastmod>2023-03-29T08:05:06.429Z</lastmod>
+    <lastmod>2023-11-03T11:40:41.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lukas-juergensmeier.com/curriculum-vitae.html</loc>
+    <lastmod>2023-11-03T11:40:39.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lukas-juergensmeier.com/contact.html</loc>
+    <lastmod>2023-11-03T11:40:38.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lukas-juergensmeier.com/index.html</loc>
+    <lastmod>2023-11-03T11:40:40.066Z</lastmod>
   </url>
   <url>
     <loc>https://lukas-juergensmeier.com/teaching.html</loc>
-    <lastmod>2023-03-29T08:05:06.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lukas-juergensmeier.com/techacademy.html</loc>
-    <lastmod>2023-03-29T08:05:07.313Z</lastmod>
+    <lastmod>2023-11-03T11:40:41.950Z</lastmod>
   </url>
 </urlset>

@@ -3,8 +3,10 @@ title: "TechAcademy"
 ---
 
 Since its founding in 2018, I volunteer at [TechAcademy
-e.V.](https://tech-academy.io/) and currently co-lead the non-profit
-organization as a member of the executive board.
+e.V.](https://tech-academy.io/). After co-leading the organization as an
+executive board member for several years, my current role as an supervisory
+board member is to ensure TechAcademy's long-term viability and successful
+development.
 
 TechAcademy e.V. is a student initiative at Goethe University Frankfurt
 training the next digital leaders. Students of any discipline get the

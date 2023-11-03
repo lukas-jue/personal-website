@@ -69,23 +69,24 @@ Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig
 width="1000"}
 
 Please check the [Research](research.qmd) page for details on past
-conference presentations. You can find out more about my research by
-attending one of the following scheduled conference presentations.
+conference presentations.
+<!-- You can find out more about my research by -->
+<!-- attending one of the following scheduled conference presentations. -->
 
-## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms)
+<!-- ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms) -->
 
-+--------------------------------------+--------------+--------------+
-| Conference                           | Date         | Location     |
-+======================================+==============+==============+
-| [ISMS Marketing Science Conference   | June 2023    | Miami,       |
-| 2023](https://www.herbert.miami.edu/ |              | United       |
-| faculty-research/business-conference |              | States       |
-| s/isms-marketing-science/index.html) |              |              |
-|                                      |              |              |
-| (special session for winners of the  |              |              |
-| *2022 ISMS Doctoral Dissertation     |              |              |
-| Proposal Competition*)               |              |              |
-+--------------------------------------+--------------+--------------+
+<!-- +--------------------------------------+--------------+--------------+ -->
+<!-- | Conference                           | Date         | Location     | -->
+<!-- +======================================+==============+==============+ -->
+<!-- | [ISMS Marketing Science Conference   | June 2023    | Miami,       | -->
+<!-- | 2023](https://www.herbert.miami.edu/ |              | United       | -->
+<!-- | faculty-research/business-conference |              | States       | -->
+<!-- | s/isms-marketing-science/index.html) |              |              | -->
+<!-- |                                      |              |              | -->
+<!-- | (special session for winners of the  |              |              | -->
+<!-- | *2022 ISMS Doctoral Dissertation     |              |              | -->
+<!-- | Proposal Competition*)               |              |              | -->
+<!-- +--------------------------------------+--------------+--------------+ -->
 
 <!-- ## [Do Political Conflicts Influence Daily Consumption Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices) -->
 

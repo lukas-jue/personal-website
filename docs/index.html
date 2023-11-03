@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -55,7 +55,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SRCXLB0QJK"></script>
@@ -71,12 +72,12 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Lukas Jürgensmeier">
-<meta property="og:description" content="Lukas Jürgensmeier is a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing.">
-<meta property="og:image" content="https://lukas-juergensmeier.com/images\2020-Lukas-Juergensmeier.jpg">
+<meta property="og:description" content="Lukas Jürgensmeier is a Ph.D.&nbsp;Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing. Lukas applies modern econometric methods to novel data sources in the digital economy—especially with the R programming language.">
+<meta property="og:image" content="https://lukas-juergensmeier.com/images/2020-Lukas-Juergensmeier.jpg">
 <meta property="og:site-name" content="Lukas Jürgensmeier">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,37 +88,39 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
     <span class="navbar-title">Lukas Jürgensmeier</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./curriculum-vitae.html">
+    <a class="nav-link" href="./curriculum-vitae.html" rel="" target="">
  <span class="menu-text">Curriculum Vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./techacademy.html">
+    <a class="nav-link" href="./techacademy.html" rel="" target="">
  <span class="menu-text">TechAcademy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="./contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -126,7 +129,14 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#upcoming-talks" id="toc-upcoming-talks" class="nav-link active" data-scroll-target="#upcoming-talks">Upcoming Talks</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/lukas-jue/personal-website/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/lukas-jue/personal-website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
 <div class="quarto-about-trestles">
   <div class="about-entity">
@@ -140,21 +150,22 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.linkedin.com/in/lukas-juergensmeier/" class="about-link">
+  <a href="https://www.linkedin.com/in/lukas-juergensmeier/" class="about-link" rel="" target="">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://github.com/lukas-jue" class="about-link">
+  <a href="https://github.com/lukas-jue" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">Github</span>
   </a>
-  <a href="https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html" class="about-link">
+  <a href="https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html" class="about-link" rel="" target="">
     <i class="bi bi-mortarboard-fill"></i>
      <span class="about-link-text">Goethe University Profile</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
+
 <p>I am a Ph.D.&nbsp;Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. My research focuses on the interface between Data Science and Marketing. I like applying modern econometric methods to novel data sources in the digital economy—especially with the <code>R</code> programming language.</p>
 <p>In my research project <a href="./research.html#research.html#measuring-fair-competition-on-digital-platforms">Measuring Fair Competition on Digital Platforms</a>, we develop an approach to test for fair competition on digital platforms. Combining extensive data from Amazon’s search results with high-frequency Amazon product data, we describe a toolkit for regulators and researchers to test for potentially anti-competitive recommendations on digital platforms.</p>
 <p>Another research project—<a href="./research.html#do-political-conflicts-influence-daily-consumption-choices">Do Political Conflicts Influence Daily Consumption Choices?</a>—combines vast smartphone location data and textual analysis of newspaper articles to assess the impact of political conflict on consumption.</p>
@@ -172,29 +183,23 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg" class="img-fluid figure-img" alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest" width="1000"></p>
-<p></p><figcaption class="figure-caption">Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest</figcaption><p></p>
+<figcaption class="figure-caption">Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest</figcaption>
 </figure>
 </div>
-<p>Please check the <a href="./research.html">Research</a> page for details on past conference presentations. You can find out more about my research by attending one of the following scheduled conference presentations.</p>
-<section id="measuring-fair-competition-on-digital-platforms" class="level2">
-<h2 data-anchor-id="measuring-fair-competition-on-digital-platforms"><a href="./research.html#measuring-fair-competition-on-digital-platforms">Measuring Fair Competition on Digital Platforms</a></h2>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Conference</th>
-<th>Date</th>
-<th>Location</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="https://www.herbert.miami.edu/%20faculty-research/business-conference%20s/isms-marketing-science/index.html">ISMS Marketing Science Conference 2023</a></p>
-<p>(special session for winners of the <em>2022 ISMS Doctoral Dissertation Proposal Competition</em>)</p></td>
-<td>June 2023</td>
-<td>Miami, United States</td>
-</tr>
-</tbody>
-</table>
+<p>Please check the <a href="./research.html">Research</a> page for details on past conference presentations. <!-- You can find out more about my research by --> <!-- attending one of the following scheduled conference presentations. --></p>
+<!-- ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms) -->
+<!-- +--------------------------------------+--------------+--------------+ -->
+<!-- | Conference                           | Date         | Location     | -->
+<!-- +======================================+==============+==============+ -->
+<!-- | [ISMS Marketing Science Conference   | June 2023    | Miami,       | -->
+<!-- | 2023](https://www.herbert.miami.edu/ |              | United       | -->
+<!-- | faculty-research/business-conference |              | States       | -->
+<!-- | s/isms-marketing-science/index.html) |              |              | -->
+<!-- |                                      |              |              | -->
+<!-- | (special session for winners of the  |              |              | -->
+<!-- | *2022 ISMS Doctoral Dissertation     |              |              | -->
+<!-- | Proposal Competition*)               |              |              | -->
+<!-- +--------------------------------------+--------------+--------------+ -->
 <!-- ## [Do Political Conflicts Influence Daily Consumption Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices) -->
 <!-- +---------------------------------+----------------+------------------+ -->
 <!-- | Conference                      | Date           | Location         | -->
@@ -204,7 +209,6 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <!-- +---------------------------------+----------------+------------------+ -->
 
 
-</section>
 </section>
 </main></div>
 </div>
@@ -229,9 +233,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -296,6 +314,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

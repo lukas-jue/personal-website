@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SRCXLB0QJK"></script>
@@ -72,7 +73,7 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Lukas Jürgensmeier">
-<meta property="og:description" content="Lukas Jürgensmeier is a Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing.">
+<meta property="og:description" content="Lukas Jürgensmeier is a Ph.D.&nbsp;Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing. Lukas applies modern econometric methods to novel data sources in the digital economy—especially with the R programming language.">
 <meta property="og:site-name" content="Lukas Jürgensmeier">
 </head>
 
@@ -87,37 +88,39 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
     <span class="navbar-title">Lukas Jürgensmeier</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./curriculum-vitae.html">
+    <a class="nav-link" href="./curriculum-vitae.html" rel="" target="">
  <span class="menu-text">Curriculum Vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./techacademy.html">
+    <a class="nav-link" href="./techacademy.html" rel="" target="">
  <span class="menu-text">TechAcademy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="./contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,7 +134,7 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a>
+  <li><a href="#developed-research-with-working-papers" id="toc-developed-research-with-working-papers" class="nav-link active" data-scroll-target="#developed-research-with-working-papers">Developed Research with Working Papers</a>
   <ul class="collapse">
   <li><a href="#measuring-fair-competition-on-digital-platforms" id="toc-measuring-fair-competition-on-digital-platforms" class="nav-link" data-scroll-target="#measuring-fair-competition-on-digital-platforms">Measuring Fair Competition on Digital Platforms</a>
   <ul class="collapse">
@@ -145,6 +148,18 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
   <li><a href="#conference-presentations-1" id="toc-conference-presentations-1" class="nav-link" data-scroll-target="#conference-presentations-1">Conference Presentations</a></li>
   <li><a href="#funding-1" id="toc-funding-1" class="nav-link" data-scroll-target="#funding-1">Funding</a></li>
   </ul></li>
+  </ul></li>
+  <li><a href="#early-stage-research-without-working-paper" id="toc-early-stage-research-without-working-paper" class="nav-link" data-scroll-target="#early-stage-research-without-working-paper">Early-Stage Research Without Working Paper</a>
+  <ul class="collapse">
+  <li><a href="#using-generative-ai-to-provide-scalable-feedback-to-students-in-marketing-analytics" id="toc-using-generative-ai-to-provide-scalable-feedback-to-students-in-marketing-analytics" class="nav-link" data-scroll-target="#using-generative-ai-to-provide-scalable-feedback-to-students-in-marketing-analytics">Using Generative AI to Provide Scalable Feedback to Students in Marketing Analytics</a>
+  <ul class="collapse">
+  <li><a href="#abstract-2" id="toc-abstract-2" class="nav-link" data-scroll-target="#abstract-2">Abstract</a></li>
+  </ul></li>
+  <li><a href="#degrees-of-vertical-integration-on-online-retail-platforms-an-international-comparison-of-amazon-marketplaces" id="toc-degrees-of-vertical-integration-on-online-retail-platforms-an-international-comparison-of-amazon-marketplaces" class="nav-link" data-scroll-target="#degrees-of-vertical-integration-on-online-retail-platforms-an-international-comparison-of-amazon-marketplaces">Degrees of Vertical Integration on Online Retail Platforms: An International Comparison of Amazon Marketplaces</a></li>
+  </ul></li>
+  <li><a href="#other-projects" id="toc-other-projects" class="nav-link" data-scroll-target="#other-projects">Other Projects</a>
+  <ul class="collapse">
+  <li><a href="#teaching-marketing-analytics-a-pricing-exercise-for-quantitative-and-substantive-marketing-skills" id="toc-teaching-marketing-analytics-a-pricing-exercise-for-quantitative-and-substantive-marketing-skills" class="nav-link" data-scroll-target="#teaching-marketing-analytics-a-pricing-exercise-for-quantitative-and-substantive-marketing-skills">Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/lukas-jue/personal-website/edit/main/research.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/lukas-jue/personal-website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -171,12 +186,12 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 
 <p>My research investigates economic phenomena in the digital economy. I do so using novel big data sources and applying modern statistical methods.</p>
 <p>On this website, you will find a summary of my current research projects that use search engine and Amazon product data to assess <a href="./research.html#measuring-fair-competition-on-digital-platforms">fair competition on digital platforms</a>, as well as smartphone location data and large amounts of unstructured newspaper articles to estimate the <a href="./research.html#do-political-conflicts-influence-daily-consumption-choices">effect of political conflict on consumption</a>.</p>
-<section id="working-papers" class="level1">
-<h1>Working Papers</h1>
+<section id="developed-research-with-working-papers" class="level1">
+<h1>Developed Research with Working Papers</h1>
 <section id="measuring-fair-competition-on-digital-platforms" class="level2">
 <h2 class="anchored" data-anchor-id="measuring-fair-competition-on-digital-platforms">Measuring Fair Competition on Digital Platforms</h2>
 <p><em>Authors:</em> Lukas Jürgensmeier and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a></p>
-<p><em>Status:</em> Revise &amp; Resubmit at the Journal of Marketing</p>
+<p><em>Status:</em> Revise &amp; Resubmit (third round) at the Journal of Marketing</p>
 <p>Read the full working paper on <a href="https://papers.ssrn.com/abstract_id=4393726">SSRN</a>.</p>
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
@@ -187,10 +202,10 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="conference-presentations">Conference Presentations</h3>
 <table class="table">
 <colgroup>
-<col style="width: 34%">
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 23%">
+<col style="width: 30%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -281,7 +296,8 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <section id="do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" class="level2">
 <h2 class="anchored" data-anchor-id="do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations">Do Political Conflicts Influence Daily Consumption Choices? Evidence from US-China Relations</h2>
 <p><em>Authors:</em> <a href="https://www.celinaproffen.com/">Celina Proffen</a> and Lukas Jürgensmeier (equal co-authorship)</p>
-<p><em>Status:</em> Working paper (draft available upon request)</p>
+<p><em>Status:</em> Under Review at the Journal of Economic Behavior and Organization</p>
+<p>Read the full working paper on <a href="https://papers.ssrn.com/abstract_id=4402601">SSRN</a>.</p>
 <section id="abstract-1" class="level3">
 <h3 class="anchored" data-anchor-id="abstract-1">Abstract</h3>
 <p>Does political conflict with a foreign country influence domestic consumers’ daily consumption choices? This study exploits the volatile US-China relations in 2018 and 2019 to analyze whether US consumers reduce their visits to Chinese restaurants when bilateral relations deteriorate. We measure the degree of political conflict through negativity in media reports and rely on smartphone location data to measure daily visits to over 190,000 US restaurants. A deterioration in US-China relations induces a significant decline in visits to Chinese restaurants, while visits to American restaurants increase. We identify consumers’ age, race, and cultural openness to mediate the strength of this effect.</p>
@@ -290,10 +306,10 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="conference-presentations-1">Conference Presentations</h3>
 <table class="table">
 <colgroup>
-<col style="width: 32%">
-<col style="width: 19%">
-<col style="width: 23%">
-<col style="width: 21%">
+<col style="width: 29%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -340,9 +356,36 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <section id="funding-1" class="level3">
 <h3 class="anchored" data-anchor-id="funding-1">Funding</h3>
 <p>This project is funded by the efl – the Data Science Institute.</p>
-
-
 </section>
+</section>
+</section>
+<section id="early-stage-research-without-working-paper" class="level1">
+<h1>Early-Stage Research Without Working Paper</h1>
+<section id="using-generative-ai-to-provide-scalable-feedback-to-students-in-marketing-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="using-generative-ai-to-provide-scalable-feedback-to-students-in-marketing-analytics">Using Generative AI to Provide Scalable Feedback to Students in Marketing Analytics</h2>
+<p><em>Authors:</em> Lukas Jürgensmeier and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a></p>
+<p><em>Status:</em> In progress, initial draft of working paper estimated January 2024.</p>
+<section id="abstract-2" class="level3">
+<h3 class="anchored" data-anchor-id="abstract-2">Abstract</h3>
+<p>The increasing role of data analytics in marketing underscores the importance of teaching marketing analytics in higher education. Nonetheless, offering feedback on students' open-ended analytics tasks is labor-intensive and expensive. This study introduces a web application leveraging generative Artificial Intelligence (AI) to autonomously provide feedback on exercises requiring coding, statistics, mathematics, and economic reasoning. We compare the application's feedback with human expert feedback for 510 student responses across various exercise complexities and four application configurations. Our results show that the application using GPT-4 with the correct solution provides nearly unbiased and reasonably accurate evaluations. Specifically, it has a mean error of ‑1.6 points on a 90-point exercise and a mean absolute error of 7.2 points (8&nbsp;% of total achievable points). While GPT-4 outperforms GPT-3.5 by 26&nbsp;%, it costs over ten times more. Compared to AI models, human evaluators are the most accurate but are about 170 times costlier than GPT-3.5, 15 times pricier than GPT-4, and require at least 20 times the evaluation duration. While we test the web application in a marketing analytics context, the application does not feature any subject-specific elements beyond the user-supplied exercise and (optionally) a correct solution. Hence, the application is ready to use in other domains beyond marketing analytics.</p>
+</section>
+</section>
+<section id="degrees-of-vertical-integration-on-online-retail-platforms-an-international-comparison-of-amazon-marketplaces" class="level2">
+<h2 class="anchored" data-anchor-id="degrees-of-vertical-integration-on-online-retail-platforms-an-international-comparison-of-amazon-marketplaces">Degrees of Vertical Integration on Online Retail Platforms: An International Comparison of Amazon Marketplaces</h2>
+<p><em>Authors:</em> Lukas Jürgensmeier, Jan Bischoff, and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a></p>
+<p><em>Status:</em> In progress, initial draft of working paper estimated March 2024.</p>
+</section>
+</section>
+<section id="other-projects" class="level1">
+<h1>Other Projects</h1>
+<section id="teaching-marketing-analytics-a-pricing-exercise-for-quantitative-and-substantive-marketing-skills" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-marketing-analytics-a-pricing-exercise-for-quantitative-and-substantive-marketing-skills">Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills</h2>
+<p><em>Authors:</em> <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a> and Lukas Jürgensmeier</p>
+<p>This article describes a data-driven exercise for teaching and assessing students' skills in marketing analytics, specifically in pricing. This exercise combines teaching econometrics to analyze data and substantive marketing to derive managerial insights. The econometric challenge requires students to set up and implement a regression analysis to derive the demand function, detect multicollinearity, and select appropriate data visualizations. The substantive challenge requires deriving optimal pricing decisions and understanding how the parameters of the demand function impact optimal prices and the associated profit. The exercise serves as a case study for in-class discussion, an assignment, or an in-class or take-home exam to assess students' skills. Under a liberal CC BY license and free of charge, we encourage other educators to use the exercise in their teaching. Beyond the exercise, we provide the necessary data and a sample solution using the statistical programming language R.</p>
+<p><strong>Keywords:</strong> Marketing Analytics, Pricing, Teaching, Exercise, Case Study, Data Science</p>
+<p><em>Status:</em> Under Review at the Journal of Marketing Analytics (Special Issue on “Marketing Analytics in Academia: Exploring Effective Pedagogy”.)</p>
+
+
 </section>
 </section>
 
@@ -374,9 +417,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -441,6 +498,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

@@ -17,13 +17,16 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-Lukas Jürgensmeier is Ph.D. Student and Research Assistant in Quantitative Marketing at Goethe University. In his free time, Lukas enjoys preparing the next generation for the digital future as a Member of the Board at TechAcademy e.V., a non-profit organization teaching coding and promoting tech literacy.
-
+Lukas Jürgensmeier is Ph.D. Student and Research Assistant in
+Quantitative Marketing at Goethe University. In his free time, Lukas
+enjoys preparing the next generation for the digital future as a Member
+of the Board at TechAcademy e.V., a non-profit organization teaching
+coding and promoting tech literacy.
 
 ## Education
 
 | Degree                           | Institution                              | Date         |
-|----------------------------------|------------------------------------------|--------------|
+|-------------------------|-------------------------------|----------------|
 | Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
 | M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
 | Washington Semester Program      | American University, Washington, DC, USA | 2017         |
@@ -31,57 +34,129 @@ Lukas Jürgensmeier is Ph.D. Student and Research Assistant in Quantitative Mark
 
 ## Experience
 
-Currently, I am a Doctoral Student at the Marketing Department of Goethe University, Frankfurt ([Chair for E-Commerce, Prof. Dr. Bernd Skiera](https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/prof-dr-bernd-skiera.html)). Additionally, I am a member of the executive board at [TechAcademy e.V.](https://tech-academy.io/), a non-profit organization teaching coding and promoting tech literacy.
+Currently, I am a Doctoral Student at the Marketing Department of Goethe
+University, Frankfurt ([Chair for E-Commerce, Prof. Dr. Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/prof-dr-bernd-skiera.html)).
+Additionally, I am a member of the supervisory board at [TechAcademy
+e.V.](https://tech-academy.io/), a non-profit organization teaching
+coding and promoting tech literacy.
 
 My previous work experiences include:
 
--   **Revenue Management** at [Deutsche Lufthansa AG](https://www.lufthansa.com/) in Munich,
--   **Finance & Investor Relations** at Frankfurt airport ([Fraport AG](https://www.fraport.com/)), and
--   **Int'l Government & Regulatory Affairs** at [CompTIA](https://www.comptia.org/) (Computing Technology Industry Association) in Washington, DC.
+-   **Revenue Management** at [Deutsche Lufthansa
+    AG](https://www.lufthansa.com/) in Munich,
+-   **Finance & Investor Relations** at Frankfurt airport ([Fraport
+    AG](https://www.fraport.com/)), and
+-   **Int'l Government & Regulatory Affairs** at
+    [CompTIA](https://www.comptia.org/) (Computing Technology Industry
+    Association) in Washington, DC.
 
-Please see my [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier) profile for more information.
+Please see my
+[LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier) profile for
+more information.
 
 ## Research Grants and Fundraising
 
--   **Research Grant:** *Do Political Conflicts Influence Daily Consumption Choices?,* \~ 25,000 € provided by the [efl --- the Data Science Institute](https://www.eflab.de/). Jointly with Celina Proffen
-- **Teaching Grant:** *DigiTeLL 2023: Coding Intro — A Scalable Concept for Introductory Coding Courses for Students from all Fields*, \~ 80,000 € provided by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for Innovation in University Education) and Goethe University.
--   **Teaching Grant:** *DigiTeLL 2022: Flipped Classroom and Gamification in Marketing Analytics Education*, \~ 80,000 € provided by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for Innovation in University Education) and Goethe University. Jointly with Bernd Skiera.
--   **Non-Profit Fundraising:** *TechAcademy e.V.,* since 2019, we have raised more than 130,000 € through corporate sponsorship and prize money to provide free coding education and finance the annual TechConference. Sponsors include Meta, Salesforce, ING, Bearing Point, Huawei, zeb, Lidl.
+-   **Research Grant:** *Do Political Conflicts Influence Daily
+    Consumption Choices?,* \~ 25,000 € provided by the [efl --- the Data
+    Science Institute](https://www.eflab.de/). Jointly with Celina
+    Proffen
+-   **Teaching Grant:** *DigiTeLL 2023: Coding Intro --- A Scalable
+    Concept for Introductory Coding Courses for Students from all
+    Fields*, \~ 80,000 € provided by [Stiftung Innovation in der
+    Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for
+    Innovation in University Education) and Goethe University.
+-   **Teaching Grant:** *DigiTeLL 2022: Flipped Classroom and
+    Gamification in Marketing Analytics Education*, \~ 80,000 € provided
+    by [Stiftung Innovation in der
+    Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for
+    Innovation in University Education) and Goethe University. Jointly
+    with Bernd Skiera.
+-   **Non-Profit Fundraising:** *TechAcademy e.V.,* since 2019, we have
+    raised more than 130,000 € through corporate sponsorship and prize
+    money to provide free coding education and finance the annual
+    TechConference. Sponsors include Meta, Salesforce, ING, Bearing
+    Point, Huawei, zeb, Lidl.
 
 ## Honors & Awards
 
 #### ISMS Doctoral Dissertation Award 2023
 
-Awarded for my dissertation proposal **Measuring Fair Competition** by the INFORMS Society for Marketing Science (ISMS), 5,000 $ prize money.
+Awarded for my dissertation proposal **Measuring Fair Competition** by
+the INFORMS Society for Marketing Science (ISMS), 5,000 \$ prize money.
 
-Please access the [ISMS website](https://connect.informs.org/isms/awards/isms-doctoral-awards) for more information on the ISMS Doctoral Dissertation Proposal Award.
-
+Please access the [ISMS
+website](https://connect.informs.org/isms/awards/isms-doctoral-awards)
+for more information on the ISMS Doctoral Dissertation Proposal Award.
 
 #### Erich-Gutenberg-Award 2021
 
-Awarded for my Master's Thesis **Measuring Fair Competition on Digital Platforms: Visibility as a Novel Metric in Antitrust Cases**, 1,000 € prize money.
+Awarded for my Master's Thesis **Measuring Fair Competition on Digital
+Platforms: Visibility as a Novel Metric in Antitrust Cases**, 1,000 €
+prize money.
 
-The [Erich-Gutenberg-Arbeitsgemeinschaft](https://www.erich-gutenberg-arbeitsgemeinschaft.de/) honors a "qualitatively remarkable theses on the solution of decision problems in companies" once a year. In the thesis, supervised by Prof. Dr. Bernd Skiera, I develop and implement an approach to identify unfair treatment in search results. The thesis contributes to the current debate on whether digital platforms abuse their market power. With my systematic and data-driven approach, regulators and businesses can test, if digital platforms such as Amazon provide fair search results --- especially if the offers of the platform are in direct competition with the offers of third parties.
+The
+[Erich-Gutenberg-Arbeitsgemeinschaft](https://www.erich-gutenberg-arbeitsgemeinschaft.de/)
+honors a "qualitatively remarkable theses on the solution of decision
+problems in companies" once a year. In the thesis, supervised by Prof.
+Dr. Bernd Skiera, I develop and implement an approach to identify unfair
+treatment in search results. The thesis contributes to the current
+debate on whether digital platforms abuse their market power. With my
+systematic and data-driven approach, regulators and businesses can test,
+if digital platforms such as Amazon provide fair search results ---
+especially if the offers of the platform are in direct competition with
+the offers of third parties.
 
-Marketing Department, Goethe University (November 28, 2021): [Lukas Jürgensmeier receives Erich Gutenberg Prize for his Thesis](https://www.marketing.uni-frankfurt.de/en/departments/marketing/news/details/article/lukas-juergensmeier-receives-erich-gutenberg-prize-for-his-thesis.html), Press Release.
+Marketing Department, Goethe University (November 28, 2021): [Lukas
+Jürgensmeier receives Erich Gutenberg Prize for his
+Thesis](https://www.marketing.uni-frankfurt.de/en/departments/marketing/news/details/article/lukas-juergensmeier-receives-erich-gutenberg-prize-for-his-thesis.html),
+Press Release.
 
 #### Student of the Year 2021
 
-Awarded for my work at [TechAcademy e.V.](https://tech-academy.io/) by the German National Association for Student Affairs (Deutsches Studentenwerk) and the German Association of University Professors and Lecturers (Deutscher Hochschulverband), 5,000 € prize money.
+Awarded for my work at [TechAcademy e.V.](https://tech-academy.io/) by
+the German National Association for Student Affairs (Deutsches
+Studentenwerk) and the German Association of University Professors and
+Lecturers (Deutscher Hochschulverband), 5,000 € prize money.
 
-> The award recognizes students who demonstrate outstanding commitment above and beyond their academic achievements, which should be as unique and innovative as possible. In the unanimous opinion of the six-member DHV/DSW jury, the TechAcademy meets these criteria through its exceptional and exemplary commitment in every respect.
+> The award recognizes students who demonstrate outstanding commitment
+> above and beyond their academic achievements, which should be as
+> unique and innovative as possible. In the unanimous opinion of the
+> six-member DHV/DSW jury, the TechAcademy meets these criteria through
+> its exceptional and exemplary commitment in every respect.
 
-> "With its initiative, TechAcademy contributes to enabling students from less computer science-related courses of study, in particular, to get started in programming. TechAcademy addresses students in a field that is often closed to many students. This interdisciplinary, self-developed offering for students of all disciplines is exemplary, and it is a lighthouse project for the educationally central topic of digital education. It points the way to the future for self-initiated learning, for the promotion of IT skills through a sense of community," said DHV President Prof. Dr. Bernhard Kempen and DSW President Prof. Dr. Rolf-Dieter Postlep, jointly explaining the award.
+> "With its initiative, TechAcademy contributes to enabling students
+> from less computer science-related courses of study, in particular, to
+> get started in programming. TechAcademy addresses students in a field
+> that is often closed to many students. This interdisciplinary,
+> self-developed offering for students of all disciplines is exemplary,
+> and it is a lighthouse project for the educationally central topic of
+> digital education. It points the way to the future for self-initiated
+> learning, for the promotion of IT skills through a sense of
+> community," said DHV President Prof. Dr. Bernhard Kempen and DSW
+> President Prof. Dr. Rolf-Dieter Postlep, jointly explaining the award.
 
-Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der Goethe-Universität Frankfurt am Main sind Studierende des Jahres](https://www.studentenwerke.de/de/content/techacademy-e-v-werden-studierende-des)", Press Release.
+Deutsches Studentenwerk (March 18, 2020): "['TechAcademy' der
+Goethe-Universität Frankfurt am Main sind Studierende des
+Jahres](https://www.studentenwerke.de/de/content/techacademy-e-v-werden-studierende-des)",
+Press Release.
 
-Goethe University Frankfurt am Main (March 18, 2020): "['Studierende des Jahres' --- TechAcademy ausgezeichnet](https://aktuelles.uni-frankfurt.de/studium/studierende-des-jahres-techacademy-ausgezeichnet/)", Press Release.
+Goethe University Frankfurt am Main (March 18, 2020): "['Studierende des
+Jahres' --- TechAcademy
+ausgezeichnet](https://aktuelles.uni-frankfurt.de/studium/studierende-des-jahres-techacademy-ausgezeichnet/)",
+Press Release.
 
 #### Norbert-Walter-Prize 2019
 
-For the best Master's-level seminar theses in business and economics at Goethe University for my paper "Un-Black-Boxing Artificial Neural Networks: Predicting and Explaining Bank Customer's Cross-Sell Likelihood" (second price). Awarded by the Frankfurter Wirtschaftswissenschaftliche Gesellschaft (fwwg), 400 € prize money.
+For the best Master's-level seminar theses in business and economics at
+Goethe University for my paper "Un-Black-Boxing Artificial Neural
+Networks: Predicting and Explaining Bank Customer's Cross-Sell
+Likelihood" (second price). Awarded by the Frankfurter
+Wirtschaftswissenschaftliche Gesellschaft (fwwg), 400 € prize money.
 
 #### Schmalenbach Scholarship (2019 -- 2021)
 
-For outstanding students in a Master's program in Business. Awarded based on academic qualification and social engagement by the [Schmalenbach Gesellschaft für Betriebswirtschaft e.V.](https://www.schmalenbach.org/index.php/careercenter/schmalenbach-stipendium)
-
+For outstanding students in a Master's program in Business. Awarded
+based on academic qualification and social engagement by the
+[Schmalenbach Gesellschaft für Betriebswirtschaft
+e.V.](https://www.schmalenbach.org/index.php/careercenter/schmalenbach-stipendium)

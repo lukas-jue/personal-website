@@ -13,14 +13,14 @@ as well as smartphone location data and large amounts of unstructured
 newspaper articles to estimate the [effect of political conflict on
 consumption](research.qmd#do-political-conflicts-influence-daily-consumption-choices).
 
-# Working Papers
+# Developed Research with Working Papers
 
 ## Measuring Fair Competition on Digital Platforms
 
 *Authors:* Lukas Jürgensmeier and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
 
-*Status:* Revise & Resubmit at the Journal of Marketing
+*Status:* Revise & Resubmit (third round) at the Journal of Marketing
 
 Read the full working paper on
 [SSRN](https://papers.ssrn.com/abstract_id=4393726).
@@ -53,91 +53,92 @@ Choice Online Act.
 
 ### Conference Presentations
 
-+------------------------+-------------+-------------+----------------+
-| Conference             | Date        | Location    | Presenting     |
-|                        |             |             | Author         |
-+========================+=============+=============+================+
-| 17th Symposium on      | June 2021   | ~~Madrid,   | Lukas          |
-| Statistical Challenges |             | Spain~~     | Jürgensmeier   |
-| in Electronic Commerce |             |             |                |
-| Research (SCECR 2021)  |             | online      |                |
-+------------------------+-------------+-------------+----------------+
-| Interactive Marketing  | October     | ~~Gabelli   | Lukas          |
-| Research Conference    | 2021        | School of   | Jürgensmeier   |
-| (IMRC 2021)            |             | Business,   |                |
-|                        |             | Fordham     |                |
-|                        |             | University, |                |
-|                        |             | New York    |                |
-|                        |             | City,       |                |
-|                        |             | United      |                |
-|                        |             | States~~    |                |
-|                        |             |             |                |
-|                        |             | online      |                |
-+------------------------+-------------+-------------+----------------+
-| 13th Paris Conference  | April 2022  | Télécom     | Lukas          |
-| on Digital Economics   |             | Paris,      | Jürgensmeier   |
-| 2022                   |             | Paliseau,   |                |
-|                        |             | France      |                |
-+------------------------+-------------+-------------+----------------+
-| EMAC Doctoral          | May 2022    | Corvinus    | Lukas          |
-| Colloquium 2022        |             | University, | Jürgensmeier   |
-|                        |             | Budapest,   |                |
-|                        |             | Hungary     |                |
-+------------------------+-------------+-------------+----------------+
-| EMAC Annual Conference | May 2022    | Corvinus    | Bernd Skiera   |
-| 2022                   |             | University, |                |
-|                        |             | Budapest,   |                |
-+------------------------+-------------+-------------+----------------+
-| Munich Summer          | June 2022   | Bavarian    | Lukas          |
-| Institute 2022         |             | Academy of  | Jürgensmeier   |
-|                        |             | Sciences    |                |
-|                        |             | and         |                |
-|                        |             | Humanities, |                |
-|                        |             | Munich,     |                |
-|                        |             | Germany     |                |
-+------------------------+-------------+-------------+----------------+
-| ISMS Marketing Science | June 2022   | ~           | Lukas          |
-| Conference 2022        |             | ~University | Jürgensmeier   |
-|                        |             | of Chicago  |                |
-|                        |             | Booth       |                |
-|                        |             | School of   |                |
-|                        |             | Business,   |                |
-|                        |             | United      |                |
-|                        |             | States~~    |                |
-|                        |             |             |                |
-|                        |             | online      |                |
-+------------------------+-------------+-------------+----------------+
-| 20th ZEW Conference on | July 2022   | ZEW ---     | Lukas          |
-| the Economics of       |             | Leibniz     | Jürgensmeier   |
-| Information and        |             | Centre for  |                |
-| Communication          |             | European    |                |
-| Technologies           |             | Economic    |                |
-|                        |             | Research,   |                |
-|                        |             | Mannheim,   |                |
-|                        |             | Germany     |                |
-+------------------------+-------------+-------------+----------------+
-| SALTY 2022 ---         | September   | WHU ---     | Lukas          |
-| Quantitative Marketing | 2022        | Otto        | Jürgensmeier   |
-| Conference             |             | Beisheim    |                |
-|                        |             | School of   |                |
-|                        |             | Management, |                |
-|                        |             | Düsseldorf, |                |
-|                        |             | Germany     |                |
-+------------------------+-------------+-------------+----------------+
-| WISE 2022 --- Workshop | December    | Copenhagen  | Lukas          |
-| on Information Systems | 2022        | Business    | Jürgensmeier   |
-| in Economics           |             | School,     |                |
-|                        |             | Copenhagen, |                |
-|                        |             | Denmark     |                |
-+------------------------+-------------+-------------+----------------+
-| ISMS Marketing Science | June 2023   | Miami,      | Lukas          |
-| Conference 2023        |             | United      | Jürgensmeier   |
-| (special session for   |             | States      |                |
-| winners of the *2022   |             |             |                |
-| ISMS Doctoral          |             |             |                |
-| Dissertation Proposal  |             |             |                |
-| Competition*)          |             |             |                |
-+------------------------+-------------+-------------+----------------+
++---------------------+--------------+--------------+--------------+
+| Conference          | Date         | Location     | Presenting   |
+|                     |              |              | Author       |
++=====================+==============+==============+==============+
+| 17th Symposium on   | June 2021    | ~~Madrid,    | Lukas        |
+| Statistical         |              | Spain~~      | Jürgensmeier |
+| Challenges in       |              |              |              |
+| Electronic Commerce |              | online       |              |
+| Research (SCECR     |              |              |              |
+| 2021)               |              |              |              |
++---------------------+--------------+--------------+--------------+
+| Interactive         | October 2021 | ~~Gabelli    | Lukas        |
+| Marketing Research  |              | School of    | Jürgensmeier |
+| Conference (IMRC    |              | Business,    |              |
+| 2021)               |              | Fordham      |              |
+|                     |              | University,  |              |
+|                     |              | New York     |              |
+|                     |              | City, United |              |
+|                     |              | States~~     |              |
+|                     |              |              |              |
+|                     |              | online       |              |
++---------------------+--------------+--------------+--------------+
+| 13th Paris          | April 2022   | Télécom      | Lukas        |
+| Conference on       |              | Paris,       | Jürgensmeier |
+| Digital Economics   |              | Paliseau,    |              |
+| 2022                |              | France       |              |
++---------------------+--------------+--------------+--------------+
+| EMAC Doctoral       | May 2022     | Corvinus     | Lukas        |
+| Colloquium 2022     |              | University,  | Jürgensmeier |
+|                     |              | Budapest,    |              |
+|                     |              | Hungary      |              |
++---------------------+--------------+--------------+--------------+
+| EMAC Annual         | May 2022     | Corvinus     | Bernd Skiera |
+| Conference 2022     |              | University,  |              |
+|                     |              | Budapest,    |              |
++---------------------+--------------+--------------+--------------+
+| Munich Summer       | June 2022    | Bavarian     | Lukas        |
+| Institute 2022      |              | Academy of   | Jürgensmeier |
+|                     |              | Sciences and |              |
+|                     |              | Humanities,  |              |
+|                     |              | Munich,      |              |
+|                     |              | Germany      |              |
++---------------------+--------------+--------------+--------------+
+| ISMS Marketing      | June 2022    | \~           | Lukas        |
+| Science Conference  |              | \~University | Jürgensmeier |
+| 2022                |              | of Chicago   |              |
+|                     |              | Booth School |              |
+|                     |              | of Business, |              |
+|                     |              | United       |              |
+|                     |              | States\~\~   |              |
+|                     |              |              |              |
+|                     |              | online       |              |
++---------------------+--------------+--------------+--------------+
+| 20th ZEW Conference | July 2022    | ZEW ---      | Lukas        |
+| on the Economics of |              | Leibniz      | Jürgensmeier |
+| Information and     |              | Centre for   |              |
+| Communication       |              | European     |              |
+| Technologies        |              | Economic     |              |
+|                     |              | Research,    |              |
+|                     |              | Mannheim,    |              |
+|                     |              | Germany      |              |
++---------------------+--------------+--------------+--------------+
+| SALTY 2022 ---      | September    | WHU --- Otto | Lukas        |
+| Quantitative        | 2022         | Beisheim     | Jürgensmeier |
+| Marketing           |              | School of    |              |
+| Conference          |              | Management,  |              |
+|                     |              | Düsseldorf,  |              |
+|                     |              | Germany      |              |
++---------------------+--------------+--------------+--------------+
+| WISE 2022 ---       | December     | Copenhagen   | Lukas        |
+| Workshop on         | 2022         | Business     | Jürgensmeier |
+| Information Systems |              | School,      |              |
+| in Economics        |              | Copenhagen,  |              |
+|                     |              | Denmark      |              |
++---------------------+--------------+--------------+--------------+
+| ISMS Marketing      | June 2023    | Miami,       | Lukas        |
+| Science Conference  |              | United       | Jürgensmeier |
+| 2023 (special       |              | States       |              |
+| session for winners |              |              |              |
+| of the *2022 ISMS   |              |              |              |
+| Doctoral            |              |              |              |
+| Dissertation        |              |              |              |
+| Proposal            |              |              |              |
+| Competition*)       |              |              |              |
++---------------------+--------------+--------------+--------------+
+
 
 ### Funding
 
@@ -151,7 +152,11 @@ Markets: Risks and Economic Consequences*.
 *Authors:* [Celina Proffen](https://www.celinaproffen.com/) and Lukas
 Jürgensmeier (equal co-authorship)
 
-*Status:* Working paper (draft available upon request)
+*Status:* Under Review at the Journal of Economic Behavior and
+Organization
+
+Read the full working paper on
+[SSRN](https://papers.ssrn.com/abstract_id=4402601).
 
 ### Abstract
 
@@ -169,36 +174,111 @@ this effect.
 
 ### Conference Presentations
 
-+-----------------------+-------------+----------------+---------------+
-| Conference            | Date        | Location       | Presenting    |
-|                       |             |                | Author        |
-+=======================+=============+================+===============+
-| EMAC Doctoral         | May 2022    | Corvinus       | Celina        |
-| Colloquium 2022       |             | University,    | Proffen       |
-|                       |             | Budapest,      |               |
-|                       |             | Hungary        |               |
-+-----------------------+-------------+----------------+---------------+
-| EMAC Annual           | May 2022    | Corvinus       | Lukas         |
-| Conference 2022       |             | University,    | Jürgensmeier  |
-|                       |             | Budapest,      |               |
-|                       |             | Hungary        |               |
-+-----------------------+-------------+----------------+---------------+
-| VfS Annual Conference | September   | University of  | Celina        |
-| 2022                  | 2022        | Basel,         | Proffen       |
-|                       |             | Switzerland    |               |
-+-----------------------+-------------+----------------+---------------+
-| Economics of Media    | eSeptember  | Smith School   | Lukas         |
-| Workshop: Industrial  | 2022        | of Business,   | Jürgensmeier  |
-| Organization meets    |             | Queen's        |               |
-| Political Economy     |             | University,    |               |
-|                       |             | Kingston, ON,  |               |
-|                       |             | Canada         |               |
-+-----------------------+-------------+----------------+---------------+
-| efl --- the Data      | January     | Frankfurt,     | Celina        |
-| Science Institute,    | 2023        | Germany        | Proffen       |
-| Jour Fixe             |             |                |               |
-+-----------------------+-------------+----------------+---------------+
++--------------------+---------------+---------------+---------------+
+| Conference         | Date          | Location      | Presenting    |
+|                    |               |               | Author        |
++====================+===============+===============+===============+
+| EMAC Doctoral      | May 2022      | Corvinus      | Celina        |
+| Colloquium 2022    |               | University,   | Proffen       |
+|                    |               | Budapest,     |               |
+|                    |               | Hungary       |               |
++--------------------+---------------+---------------+---------------+
+| EMAC Annual        | May 2022      | Corvinus      | Lukas         |
+| Conference 2022    |               | University,   | Jürgensmeier  |
+|                    |               | Budapest,     |               |
+|                    |               | Hungary       |               |
++--------------------+---------------+---------------+---------------+
+| VfS Annual         | September     | University of | Celina        |
+| Conference 2022    | 2022          | Basel,        | Proffen       |
+|                    |               | Switzerland   |               |
++--------------------+---------------+---------------+---------------+
+| Economics of Media | eSeptember    | Smith School  | Lukas         |
+| Workshop:          | 2022          | of Business,  | Jürgensmeier  |
+| Industrial         |               | Queen's       |               |
+| Organization meets |               | University,   |               |
+| Political Economy  |               | Kingston, ON, |               |
+|                    |               | Canada        |               |
++--------------------+---------------+---------------+---------------+
+| efl --- the Data   | January 2023  | Frankfurt,    | Celina        |
+| Science Institute, |               | Germany       | Proffen       |
+| Jour Fixe          |               |               |               |
++--------------------+---------------+---------------+---------------+
 
 ### Funding
 
 This project is funded by the efl -- the Data Science Institute.
+
+# Early-Stage Research Without Working Paper
+
+## Using Generative AI to Provide Scalable Feedback to Students in Marketing Analytics
+
+*Authors:* Lukas Jürgensmeier and [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
+
+*Status:* In progress, initial draft of working paper estimated January
+2024.
+
+### Abstract
+
+The increasing role of data analytics in marketing underscores the
+importance of teaching marketing analytics in higher education.
+Nonetheless, offering feedback on students\' open-ended analytics tasks
+is labor-intensive and expensive. This study introduces a web
+application leveraging generative Artificial Intelligence (AI) to
+autonomously provide feedback on exercises requiring coding, statistics,
+mathematics, and economic reasoning. We compare the application\'s
+feedback with human expert feedback for 510 student responses across
+various exercise complexities and four application configurations. Our
+results show that the application using GPT-4 with the correct solution
+provides nearly unbiased and reasonably accurate evaluations.
+Specifically, it has a mean error of ‑1.6 points on a 90-point exercise
+and a mean absolute error of 7.2 points (8 % of total achievable
+points). While GPT-4 outperforms GPT-3.5 by 26 %, it costs over ten
+times more. Compared to AI models, human evaluators are the most
+accurate but are about 170 times costlier than GPT-3.5, 15 times pricier
+than GPT-4, and require at least 20 times the evaluation duration. While
+we test the web application in a marketing analytics context, the
+application does not feature any subject-specific elements beyond the
+user-supplied exercise and (optionally) a correct solution. Hence, the
+application is ready to use in other domains beyond marketing analytics.
+
+
+## Degrees of Vertical Integration on Online Retail Platforms: An International Comparison of Amazon Marketplaces
+
+*Authors:* Lukas Jürgensmeier, Jan Bischoff, and [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
+
+*Status:* In progress, initial draft of working paper estimated March
+2024.
+
+# Other Projects
+
+## Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills
+
+*Authors:* [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
+and Lukas Jürgensmeier
+
+This article describes a data-driven exercise for teaching and assessing
+students\' skills in marketing analytics, specifically in pricing. This
+exercise combines teaching econometrics to analyze data and substantive
+marketing to derive managerial insights. The econometric challenge
+requires students to set up and implement a regression analysis to
+derive the demand function, detect multicollinearity, and select
+appropriate data visualizations. The substantive challenge requires
+deriving optimal pricing decisions and understanding how the parameters
+of the demand function impact optimal prices and the associated profit.
+The exercise serves as a case study for in-class discussion, an
+assignment, or an in-class or take-home exam to assess students\'
+skills. Under a liberal CC BY license and free of charge, we encourage
+other educators to use the exercise in their teaching. Beyond the
+exercise, we provide the necessary data and a sample solution using the
+statistical programming language R.
+
+**Keywords:** Marketing Analytics, Pricing, Teaching, Exercise, Case
+Study, Data Science
+
+*Status:* Under Review at the Journal of Marketing Analytics (Special
+Issue on "Marketing Analytics in Academia: Exploring Effective
+Pedagogy".)
+
