@@ -21,42 +21,36 @@ materials.
 
 # Introduction to Data Science with R and Tidyverse
 
-+-------------------------+-------------------------------------------+
-| **Course Name**         | Introduction to Data Science with R and   |
-|                         | the Tidyverse                             |
-+-------------------------+-------------------------------------------+
-| **Course level**        | Ph.D.                                     |
-+-------------------------+-------------------------------------------+
-| **Institution**         | Goethe University Frankfurt (GRADE)       |
-+-------------------------+-------------------------------------------+
-| **Target group**        | Doctoral students from STEM fields with   |
-|                         | none or little `R` experience             |
-+-------------------------+-------------------------------------------+
-| **Role**                | Lead teacher, course designer             |
-+-------------------------+-------------------------------------------+
-| **Jointly taught with** | Lara Zaremba, M.Sc.                       |
-|                         |                                           |
-|                         | Karlo Lukic, M.Sc.                        |
-+-------------------------+-------------------------------------------+
-| **Duration**            | 3 x 2 hours over three weeks or 1 x 6     |
-|                         | hours                                     |
-+-------------------------+-------------------------------------------+
-| **Semesters**           | Summer 2021, Winter 2021/22, Summer 2022  |
-+-------------------------+-------------------------------------------+
-| **Language**            | English                                   |
-+-------------------------+-------------------------------------------+
-| **Resources**           | Link to course materials ([Summer         |
-|                         | 2021](https://lukas-ju                    |
-|                         | e.github.io/intro-tidyverse/ "Introductio |
-|                         | n to Data Science with R and Tidyverse"), |
-|                         | [Winter                                   |
-|                         | 2021/22](https://lukas-jue.git            |
-|                         | hub.io/intro-tidyverse-2022/ "Introductio |
-|                         | n to Data Science with R and Tidyverse"), |
-|                         | [Summer                                   |
-|                         | 2022](https://lukas-jue                   |
-|                         | .github.io/intro-tidyverse-2022-summer/)) |
-+-------------------------+-------------------------------------------+
++-----------------------+-----------------------------------------+
+| **Course Name**       | Introduction to Data Science with R and |
+|                       | the Tidyverse                           |
++-----------------------+-----------------------------------------+
+| **Course level**      | Ph.D.                                   |
++-----------------------+-----------------------------------------+
+| **Institution**       | Goethe University Frankfurt (GRADE)     |
++-----------------------+-----------------------------------------+
+| **Target group**      | Doctoral students from STEM fields with |
+|                       | none or little `R` experience           |
++-----------------------+-----------------------------------------+
+| **Role**              | Lead teacher, course designer           |
++-----------------------+-----------------------------------------+
+| **Jointly taught      | Over time, I have taught this course    |
+| with**                | with many great colleagues: Lara        |
+|                       | Zaremba, Karlo Lukic, Matteo Fina, and  |
+|                       | Jan Bischoff                            |
++-----------------------+-----------------------------------------+
+| **Duration**          | 3 x 2 hours over three weeks or 1 x 6   |
+|                       | hours                                   |
++-----------------------+-----------------------------------------+
+| **Semesters**         | Summer 2021, Winter 2021/22, Summer     |
+|                       | 2022, Summer 2023                       |
++-----------------------+-----------------------------------------+
+| **Language**          | English                                 |
++-----------------------+-----------------------------------------+
+| **Resources**         | Link to course materials ([Summer       |
+|                       | 2023](https://coding-int                |
+|                       | ro.github.io/intro-tidyverse-2023-06/)) |
++-----------------------+-----------------------------------------+
 
 ## Course Objective
 
@@ -64,7 +58,7 @@ Most academic fields require proficiency in at least one data-centered
 analysis tool. For many, the R programming language has become the tool
 of choice. However, the first steps in coding can be intimidating and
 discouraging---primarily if you have never worked with a programming
-language before. This course aims at providing a results-oriented,
+language before. This course aims to provide a results-oriented,
 applied, and hands-on introduction to the essential parts of a Data
 Science project in R. We will introduce the libraries and frameworks
 necessary for your analysis and focus on teaching you the implementation
@@ -72,11 +66,11 @@ and application of those tools. We'll present small examples throughout
 the lecture and provide you with application exercises that you can work
 on for yourself.
 
-Our goal is to show you the scope of possibilities within R and leave
-you with the impression that you can confidently implement your
-empirical projects in R. We will focus on the Tidyverse ecosystem, a
-consistent and intuitive framework for building your data analysis from
-start to finish. After completing this course, you know how to apply the
+We aim to show you the scope of possibilities within R and leave you
+with the impression that you can confidently implement your empirical
+projects in R. We will focus on the Tidyverse ecosystem, a consistent
+and intuitive framework for building your data analysis from start to
+finish. After completing this course, you know how to apply the
 essential Tidyverse tools for everyday Data Science tasks in
 R---primarily data wrangling, data visualization, and communicating
 results.
@@ -135,32 +129,37 @@ course or a similar Python course at your institution.
 
 # Marketing Analytics (Econometrics in Management)
 
-+------------------+--------------------------------------------------+
-| **Course Name**  | Marketing Analytics (Econometrics in Management) |
-+------------------+--------------------------------------------------+
-| **Course level** | Bachelor's                                       |
-+------------------+--------------------------------------------------+
-| **Institution**  | Goethe University Frankfurt                      |
-+------------------+--------------------------------------------------+
-| **Target group** | Business and Economics students                  |
-+------------------+--------------------------------------------------+
-| **Role**         | Teaching assistant                               |
-+------------------+--------------------------------------------------+
-| **Faculty**      | Prof. Dr. Bernd Skiera                           |
-|                  |                                                  |
-|                  | Prof. Dr. Jochen Reiner                          |
-+------------------+--------------------------------------------------+
-| **Duration**     | 3 hours per week (\~15 weeks)                    |
-+------------------+--------------------------------------------------+
-| **Semesters**    | Summer 2021, Winter 2021/22, Summer 2022, Winter |
-|                  | 2022/23                                          |
-+------------------+--------------------------------------------------+
-| **Language**     | German                                           |
-+------------------+--------------------------------------------------+
-| **Resources**    | Link to course materials ([Summer                |
-|                  | 2022](https://olat-ce.server.uni-frankf          |
-|                  | urt.de/olat/auth/RepositoryEntry/14664237060?3)) |
-+------------------+--------------------------------------------------+
++----------------+------------------------------------------------+
+| **Course       | Marketing Analytics (Econometrics in           |
+| Name**         | Management)                                    |
++----------------+------------------------------------------------+
+| **Course       | Bachelor's                                     |
+| level**        |                                                |
++----------------+------------------------------------------------+
+| *              | Goethe University Frankfurt                    |
+| *Institution** |                                                |
++----------------+------------------------------------------------+
+| **Target       | Business and Economics students                |
+| group**        |                                                |
++----------------+------------------------------------------------+
+| **Role**       | Teaching assistant                             |
++----------------+------------------------------------------------+
+| **Faculty**    | Prof. Dr. Bernd Skiera                         |
+|                |                                                |
+|                | Prof. Dr. Jochen Reiner                        |
++----------------+------------------------------------------------+
+| **Duration**   | 3 hours per week (\~15 weeks)                  |
++----------------+------------------------------------------------+
+| **Semesters**  | Summer 2021, Winter 2021/22, Summer 2022,      |
+|                | Winter 2022/23                                 |
++----------------+------------------------------------------------+
+| **Language**   | German                                         |
++----------------+------------------------------------------------+
+| **Resources**  | Link to course materials on the university     |
+|                | learning platform ([Summer                     |
+|                | 2023](https://olat-ce.server.uni-frankfur      |
+|                | t.de/olat/auth/RepositoryEntry/17995235331?6)) |
++----------------+------------------------------------------------+
 
 ## Course Description
 
@@ -177,6 +176,76 @@ foundation and use the face-to-face time in class to deepen students'
 understanding. In particular, we fully allocate the time in class for
 interaction in the form of small 60-minutes hands-on data science
 exercises in small groups and effective Q&A sessions.
+
+# Seminar: Customer Analytics
+
++-----------------+--------------------------------------------------+
+| **Course Name** | Empirical Customer Analytics --- A               |
+|                 | Practice-oriented Introduction                   |
++-----------------+--------------------------------------------------+
+| **Course        | Bachelor's                                       |
+| level**         |                                                  |
++-----------------+--------------------------------------------------+
+| **Institution** | Goethe University Frankfurt                      |
++-----------------+--------------------------------------------------+
+| **Target        | Advanced undergraduate Business and Economics    |
+| group**         | students                                         |
++-----------------+--------------------------------------------------+
+| **Role**        | Teaching assistant                               |
++-----------------+--------------------------------------------------+
+| **Faculty**     | Hon. Prof. Dr. [Martin                           |
+|                 | Schmidberger](https://tinygu.de/Iixnm), Head of  |
+|                 | Customer Analytics at ING Germany.               |
++-----------------+--------------------------------------------------+
+| **Duration**    | 2 hours per week (\~15 weeks)                    |
++-----------------+--------------------------------------------------+
+| **Semesters**   | Winter 2023/24                                   |
++-----------------+--------------------------------------------------+
+| **Language**    | German                                           |
++-----------------+--------------------------------------------------+
+| **Resources**   | Link to [course                                  |
+|                 | description](https://tinygu.de/7xl10)            |
++-----------------+--------------------------------------------------+
+
+## Course Description
+
+This course teaches students to analyze real-world banking customer data
+with common marketing analytics methods. We teach methodological skills,
+including regression-based (e.g., linear and logistic regressions) and
+machine learning methods (e.g., random forests), and their
+implementation in `R`. Beyond teaching technical skills, this course
+focuses on enabling students to make data-driven marketing decisions in
+a relevant business setting. We analyze real (anonymized) customer data
+from one of the largest German banks.
+
+We organize the course along the customer life cycle:
+
+-   *The acquisition of new customers:* Analysis of acquisition channels
+    and their efficiency and optimization of the conversion "funnel."
+
+-   *The development from one-off to serial customers*: understanding
+    cross-selling and optimizing sales in the customer base.
+
+-   *The collection and analysis of customer feedback* to better
+    understand customer satisfaction.
+
+-   *The analysis and prevention of cancellations* (churn) to avoid
+    cancellations and implement active cancellation prevention.
+
+This course investigates these phases by empirically analyzing real
+banking customer data, including:
+
+-   The exploration and preparation of data through exploratory data
+    analysis and necessary data wrangling.
+
+-   The analysis of log files and associated basic data analysis in
+    e-commerce.
+
+-   The analysis of purchase and cancellation behavior using suitable
+    (regression-based) methods.
+
+-   The analysis of customer feedback from web portals through basic
+    text mining techniques.
 
 # TechAcademy
 

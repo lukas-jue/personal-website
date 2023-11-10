@@ -26,7 +26,7 @@ coding and promoting tech literacy.
 ## Education
 
 | Degree                           | Institution                              | Date         |
-|-------------------------|-------------------------------|----------------|
+|------------------------|------------------------------|------------------|
 | Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
 | M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
 | Washington Semester Program      | American University, Washington, DC, USA | 2017         |
@@ -65,25 +65,26 @@ more information.
     Concept for Introductory Coding Courses for Students from all
     Fields*, \~ 80,000 € provided by [Stiftung Innovation in der
     Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for
-    Innovation in University Education) and Goethe University.
+    Innovation in University Education) and Goethe University. Jointly
+    with Bernd Skiera.
 -   **Teaching Grant:** *DigiTeLL 2022: Flipped Classroom and
     Gamification in Marketing Analytics Education*, \~ 80,000 € provided
     by [Stiftung Innovation in der
     Hochschullehre](https://stiftung-hochschullehre.de/) (Foundation for
     Innovation in University Education) and Goethe University. Jointly
     with Bernd Skiera.
--   **Non-Profit Fundraising:** *TechAcademy e.V.,* since 2019, we have
+-   **Non-Profit Fundraising:** *TechAcademy e.V.,* during my tenure we
     raised more than 130,000 € through corporate sponsorship and prize
     money to provide free coding education and finance the annual
     TechConference. Sponsors include Meta, Salesforce, ING, Bearing
-    Point, Huawei, zeb, Lidl.
+    Point, Huawei, zeb, and Lidl.
 
 ## Honors & Awards
 
 #### ISMS Doctoral Dissertation Award 2023
 
 Awarded for my dissertation proposal **Measuring Fair Competition** by
-the INFORMS Society for Marketing Science (ISMS), 5,000 \$ prize money.
+the INFORMS Society for Marketing Science (ISMS), \$5,000 prize money.
 
 Please access the [ISMS
 website](https://connect.informs.org/isms/awards/isms-doctoral-awards)
