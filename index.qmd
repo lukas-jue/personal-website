@@ -1,6 +1,6 @@
 ---
 title: "Lukas Jürgensmeier"
-image: images/2020-Lukas-Juergensmeier.jpg
+image: images/2023-11-Lukas-Juergensmeier.jpg
 about:
   template: trestles
   image-width: 10em

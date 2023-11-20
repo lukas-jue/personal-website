@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 about:
-  image: images/2020-Lukas-Juergensmeier.jpg
+  image: images/2023-11-Lukas-Juergensmeier.jpg
   template: marquee
   image-shape: round
   image-width: 20em
@@ -26,7 +26,7 @@ coding and promoting tech literacy.
 ## Education
 
 | Degree                           | Institution                              | Date         |
-|------------------------|------------------------------|------------------|
+|-------------------------|-------------------------------|----------------|
 | Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
 | M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
 | Washington Semester Program      | American University, Washington, DC, USA | 2017         |
