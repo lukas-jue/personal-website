@@ -152,7 +152,7 @@ Markets: Risks and Economic Consequences*.
 *Authors:* [Celina Proffen](https://www.celinaproffen.com/) and Lukas
 Jürgensmeier (equal co-authorship)
 
-*Status:* Under Review at the Journal of Economic Behavior and
+*Status:* Revise & Resubmit at the Journal of Economic Behavior and
 Organization
 
 Read the full working paper on
@@ -192,7 +192,7 @@ this effect.
 | Conference 2022    | 2022          | Basel,        | Proffen       |
 |                    |               | Switzerland   |               |
 +--------------------+---------------+---------------+---------------+
-| Economics of Media | eSeptember    | Smith School  | Lukas         |
+| Economics of Media | September     | Smith School  | Lukas         |
 | Workshop:          | 2022          | of Business,  | Jürgensmeier  |
 | Industrial         |               | Queen's       |               |
 | Organization meets |               | University,   |               |
@@ -266,5 +266,5 @@ Study, Data Science
 
 *Status:* Revise and Resubmit the Journal of Marketing Analytics (Special
 Issue on "Marketing Analytics in Academia: Exploring Effective
-Pedagogy".)
+Pedagogy.")
 
