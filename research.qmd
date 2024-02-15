@@ -170,7 +170,7 @@ location data to measure daily visits to over 190,000 US restaurants.
 A deterioration in US-China relations induces a significant decline in visits
 not only to Chinese but also to other foreign ethnic restaurants, while visits
 to typical American restaurants increase. We identify consumers' age, race,
-and cultural openness to mediate the strength of this ethnocentric effect.
+and cultural openness to moderate the strength of this ethnocentric effect.
 
 ### Conference Presentations
 
