@@ -161,17 +161,16 @@ Read the full working paper on
 
 ### Abstract
 
-Does political conflict with a foreign country influence domestic
-consumers' daily consumption choices? This study exploits the volatile
-US-China relations in 2018 and 2019 to analyze whether US consumers
-reduce their visits to Chinese restaurants when bilateral relations
-deteriorate. We measure the degree of political conflict through
-negativity in media reports and rely on smartphone location data to
-measure daily visits to over 190,000 US restaurants. A deterioration in
-US-China relations induces a significant decline in visits to Chinese
-restaurants, while visits to American restaurants increase. We identify
-consumers' age, race, and cultural openness to mediate the strength of
-this effect.
+Does political conflict with another country influence domestic consumers'
+daily consumption choices? We exploit the volatile US-China relations in 2018
+and 2019 to analyze whether US consumers reduce their visits to Chinese
+restaurants when bilateral relations deteriorate. We measure the degree of
+political conflict through negativity in media reports and rely on smartphone
+location data to measure daily visits to over 190,000 US restaurants.
+A deterioration in US-China relations induces a significant decline in visits
+not only to Chinese but also to other foreign ethnic restaurants, while visits
+to typical American restaurants increase. We identify consumers' age, race,
+and cultural openness to mediate the strength of this ethnocentric effect.
 
 ### Conference Presentations
 
@@ -215,8 +214,7 @@ This project is funded by the efl -- the Data Science Institute.
 *Authors:* Lukas Jürgensmeier and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
 
-*Status:* Submitted to Journal of Marketing (Special Issue on "Marketing
-Impact with Research-Driven Apps").
+*Status:* Under review at the International Journal of Research in Marketing
 
 Read the full working paper on
 [SSRN](https://papers.ssrn.com/abstract_id=4683869).
@@ -284,6 +282,4 @@ programming language R.
 **Keywords:** Marketing Analytics, Pricing, Teaching, Exercise, Case
 Study, Data Science
 
-*Status:* Revise and Resubmit the Journal of Marketing Analytics
-(Special Issue on "Marketing Analytics in Academia: Exploring Effective
-Pedagogy.")
+*Status:* Preparing for submission
