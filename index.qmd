@@ -23,14 +23,13 @@ between Data Science and Marketing. I like applying modern econometric
 methods to novel data sources in the digital economy---especially with
 the `R` programming language.
 
-In my research project [Measuring Fair Competition on Digital
-Platforms](research.qmd#research.html#measuring-fair-competition-on-digital-platforms),
-we develop an approach to test for fair competition on digital
-platforms.
+In my research project [Measuring Self-Preferencing on Digital
+Platforms](research.qmd#research.html#measuring-self-preferencing-on-digital-platforms),
+we develop an approach to test for self-preferencing through platform recommendations.
 
-Another research project---[Do Political Conflicts Influence Daily
+Just published in the Journal of Economic Behavior and Organization---"[Do Political Conflicts Influence Daily
 Consumption
-Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)---combines
+Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)"---combines
 vast smartphone location data and textual analysis of newspaper articles
 to assess the impact of political conflict on consumption.
 

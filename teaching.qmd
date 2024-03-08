@@ -21,36 +21,36 @@ materials.
 
 # Introduction to Data Science with R and Tidyverse
 
-+--------------+-------------------------------------------------------+
-| **Course     | Introduction to Data Science with R and the Tidyverse |
-| Name**       |                                                       |
-+--------------+-------------------------------------------------------+
-| **Course     | Ph.D.                                                 |
-| level**      |                                                       |
-+--------------+-------------------------------------------------------+
-| **I          | Goethe University Frankfurt (GRADE)                   |
-| nstitution** |                                                       |
-+--------------+-------------------------------------------------------+
-| **Target     | Doctoral students from STEM fields with none or       |
-| group**      | little `R` experience                                 |
-+--------------+-------------------------------------------------------+
-| **Role**     | Lead teacher, course designer                         |
-+--------------+-------------------------------------------------------+
-| **Jointly    | Over time, I have taught this course with many great  |
-| taught       | colleagues: Lara Zaremba, Karlo Lukic, Matteo Fina,   |
-| with**       | and Jan Bischoff                                      |
-+--------------+-------------------------------------------------------+
-| **Duration** | 3 x 2 hours over three weeks or 1 x 6 hours           |
-+--------------+-------------------------------------------------------+
-| *            | Summer 2021, Winter 2021/22, Summer 2022, Summer 2023 |
-| *Semesters** |                                                       |
-+--------------+-------------------------------------------------------+
-| **Language** | English                                               |
-+--------------+-------------------------------------------------------+
-| *            | Link to course materials ([Summer                     |
-| *Resources** | 2023](https:/                                         |
-|              | /coding-int%20ro.github.io/intro-tidyverse-2023-06/)) |
-+--------------+-------------------------------------------------------+
++---------------+-----------------------------------------------------+
+| **Course      | Introduction to Data Science with R and the         |
+| Name**        | Tidyverse                                           |
++---------------+-----------------------------------------------------+
+| **Course      | Ph.D.                                               |
+| level**       |                                                     |
++---------------+-----------------------------------------------------+
+| **I           | Goethe University Frankfurt (GRADE)                 |
+| nstitution**  |                                                     |
++---------------+-----------------------------------------------------+
+| **Target      | Doctoral students from STEM fields with none or     |
+| group**       | little `R` experience                               |
++---------------+-----------------------------------------------------+
+| **Role**      | Lead teacher, course designer                       |
++---------------+-----------------------------------------------------+
+| **Jointly     | Over time, I have taught this course with many      |
+| taught with** | great colleagues: Lara Zaremba, Karlo Lukic, Matteo |
+|               | Fina, and Jan Bischoff                              |
++---------------+-----------------------------------------------------+
+| **Duration**  | 3 x 2 hours over three weeks or 1 x 6 hours         |
++---------------+-----------------------------------------------------+
+| **Semesters** | Summer 2021, Winter 2021/22, Summer 2022, Summer    |
+|               | 2023                                                |
++---------------+-----------------------------------------------------+
+| **Language**  | English                                             |
++---------------+-----------------------------------------------------+
+| **Resources** | Link to course materials ([Summer                   |
+|               | 2023](https:/%20/c                                  |
+|               | oding-int%20ro.github.io/intro-tidyverse-2023-06/)) |
++---------------+-----------------------------------------------------+
 
 ## Course Objective
 
@@ -129,36 +129,35 @@ course or a similar Python course at your institution.
 
 # Marketing Analytics (Econometrics in Management)
 
-+----------------------+--------------------------------------------+
-| **Course Name**      | Marketing Analytics (Econometrics in       |
-|                      | Management)                                |
-+----------------------+--------------------------------------------+
-| **Course level**     | Bachelor's                                 |
-+----------------------+--------------------------------------------+
-| -                    | Goethe University Frankfurt                |
-|    \*Institution\*\* |                                            |
-+----------------------+--------------------------------------------+
-| **Target group**     | Business and Economics students            |
-+----------------------+--------------------------------------------+
-| **Role**             | Teaching assistant                         |
-+----------------------+--------------------------------------------+
-| **Faculty**          | Prof. Dr. Bernd Skiera                     |
-|                      |                                            |
-|                      | Prof. Dr. Jochen Reiner                    |
-+----------------------+--------------------------------------------+
-| **Duration**         | 3 hours per week (\~15 weeks)              |
-+----------------------+--------------------------------------------+
-| **Semesters**        | Summer 2021, Winter 2021/22, Summer 2022,  |
-|                      | Winter 2022/23                             |
-+----------------------+--------------------------------------------+
-| **Language**         | German                                     |
-+----------------------+--------------------------------------------+
-| **Resources**        | Link to course materials on the university |
-|                      | learning platform ([Summer                 |
-|                      | 2023                                       |
-|                      | ](https://olat-ce.server.uni-frankfurt.de/ |
-|                      | olat/auth/RepositoryEntry/17995235331?12)) |
-+----------------------+--------------------------------------------+
++---------------------+-------------------------------------------+
+| **Course Name**     | Marketing Analytics (Econometrics in      |
+|                     | Management)                               |
++---------------------+-------------------------------------------+
+| **Course level**    | Bachelor's                                |
++---------------------+-------------------------------------------+
+| **Institution**     | Goethe University Frankfurt               |
++---------------------+-------------------------------------------+
+| **Target group**    | Business and Economics students           |
++---------------------+-------------------------------------------+
+| **Role**            | Teaching assistant                        |
++---------------------+-------------------------------------------+
+| **Faculty**         | Prof. Dr. Bernd Skiera                    |
+|                     |                                           |
+|                     | Prof. Dr. Jochen Reiner                   |
++---------------------+-------------------------------------------+
+| **Duration**        | 3 hours per week (\~15 weeks)             |
++---------------------+-------------------------------------------+
+| **Semesters**       | Summer 2021, Winter 2021/22, Summer 2022, |
+|                     | Winter 2022/23                            |
++---------------------+-------------------------------------------+
+| **Language**        | German                                    |
++---------------------+-------------------------------------------+
+| **Resources**       | Link to course materials on the           |
+|                     | university learning platform ([Summer     |
+|                     | 2023](                                    |
+|                     | https://olat-ce.server.uni-frankfurt.de/o |
+|                     | lat/auth/RepositoryEntry/17995235331?12)) |
++---------------------+-------------------------------------------+
 
 ## Course Description
 
@@ -178,37 +177,35 @@ exercises in small groups and effective Q&A sessions.
 
 # Seminar: Customer Analytics
 
-+-------------+--------------------------------------------------------+
-| **Course    | Empirical Customer Analytics --- A Practice-oriented   |
-| Name**      | Introduction                                           |
-+-------------+--------------------------------------------------------+
-| **Course    | Bachelor's                                             |
-| level**     |                                                        |
-+-------------+--------------------------------------------------------+
-| **In        | Goethe University Frankfurt                            |
-| stitution** |                                                        |
-+-------------+--------------------------------------------------------+
-| **Target    | Advanced undergraduate Business and Economics students |
-| group**     |                                                        |
-+-------------+--------------------------------------------------------+
-| **Role**    | Teaching assistant                                     |
-+-------------+--------------------------------------------------------+
-| **Faculty** | Hon. Prof. Dr. [Martin                                 |
-|             | Schmidberger](https://tinygu.de/Iixnm), Head of        |
-|             | Customer Analytics at ING Germany.                     |
-+-------------+--------------------------------------------------------+
-| *           | 2 hours per week (\~15 weeks)                          |
-| *Duration** |                                                        |
-+-------------+--------------------------------------------------------+
-| **          | Winter 2023/24                                         |
-| Semesters** |                                                        |
-+-------------+--------------------------------------------------------+
-| *           | German                                                 |
-| *Language** |                                                        |
-+-------------+--------------------------------------------------------+
-| **          | Link to [course description](https://tinygu.de/7xl10)  |
-| Resources** |                                                        |
-+-------------+--------------------------------------------------------+
++---------------+-----------------------------------------------------+
+| **Course      | Empirical Customer Analytics --- A                  |
+| Name**        | Practice-oriented Introduction                      |
++---------------+-----------------------------------------------------+
+| **Course      | Bachelor's                                          |
+| level**       |                                                     |
++---------------+-----------------------------------------------------+
+| **In          | Goethe University Frankfurt                         |
+| stitution**   |                                                     |
++---------------+-----------------------------------------------------+
+| **Target      | Advanced undergraduate Business and Economics       |
+| group**       | students                                            |
++---------------+-----------------------------------------------------+
+| **Role**      | Teaching assistant                                  |
++---------------+-----------------------------------------------------+
+| **Faculty**   | Hon. Prof. Dr. [Martin                              |
+|               | Schmidberger](https://tinygu.de/Iixnm), Head of     |
+|               | Customer Analytics at ING Germany.                  |
++---------------+-----------------------------------------------------+
+| **Duration**  | 2 hours per week (\~15 weeks)                       |
++---------------+-----------------------------------------------------+
+|               | Winter 2023/24                                      |
+| **Semesters** |                                                     |
++---------------+-----------------------------------------------------+
+| **Language**  | German                                              |
++---------------+-----------------------------------------------------+
+|               | Link to [course                                     |
+| **Resources** | description](https://tinygu.de/7xl10)               |
++---------------+-----------------------------------------------------+
 
 ## Course Description
 
