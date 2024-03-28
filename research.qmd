@@ -6,9 +6,8 @@ My research investigates economic phenomena in the digital economy. I do
 so using novel big data sources and applying modern statistical methods.
 
 On this site, you will find a summary of my current research projects,
-grouped by [publications](research.qmd#publications),
-[working papers](research.qmd#working-papers),
-and [work in progress](research.qmd#work-in-progress).
+grouped by [publications](research.qmd#publications) and
+[working papers](research.qmd#working-papers).
 
 # Publications
 
@@ -33,6 +32,34 @@ to typical American restaurants increase. We identify consumers' age, race, and
 cultural openness to moderate the strength of this ethnocentric effect.
 
 **Keywords:** Political conflict, Consumption, Boycotts, Ethnocentrism
+
+## Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills
+
+*Authors:* [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
+and Lukas Jürgensmeier.
+
+Skiera, Bernd and Jürgensmeier, Lukas (2024), "Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills,"
+Journal of Marketing Analytics (forthcoming).
+
+This article describes a data-driven case study for teaching and assessing
+students’ skills in marketing analytics, specifically in pricing. This case
+study combines teaching econometrics to analyze data and substantive marketing
+to derive managerial insights. The econometric challenge requires students to
+set up and implement a regression analysis to derive the demand function, detect
+multicollinearity, and select appropriate data visualizations. The substantive
+challenge requires deriving optimal pricing decisions and understanding how the
+parameters of the demand function impact optimal prices and the associated
+profit. We test the case study in a marketing analytics exam and discuss the
+performance of 134 students. Beyond assessing student performance in an exam,
+the case study facilitates teaching through in-class group work or assignments.
+Free of charge, under a liberal CC BY license, we encourage other educators to
+use the case study in their teaching. We provide the necessary data and a sample
+solution using the statistical programming language R. 
+
+**Keywords:** Marketing Analytics, Pricing, Teaching, Education, Case Study,
+Data Science
+
 
 # Working Papers
 
@@ -107,41 +134,41 @@ new exercises in marketing analytics and other subjects.
 **Keywords:** Generative AI, Automated Feedback, App, Marketing
 Analytics, Learning.
 
-# Work in Progress
 
-## Degrees of Vertical Integration on Online Retail Platforms: An International Comparison of Amazon Marketplaces
+## Opportunities for Self-Preferencing on International Online Marketplaces
 
 *Authors:* Lukas Jürgensmeier, Jan Bischoff, and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
 
-*Status:* In progress, initial draft of working paper estimated March
-2024.
+*Status:* Under Review at the International Marketing Review.
+Working paper available upon request.
 
-## Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills
+### Abstract
+Large digital platforms face intense scrutiny over self-preferencing, which
+involves a platform provider preferring its own offers over competitors. On
+online marketplaces, also called retail or e-commerce platforms, much of the
+academic and regulatory debate focuses on detecting whether the marketplace
+provider prefers its own private labels, such as "Amazon Basics" or Walmart's
+“Great Value” products. However, we outline, conceptually and empirically, that
+self-preferencing can also occur through other dimensions of vertical
+integration, namely, retailing and fulfillment. This article contributes by
+conceptualizing three dimensions of vertical integration on online
+marketplaces---private labels, retailing, and fulfillment, and describes which
+international marketplaces vertically integrate to which extent in two empirical
+studies. First, we show empirically that the majority of the 20 most-visited
+global online marketplaces vertically integrate in all three dimensions,
+implying ample opportunities for self-preferencing. Second, we analyze around
+600 million offers on eleven international Amazon marketplaces to measure
+vertical integration in each dimension, i.e., for which share of offers
+self-preferencing could occur. Only 0.02% of all offers consists of an Amazon
+private label product, but Amazon is a retailer for around 31% and fulfills
+around 38% of all available offers on its marketplaces. While the
+self-preferencing debate often focuses on private-label products, we are the
+first to present large-scale empirical results showing that self-preferencing
+on Amazon could occur most often through retailing and fulfillment because it
+affects much larger shares of offers. We are also the first to measure these
+shares’ variation across countries and to relate them to regulatory
+environments.
 
-*Authors:* [Bernd
-Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
-and Lukas Jürgensmeier.
 
-This article describes a data-driven exercise for teaching and assessing
-students' skills in marketing analytics, specifically in pricing. This
-exercise combines teaching econometrics to analyze data and substantive
-marketing to derive managerial insights. The econometric challenge
-requires students to set up and implement a regression analysis to
-derive the demand function, detect multicollinearity, and select
-appropriate data visualizations. The substantive challenge requires
-deriving optimal pricing decisions and understanding how the parameters
-of the demand function impact optimal prices and the associated profit.
-We discuss the exercise's efficacy as an exam by presenting the
-distribution of student performance from 134 exam submissions. Beyond
-assessing students' learning in an exam, the exercise facilitates
-teaching as a case study for in-class discussion or an assignment. Under
-a liberal CC BY license and free of charge, we encourage other educators
-to use the exercise in their teaching. Beyond the exercise, we provide
-the necessary data and a sample solution using the statistical
-programming language R.
 
-**Keywords:** Marketing Analytics, Pricing, Teaching, Exercise, Case
-Study, Data Science.
-
-*Status:* Preparing for submission.

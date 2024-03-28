@@ -55,17 +55,20 @@ Please see my
 [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier) profile for
 more information.
 
-## Publications and Working Papers
+## Publications
 
-Proffen, Celina and Jürgensmeier, Lukas (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [https://doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031).
+Proffen, Celina and Jürgensmeier, Lukas (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [https://doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031) (shared first authorship).
+
+Skiera, Bernd, and Lukas Jürgensmeier (2024): "Developing and Testing Student's Marketing Analytics Skills through a Coding-based Case Study," Case Study, Journal of Marketing Analytics (forthcoming).
+
+## Working Papers
 
 Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (third-round revise-and-resubmit at the Journal of Marketing).
 
 Jürgensmeier, Lukas and Bernd Skiera (2024), "Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics," available at [SSRN](https://ssrn.com/abstract=4683869) (under review at the International Journal of Research in Marketing).
 
-Jürgensmeier, Lukas, Jan Bischoff and Bernd Skiera (2024), "Degrees of Vertical Integration on Online Retail Platforms: An International Comparison of Amazon Marketplaces," Working Paper.
+Jürgensmeier, Lukas, Jan Bischoff and Bernd Skiera (2024), "Opportunities for Self-Preferencing on International Online Marketplaces," (under review at the International Marketing Review).
 
-Skiera, Bernd, and Lukas Jürgensmeier (2024): "Developing and Testing Student’s Marketing Analytics Skills through a Coding-based Case Study," Case Study Working Paper.
 
 Please see [Research](research.qmd) for detailed information.
 

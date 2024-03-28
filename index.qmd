@@ -27,9 +27,10 @@ In my research project [Measuring Self-Preferencing on Digital
 Platforms](research.qmd#research.html#measuring-self-preferencing-on-digital-platforms),
 we develop an approach to test for self-preferencing through platform recommendations.
 
-Just published in the Journal of Economic Behavior and Organization---"[Do Political Conflicts Influence Daily
+"[Do Political Conflicts Influence Daily
 Consumption
-Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)"---combines
+Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)"---just
+published in the *Journal of Economic Behavior and Organization*---combines
 vast smartphone location data and textual analysis of newspaper articles
 to assess the impact of political conflict on consumption.
 
@@ -69,36 +70,14 @@ You can contact me via
 Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest"
 width="1000"}
 
-Please check the [Research](research.qmd) page for details on past
-conference presentations.
-<!-- You can find out more about my research by -->
-<!-- attending one of the following scheduled conference presentations. -->
+I'll be presenting my research at the following scheduled conferences:
 
-<!-- ## [Measuring Fair Competition on Digital Platforms](research.qmd#measuring-fair-competition-on-digital-platforms) -->
+- EMAC 2024 in Bucharest, Romania (May 2024):
+ [Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics](research.qmd#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics)
+ *(Special Session on "Novel Applications of Generative AI in Marketing")*
+ 
+- DPE Forum "Bytes and Behemoths: Understanding Power in Digital Platform Ecosystems" in Passau, Germany (June 2025)
+  [Measuring Self-Preferencing on Digital Platforms](research.qmd#measuring-self-preferencing-on-digital-platforms)
+  *(Doctoral Consortium)*
 
-<!-- +--------------------------------------+--------------+--------------+ -->
-<!-- | Conference                           | Date         | Location     | -->
-<!-- +======================================+==============+==============+ -->
-<!-- | [ISMS Marketing Science Conference   | June 2023    | Miami,       | -->
-<!-- | 2023](https://www.herbert.miami.edu/ |              | United       | -->
-<!-- | faculty-research/business-conference |              | States       | -->
-<!-- | s/isms-marketing-science/index.html) |              |              | -->
-<!-- |                                      |              |              | -->
-<!-- | (special session for winners of the  |              |              | -->
-<!-- | *2022 ISMS Doctoral Dissertation     |              |              | -->
-<!-- | Proposal Competition*)               |              |              | -->
-<!-- +--------------------------------------+--------------+--------------+ -->
 
-<!-- ## [Do Political Conflicts Influence Daily Consumption Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices) -->
-
-<!-- +---------------------------------+----------------+------------------+ -->
-
-<!-- | Conference                      | Date           | Location         | -->
-
-<!-- +=================================+================+==================+ -->
-
-<!-- | efl --- the Data Science        | January 2023   | Frankfurt,       | -->
-
-<!-- | Institute, Jour Fixe            |                | Germany          | -->
-
-<!-- +---------------------------------+----------------+------------------+ -->
