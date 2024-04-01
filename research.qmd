@@ -33,13 +33,47 @@ cultural openness to moderate the strength of this ethnocentric effect.
 
 **Keywords:** Political conflict, Consumption, Boycotts, Ethnocentrism
 
+## Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics
+
+*Authors:* Lukas Jürgensmeier and [Bernd
+Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
+
+*Status:* Conditionally accepted at International Journal of Research in Marketing.
+
+Read the full working paper on
+[SSRN](https://papers.ssrn.com/abstract_id=4683869).
+
+### Abstract
+
+Detailed feedback on exercises helps learners become proficient in
+marketing analytics. However, such feedback is labor-intensive and
+expensive for educators. This manuscript introduces a web app leveraging
+Generative Artificial Intelligence (AI) that automatically provides
+feedback on complex multimodal exercises requiring coding, statistics,
+and economic reasoning. The authors evaluate the performance by
+comparing the app\'s quantitative feedback (i.e., points achieved) with
+human expert feedback for 4,349 solutions of marketing analytics
+exercises. The results show that the app (using GPT-4) provides almost
+unbiased evaluations, correlates very highly with (r = .94), and
+deviates only 6 % from human evaluations. Experts rate the app\'s
+qualitative performance by examining its textual feedback, indicating
+that it is mostly correct, sufficient, and appropriate for learners.
+Survey responses show that learners highly recommend the app and that
+the automated feedback adds value beyond traditional feedback methods.
+An advantage of the app is its subject-agnosticism: because it does not
+require any subject- or exercise-specific design, it is ready-to-use for
+new exercises in marketing analytics and other subjects.
+
+**Keywords:** Generative AI, Automated Feedback, App, Marketing
+Analytics, Learning.
+
 ## Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills
 
 *Authors:* [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html)
 and Lukas Jürgensmeier.
 
-Skiera, Bernd and Jürgensmeier, Lukas (2024), "Teaching Marketing Analytics: A Pricing Exercise for Quantitative and Substantive Marketing Skills,"
+Skiera, Bernd and Jürgensmeier, Lukas (2024), "Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,"
 Journal of Marketing Analytics (forthcoming).
 
 This article describes a data-driven case study for teaching and assessing
@@ -100,47 +134,13 @@ the need for robust protections for sellers and consumers.
 Digital Markets Act, American Innovation and Choice Online Act.
 
 
-## Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics
-
-*Authors:* Lukas Jürgensmeier and [Bernd
-Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
-
-*Status:* Under review at the International Journal of Research in Marketing.
-
-Read the full working paper on
-[SSRN](https://papers.ssrn.com/abstract_id=4683869).
-
-### Abstract
-
-Detailed feedback on exercises helps learners become proficient in
-marketing analytics. However, such feedback is labor-intensive and
-expensive for educators. This manuscript introduces a web app leveraging
-Generative Artificial Intelligence (AI) that automatically provides
-feedback on complex multimodal exercises requiring coding, statistics,
-and economic reasoning. The authors evaluate the performance by
-comparing the app\'s quantitative feedback (i.e., points achieved) with
-human expert feedback for 4,349 solutions of marketing analytics
-exercises. The results show that the app (using GPT-4) provides almost
-unbiased evaluations, correlates very highly with (r = .94), and
-deviates only 6 % from human evaluations. Experts rate the app\'s
-qualitative performance by examining its textual feedback, indicating
-that it is mostly correct, sufficient, and appropriate for learners.
-Survey responses show that learners highly recommend the app and that
-the automated feedback adds value beyond traditional feedback methods.
-An advantage of the app is its subject-agnosticism: because it does not
-require any subject- or exercise-specific design, it is ready-to-use for
-new exercises in marketing analytics and other subjects.
-
-**Keywords:** Generative AI, Automated Feedback, App, Marketing
-Analytics, Learning.
-
 
 ## Opportunities for Self-Preferencing on International Online Marketplaces
 
 *Authors:* Lukas Jürgensmeier, Jan Bischoff, and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
 
-*Status:* Under Review at the International Marketing Review.
+*Status:* Under review at the International Marketing Review.
 Working paper available upon request.
 
 ### Abstract

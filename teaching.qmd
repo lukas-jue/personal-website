@@ -21,36 +21,33 @@ materials.
 
 # Introduction to Data Science with R and Tidyverse
 
-+---------------+-----------------------------------------------------+
-| **Course      | Introduction to Data Science with R and the         |
-| Name**        | Tidyverse                                           |
-+---------------+-----------------------------------------------------+
-| **Course      | Ph.D.                                               |
-| level**       |                                                     |
-+---------------+-----------------------------------------------------+
-| **I           | Goethe University Frankfurt (GRADE)                 |
-| nstitution**  |                                                     |
-+---------------+-----------------------------------------------------+
-| **Target      | Doctoral students from STEM fields with none or     |
-| group**       | little `R` experience                               |
-+---------------+-----------------------------------------------------+
-| **Role**      | Lead teacher, course designer                       |
-+---------------+-----------------------------------------------------+
-| **Jointly     | Over time, I have taught this course with many      |
-| taught with** | great colleagues: Lara Zaremba, Karlo Lukic, Matteo |
-|               | Fina, and Jan Bischoff                              |
-+---------------+-----------------------------------------------------+
-| **Duration**  | 3 x 2 hours over three weeks or 1 x 6 hours         |
-+---------------+-----------------------------------------------------+
-| **Semesters** | Summer 2021, Winter 2021/22, Summer 2022, Summer    |
-|               | 2023                                                |
-+---------------+-----------------------------------------------------+
-| **Language**  | English                                             |
-+---------------+-----------------------------------------------------+
-| **Resources** | Link to course materials ([Summer                   |
-|               | 2023](https:/%20/c                                  |
-|               | oding-int%20ro.github.io/intro-tidyverse-2023-06/)) |
-+---------------+-----------------------------------------------------+
++------------------+-----------------------------------------------------+
+| **Course         | Introduction to Data Science with R and the         |
+| Name**           | Tidyverse                                           |
++------------------+-----------------------------------------------------+
+| **Course         | Ph.D.                                               |
+| level**          |                                                     |
++------------------+-----------------------------------------------------+
+| **Institution**  | Goethe University Frankfurt (GRADE)                 |
++------------------+-----------------------------------------------------+
+| **Target         | Doctoral students from STEM fields with none or     |
+| group**          | little `R` experience                               |
++------------------+-----------------------------------------------------+
+| **Role**         | Lead teacher, course designer                       |
++------------------+-----------------------------------------------------+
+| **Jointly        | Over time, I have taught this course with many      |
+| taught with**    | great colleagues: Lara Zaremba, Karlo Lukic, Matteo |
+|                  | Fina, and Jan Bischoff                              |
++------------------+-----------------------------------------------------+
+| **Duration**     | 3 x 2 hours over three weeks or 1 x 6 hours         |
++------------------+-----------------------------------------------------+
+| **Semesters**    | Summer 2021, Winter 2021/22, Summer 2022, Summer    |
+|                  | 2023                                                |
++------------------+-----------------------------------------------------+
+| **Language**     | English                                             |
++------------------+-----------------------------------------------------+
+| **Resources**    | Link to course materials ([Summer 2023](https://coding-intro.github.io/intro-tidyverse-2023-06/)) |
++------------------+-----------------------------------------------------+
 
 ## Course Objective
 

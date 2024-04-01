@@ -23,8 +23,7 @@ between Data Science and Marketing. I like applying modern econometric
 methods to novel data sources in the digital economy---especially with
 the `R` programming language.
 
-In my research project [Measuring Self-Preferencing on Digital
-Platforms](research.qmd#research.html#measuring-self-preferencing-on-digital-platforms),
+In my research project [Measuring Self-Preferencing on Digital Platforms](research.html#measuring-self-preferencing-on-digital-platforms),
 we develop an approach to test for self-preferencing through platform recommendations.
 
 "[Do Political Conflicts Influence Daily
