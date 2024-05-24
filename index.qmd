@@ -49,7 +49,7 @@ organization teaching coding and promoting tech literacy.
 On this website, you will find information about my Academic
 [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum
 Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy
-e.V.](techacademy.qmd).
+e.V.](techacademy.qmd)
 
 You can contact me via
 [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or
