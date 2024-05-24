@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -74,16 +81,16 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Lukas Jürgensmeier">
 <meta property="og:description" content="Lukas Jürgensmeier is a Ph.D.&nbsp;Student and Research Assistant in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing. Lukas applies modern econometric methods to novel data sources in the digital economy—especially with the R programming language.">
-<meta property="og:site-name" content="Lukas Jürgensmeier">
+<meta property="og:site_name" content="Lukas Jürgensmeier">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Lukas Jürgensmeier</span>
     </a>
@@ -95,33 +102,33 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./curriculum-vitae.html" rel="" target="">
- <span class="menu-text">Curriculum Vitae</span></a>
+    <a class="nav-link" href="./curriculum-vitae.html"> 
+<span class="menu-text">Curriculum Vitae</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./techacademy.html" rel="" target="">
- <span class="menu-text">TechAcademy</span></a>
+    <a class="nav-link" href="./techacademy.html"> 
+<span class="menu-text">TechAcademy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -136,29 +143,18 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
   <ul>
   <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a>
   <ul class="collapse">
-  <li><a href="#do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" id="toc-do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" class="nav-link" data-scroll-target="#do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations">Do Political Conflicts Influence Daily Consumption Choices? Evidence from US-China Relations</a>
-  <ul class="collapse">
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
-  </ul></li>
-  <li><a href="#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics" id="toc-generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics" class="nav-link" data-scroll-target="#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics">Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics</a>
-  <ul class="collapse">
-  <li><a href="#abstract-1" id="toc-abstract-1" class="nav-link" data-scroll-target="#abstract-1">Abstract</a></li>
-  </ul></li>
+  <li><a href="#generative-ai-for-scalable-feedback-to-multimodal-exercises" id="toc-generative-ai-for-scalable-feedback-to-multimodal-exercises" class="nav-link" data-scroll-target="#generative-ai-for-scalable-feedback-to-multimodal-exercises">Generative AI for Scalable Feedback to Multimodal Exercises</a></li>
+  <li><a href="#do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" id="toc-do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" class="nav-link" data-scroll-target="#do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations">Do Political Conflicts Influence Daily Consumption Choices? Evidence from US-China Relations</a></li>
+  <li><a href="#opportunities-for-self-preferencing-in-international-online-marketplaces" id="toc-opportunities-for-self-preferencing-in-international-online-marketplaces" class="nav-link" data-scroll-target="#opportunities-for-self-preferencing-in-international-online-marketplaces">Opportunities for Self-Preferencing in International Online Marketplaces</a></li>
   <li><a href="#teaching-marketing-analytics-a-pricing-case-study-for-quantitative-and-substantive-marketing-skills" id="toc-teaching-marketing-analytics-a-pricing-case-study-for-quantitative-and-substantive-marketing-skills" class="nav-link" data-scroll-target="#teaching-marketing-analytics-a-pricing-case-study-for-quantitative-and-substantive-marketing-skills">Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills</a></li>
   </ul></li>
   <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working Papers</a>
   <ul class="collapse">
-  <li><a href="#measuring-self-preferencing-on-digital-platforms" id="toc-measuring-self-preferencing-on-digital-platforms" class="nav-link" data-scroll-target="#measuring-self-preferencing-on-digital-platforms">Measuring Self-Preferencing on Digital Platforms</a>
-  <ul class="collapse">
-  <li><a href="#abstract-2" id="toc-abstract-2" class="nav-link" data-scroll-target="#abstract-2">Abstract</a></li>
-  </ul></li>
-  <li><a href="#opportunities-for-self-preferencing-on-international-online-marketplaces" id="toc-opportunities-for-self-preferencing-on-international-online-marketplaces" class="nav-link" data-scroll-target="#opportunities-for-self-preferencing-on-international-online-marketplaces">Opportunities for Self-Preferencing on International Online Marketplaces</a>
-  <ul class="collapse">
-  <li><a href="#abstract-3" id="toc-abstract-3" class="nav-link" data-scroll-target="#abstract-3">Abstract</a></li>
-  </ul></li>
+  <li><a href="#measuring-self-preferencing-on-digital-platforms" id="toc-measuring-self-preferencing-on-digital-platforms" class="nav-link" data-scroll-target="#measuring-self-preferencing-on-digital-platforms">Measuring Self-Preferencing on Digital Platforms</a></li>
+  <li><a href="#keepar-an-r-package-to-identify-acquire-and-transform-online-marketplace-data-for-social-science-research" id="toc-keepar-an-r-package-to-identify-acquire-and-transform-online-marketplace-data-for-social-science-research" class="nav-link" data-scroll-target="#keepar-an-r-package-to-identify-acquire-and-transform-online-marketplace-data-for-social-science-research"><code>keepar</code>: An R Package to Identify, Acquire, and Transform Online Marketplace Data for Social Science Research</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/lukas-jue/personal-website/edit/main/research.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/lukas-jue/personal-website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/lukas-jue/personal-website/edit/main/research.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/lukas-jue/personal-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -178,37 +174,39 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 <p>My research investigates economic phenomena in the digital economy. I do so using novel big data sources and applying modern statistical methods.</p>
 <p>On this site, you will find a summary of my current research projects, grouped by <a href="./research.html#publications">publications</a> and <a href="./research.html#working-papers">working papers</a>.</p>
 <section id="publications" class="level1">
 <h1>Publications</h1>
+<section id="generative-ai-for-scalable-feedback-to-multimodal-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai-for-scalable-feedback-to-multimodal-exercises">Generative AI for Scalable Feedback to Multimodal Exercises</h2>
+<p>Jürgensmeier, Lukas and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a> (2024), “Generative AI for Scalable Feedback to Multimodal Exercises,” International Journal of Research in Marketing, forthcoming, <a href="https://doi.org/10.1016/j.ijresmar.2024.05.005">https://doi.org/10.1016/j.ijresmar.2024.05.005</a>.</p>
+<p><strong>Abstract</strong></p>
+<p>Detailed feedback on exercises helps learners become proficient but is time-consuming for educators and, thus, hardly scalable. This manuscript evaluates how well Generative Artificial Intelligence (AI) provides automated feedback on complex multimodal exercises requiring coding, statistics, and economic reasoning. Besides providing this technology through an easily accessible web application, this article evaluates the technology’s performance by comparing the quantitative feedback (i.e., points achieved) from Generative AI models with human expert feedback for 4,349 solutions to marketing analytics exercises. The results show that automated feedback produced by Generative AI (GPT-4) provides almost unbiased evaluations while correlating highly with (r = 0.94) and deviating only 6 % from human evaluations. GPT-4 performs best among seven Generative AI models, albeit at the highest cost. Comparing the models’ performance with costs shows that GPT-4, Mistral Large, Claude 3 Opus, and Gemini 1.0 Pro dominate three other Generative AI models (Claude 3 Sonnet, GPT-3.5, and Gemini 1.5 Pro). Expert assessment of the qualitative feedback (i.e., the AI’s textual response) indicates that it is mostly correct, sufficient, and appropriate for learners. A survey of marketing analytics learners shows that they highly recommend the app and its Generative AI feedback. An advantage of the app is its subject-agnosticism—it does not require any subject- or exercise-specific training. Thus, it is immediately usable for new exercises in marketing analytics and other subjects.</p>
+<p><strong>Keywords:</strong> Generative AI, Automated Feedback, App, Marketing Analytics, Learning.</p>
+</section>
 <section id="do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations" class="level2">
 <h2 class="anchored" data-anchor-id="do-political-conflicts-influence-daily-consumption-choices-evidence-from-us-china-relations">Do Political Conflicts Influence Daily Consumption Choices? Evidence from US-China Relations</h2>
-<p><em>Authors:</em> <a href="https://www.celinaproffen.com/">Celina Proffen</a> and Lukas Jürgensmeier (equal co-authorship).</p>
-<p>Proffen, Celina and Jürgensmeier, Lukas (2024), “Do political conflicts influence daily consumption choices? Evidence from US-China relations,” Journal of Economic Behavior &amp; Organization, 220, pp.&nbsp;660-674, <a href="https://doi.org/10.1016/j.jebo.2024.02.031">https://doi.org/10.1016/j.jebo.2024.02.031</a>.</p>
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p><a href="https://www.celinaproffen.com/">Proffen, Celina</a> and Lukas Jürgensmeier (2024), “Do political conflicts influence daily consumption choices? Evidence from US-China relations,” Journal of Economic Behavior &amp; Organization, 220, pp.&nbsp;660-674, <a href="https://doi.org/10.1016/j.jebo.2024.02.031">https://doi.org/10.1016/j.jebo.2024.02.031</a>, shared first authorship.</p>
+<p><strong>Abstract</strong></p>
 <p>Does political conflict with another country influence domestic consumers’ daily consumption choices? We exploit the volatile US-China relations in 2018 and 2019 to analyze whether US consumers reduce their visits to Chinese restaurants when bilateral relations deteriorate. We measure the degree of political conflict through negativity in media reports and rely on smartphone location data to measure daily visits to over 190,000 US restaurants. A deterioration in US-China relations induces a significant decline in visits not only to Chinese but also to other foreign ethnic restaurants, while visits to typical American restaurants increase. We identify consumers’ age, race, and cultural openness to moderate the strength of this ethnocentric effect.</p>
 <p><strong>Keywords:</strong> Political conflict, Consumption, Boycotts, Ethnocentrism</p>
 </section>
-</section>
-<section id="generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics" class="level2">
-<h2 class="anchored" data-anchor-id="generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics">Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics</h2>
-<p><em>Authors:</em> Lukas Jürgensmeier and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a>.</p>
-<p><em>Status:</em> Conditionally accepted at International Journal of Research in Marketing.</p>
-<p>Read the full working paper on <a href="https://papers.ssrn.com/abstract_id=4683869">SSRN</a>.</p>
-<section id="abstract-1" class="level3">
-<h3 class="anchored" data-anchor-id="abstract-1">Abstract</h3>
-<p>Detailed feedback on exercises helps learners become proficient in marketing analytics. However, such feedback is labor-intensive and expensive for educators. This manuscript introduces a web app leveraging Generative Artificial Intelligence (AI) that automatically provides feedback on complex multimodal exercises requiring coding, statistics, and economic reasoning. The authors evaluate the performance by comparing the app's quantitative feedback (i.e., points achieved) with human expert feedback for 4,349 solutions of marketing analytics exercises. The results show that the app (using GPT-4) provides almost unbiased evaluations, correlates very highly with (r = .94), and deviates only 6 % from human evaluations. Experts rate the app's qualitative performance by examining its textual feedback, indicating that it is mostly correct, sufficient, and appropriate for learners. Survey responses show that learners highly recommend the app and that the automated feedback adds value beyond traditional feedback methods. An advantage of the app is its subject-agnosticism: because it does not require any subject- or exercise-specific design, it is ready-to-use for new exercises in marketing analytics and other subjects.</p>
-<p><strong>Keywords:</strong> Generative AI, Automated Feedback, App, Marketing Analytics, Learning.</p>
-</section>
+<section id="opportunities-for-self-preferencing-in-international-online-marketplaces" class="level2">
+<h2 class="anchored" data-anchor-id="opportunities-for-self-preferencing-in-international-online-marketplaces">Opportunities for Self-Preferencing in International Online Marketplaces</h2>
+<p>Jürgensmeier, Lukas, Jan Bischoff, and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a> (2024), “Opportunities for Self-Preferencing in International Online Marketplaces”, International Marketing Review, forthcoming.</p>
+<p><strong>Abstract</strong></p>
+<p>Large digital platforms face intense scrutiny over self-preferencing, which involves a platform provider favoring its own offers over those of competitors. In online marketplaces, also called retail or e-commerce platforms, much of the academic and regulatory debate focuses on determining whether the marketplace provider gives preference to its own private labels, such as “Amazon Basics” or Walmart’s “Great Value” products. However, we outline, both conceptually and empirically, that self-preferencing can also occur through other dimensions of vertical integration—namely, retailing and fulfillment. This article contributes by conceptualizing three dimensions of vertical integration in online marketplaces—private labels, retailing, and fulfillment. Then, two studies empirically assess (i) which of the 20 most-visited global online marketplaces vertically integrate which dimension and (ii) which share of 600 million available offers are vertically integrated to which degree in eleven international Amazon marketplaces. The majority of the leading marketplaces vertically integrate all three dimensions, implying ample opportunities for self-preferencing. Across international Amazon marketplaces, only 0.02% of available offers consist of an Amazon private-label product. However, Amazon is a retailer for around 31% and fulfills around 38% of all available offers in its marketplaces. Hence, self-preferencing on Amazon can occur most frequently through retailing and fulfillment but comparatively infrequently through private-label offers. Still, these shares differ substantially by country—every second offer is vertically integrated in the US, but only one in ten in India. Most of the self-preferencing debate often focuses on private-label products. Instead, we present large-scale empirical results showing that self-preferencing on Amazon could occur most often through retailing and fulfillment because these channels affect much larger shares of offers. We also measure the variation of these shares across countries and relate them to regulatory environments.</p>
 </section>
 <section id="teaching-marketing-analytics-a-pricing-case-study-for-quantitative-and-substantive-marketing-skills" class="level2">
 <h2 class="anchored" data-anchor-id="teaching-marketing-analytics-a-pricing-case-study-for-quantitative-and-substantive-marketing-skills">Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills</h2>
-<p><em>Authors:</em> <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a> and Lukas Jürgensmeier.</p>
-<p>Skiera, Bernd and Jürgensmeier, Lukas (2024), “Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,” Journal of Marketing Analytics (forthcoming).</p>
+<p><a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Skiera, Bernd</a> and Lukas Jürgensmeier (2024), “Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,” Journal of Marketing Analytics, forthcoming, <a href="https://doi.org/10.1057/s41270-024-00313-2">https://doi.org/10.1057/s41270-024-00313-2</a>.</p>
+<p>The case study, solution, and data is available through <a href="https://github.com/lukas-jue/marketing-analytics-exercise">GitHub</a>.</p>
+<p><strong>Abstract</strong></p>
 <p>This article describes a data-driven case study for teaching and assessing students’ skills in marketing analytics, specifically in pricing. This case study combines teaching econometrics to analyze data and substantive marketing to derive managerial insights. The econometric challenge requires students to set up and implement a regression analysis to derive the demand function, detect multicollinearity, and select appropriate data visualizations. The substantive challenge requires deriving optimal pricing decisions and understanding how the parameters of the demand function impact optimal prices and the associated profit. We test the case study in a marketing analytics exam and discuss the performance of 134 students. Beyond assessing student performance in an exam, the case study facilitates teaching through in-class group work or assignments. Free of charge, under a liberal CC BY license, we encourage other educators to use the case study in their teaching. We provide the necessary data and a sample solution using the statistical programming language R.</p>
 <p><strong>Keywords:</strong> Marketing Analytics, Pricing, Teaching, Education, Case Study, Data Science</p>
 </section>
@@ -217,25 +215,21 @@ gtag('config', 'G-SRCXLB0QJK', { 'anonymize_ip': true});
 <h1>Working Papers</h1>
 <section id="measuring-self-preferencing-on-digital-platforms" class="level2">
 <h2 class="anchored" data-anchor-id="measuring-self-preferencing-on-digital-platforms">Measuring Self-Preferencing on Digital Platforms</h2>
-<p><em>Authors:</em> Lukas Jürgensmeier and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a>.</p>
-<p><em>Status:</em> Under third-round review at the Journal of Marketing.</p>
+<p><strong>Authors:</strong> Lukas Jürgensmeier and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a>.</p>
+<p><strong>Status:</strong> Under third-round review at the Journal of Marketing.</p>
 <p>Read the full working paper on <a href="https://papers.ssrn.com/abstract_id=4393726">SSRN</a>.</p>
-<section id="abstract-2" class="level3">
-<h3 class="anchored" data-anchor-id="abstract-2">Abstract</h3>
+<p><strong>Abstract</strong></p>
 <p>Digital platforms use recommendations to facilitate exchanges between platform actors, such as trade between buyers and sellers. Aiming to protect consumers and guarantee fair competition on platforms, legislators increasingly require that recommendations on market-dominating platforms be free from self-preferencing. That is, platforms that also act as sellers (e.g., Amazon) or information providers (e.g., Google) must not prefer their own offers over comparable third-party offers. Yet, successful enforcement of self-preferencing bans—to the potential benefit of consumers and third-party actors—requires defining and measuring self-preferencing across a platform. In the context of recommendations through search results, this research contributes by i) conceptualizing a “recommendation” as an offer’s level of search engine visibility across an entire platform (instead of its position in specific search queries, as in previous research); ii) discussing two tests for self-preferencing, and iii) implementing them in two empirical studies across three international Amazon marketplaces. Contrary to consumer expectations and emerging literature, our analysis finds almost no evidence for self-preferencing. A survey reveals that even if Amazon were proven to engage in self-preferencing, most consumers would not change their shopping behavior on the platform—highlighting Amazon’s significant market power and suggesting the need for robust protections for sellers and consumers.</p>
 <p><strong>Keywords:</strong> Digital Platforms, Amazon, Competition, Antitrust, Search Engines, Digital Markets Act, American Innovation and Choice Online Act.</p>
 </section>
-</section>
-<section id="opportunities-for-self-preferencing-on-international-online-marketplaces" class="level2">
-<h2 class="anchored" data-anchor-id="opportunities-for-self-preferencing-on-international-online-marketplaces">Opportunities for Self-Preferencing on International Online Marketplaces</h2>
-<p><em>Authors:</em> Lukas Jürgensmeier, Jan Bischoff, and <a href="https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html">Bernd Skiera</a>.</p>
-<p><em>Status:</em> Under review at the International Marketing Review. Working paper available upon request.</p>
-<section id="abstract-3" class="level3">
-<h3 class="anchored" data-anchor-id="abstract-3">Abstract</h3>
-<p>Large digital platforms face intense scrutiny over self-preferencing, which involves a platform provider preferring its own offers over competitors. On online marketplaces, also called retail or e-commerce platforms, much of the academic and regulatory debate focuses on detecting whether the marketplace provider prefers its own private labels, such as “Amazon Basics” or Walmart’s “Great Value” products. However, we outline, conceptually and empirically, that self-preferencing can also occur through other dimensions of vertical integration, namely, retailing and fulfillment. This article contributes by conceptualizing three dimensions of vertical integration on online marketplaces—private labels, retailing, and fulfillment, and describes which international marketplaces vertically integrate to which extent in two empirical studies. First, we show empirically that the majority of the 20 most-visited global online marketplaces vertically integrate in all three dimensions, implying ample opportunities for self-preferencing. Second, we analyze around 600 million offers on eleven international Amazon marketplaces to measure vertical integration in each dimension, i.e., for which share of offers self-preferencing could occur. Only 0.02% of all offers consists of an Amazon private label product, but Amazon is a retailer for around 31% and fulfills around 38% of all available offers on its marketplaces. While the self-preferencing debate often focuses on private-label products, we are the first to present large-scale empirical results showing that self-preferencing on Amazon could occur most often through retailing and fulfillment because it affects much larger shares of offers. We are also the first to measure these shares’ variation across countries and to relate them to regulatory environments.</p>
+<section id="keepar-an-r-package-to-identify-acquire-and-transform-online-marketplace-data-for-social-science-research" class="level2">
+<h2 class="anchored" data-anchor-id="keepar-an-r-package-to-identify-acquire-and-transform-online-marketplace-data-for-social-science-research"><code>keepar</code>: An R Package to Identify, Acquire, and Transform Online Marketplace Data for Social Science Research</h2>
+<p><strong>Authors:</strong> Lukas Jürgensmeier</p>
+<p><strong>Status:</strong> Package available at <a href="https://github.com/lukas-jue/keepar">GitHub</a>; draft working paper available upon request.</p>
+<p><strong>Abstract</strong></p>
+<p>Researchers frequently use online marketplace data for social science research. However, obtaining and processing such data is cumbersome, and either involves web scraping or access to a pre-existing database. One such a database is the commercial data provider Keepa.com, which tracks Amazon products over time. While such database is accessible via API, identifying and processing the relevant data—into a suitable format for social science research—requires significant effort. This article introduces the <code>keepar</code> package, an <code>R</code> package designed to simplify this data acquisition and transformation process. Through an illustrative research project analyzing the market for rubber ducks on Amazon, this article explains how to use the package to obtain and transform the Keepa.com data. Making this package available open source, this article contributes to making this data source more widely available to social science researchers.</p>
 
 
-</section>
 </section>
 </section>
 
@@ -319,10 +313,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/lukas-juergensmeier\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -332,8 +343,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -345,7 +365,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -389,6 +532,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -414,6 +558,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -477,4 +647,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/lukas-jue/personal-website/edit/main/research.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/lukas-jue/personal-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

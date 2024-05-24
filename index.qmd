@@ -28,15 +28,14 @@ we develop an approach to test for self-preferencing through platform recommenda
 
 "[Do Political Conflicts Influence Daily
 Consumption
-Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)"---just
-published in the *Journal of Economic Behavior and Organization*---combines
+Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choices)"---published in the *Journal of Economic Behavior and Organization*---combines
 vast smartphone location data and textual analysis of newspaper articles
 to assess the impact of political conflict on consumption.
 
 For the newest project, we created a Generative AI app that provide personalized
-feedback to students. In the paper
-[Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics](research.html#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics)
-we describe how well that works (spoiler: quite well!)
+feedback to students. Published in the *International Journal of Research in Marketing,*
+[Generative AI for Scalable Feedback to Multimodal Exercises](research.html#generative-ai-for-scalable-feedback-to-multimodal-exercises)
+describes how well that works (spoiler: quite well!)
 
 I am an expert in the `R` programming language and love
 [teaching](teaching.qmd) `R` to Bachelor's, Master's and Ph.D. students,
@@ -72,10 +71,10 @@ width="1000"}
 I'll be presenting my research at the following scheduled conferences:
 
 - EMAC 2024 in Bucharest, Romania (May 2024):
- [Generative AI for Scalable Feedback to Multimodal Exercises in Marketing Analytics](research.qmd#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics)
+ [Generative AI for Scalable Feedback to Multimodal Exercises](research.qmd#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics)
  *(Special Session on "Novel Applications of Generative AI in Marketing")*
  
-- DPE Forum "Bytes and Behemoths: Understanding Power in Digital Platform Ecosystems" in Passau, Germany (June 2025)
+- DPE Forum "Bytes and Behemoths: Understanding Power in Digital Platform Ecosystems" in Passau, Germany (June 2024)
   [Measuring Self-Preferencing on Digital Platforms](research.qmd#measuring-self-preferencing-on-digital-platforms)
   *(Doctoral Consortium)*
 
