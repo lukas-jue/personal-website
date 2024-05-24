@@ -80,6 +80,17 @@ solution using the statistical programming language R.
 **Keywords:** Marketing Analytics, Pricing, Teaching, Education, Case Study,
 Data Science
 
+## Non-Profit Organizations and their Offers for Digital Education in Germany
+
+[Schönborn, Sofie](https://www.linkedin.com/in/sofieschoenborn/), Lukas Jürgensmeier, [Carolin Neumann](https://de.linkedin.com/in/neumanncarolin), [Stefan Hildebrand](https://www.linkedin.com/in/stefan-hildebrand-a246501b9/), [Gabriel Häusler](https://www.linkedin.com/in/gabrielhaeusler), [David Middelbeck](https://www.linkedin.com/in/davidmiddelbeck) (2023): "Wind of Change: Ehrenamtliche Organisationen und Angebote der jungen Generation zur Digitalbildung in Deutschland," in: Digitalisierung in der Hochschullehre: Perspektiven und Gestaltungsoptionen, Forum Lehrerinnen- und Lehrerbildung (11). University of Bamberg Press, [https://doi.org/10.20378/irb-59190](https://fis.uni-bamberg.de/server/api/core/bitstreams/a1ba0881-1e3c-4f4a-acdd-04c8e41b8f7d/content).
+
+**Abstract**
+
+In addition to traditional educational institutions, volunteer organizations play an important role, especially in digital education. This article shows which volunteer-organized offerings exist in Germany, discusses the innovative concepts behind them, and illustrates how traditional educational institutions can learn from this volunteer engagement. To this end, the authors present the results of a survey of 19 organizations and two exemplary projects in case studies, and recommend three concrete actions for education policy based on these results.
+
+**Keywords:** Digital Education; Volunteering; Blended Learning; Peer Learning;
+Coding; Survey
+
 
 # Working Papers
 
