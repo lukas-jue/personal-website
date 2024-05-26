@@ -17,11 +17,11 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-I am a Ph.D. Student and Research Assistant in Quantitative Marketing at
-Goethe University Frankfurt. My research focuses on the interface
+I am a Ph.D. Student and Research Associate in Quantitative Marketing at
+Goethe University Frankfurt. My research and teaching focuses on the interface
 between Data Science and Marketing. I like applying modern econometric
-methods to novel data sources in the digital economy---especially with
-the `R` programming language.
+methods to novel data sources in the digital economy---and teach students
+how to do that with `R` and `Python`.
 
 In my research project [Measuring Self-Preferencing on Digital Platforms](research.html#measuring-self-preferencing-on-digital-platforms),
 we develop an approach to test for self-preferencing through platform recommendations.
@@ -37,10 +37,12 @@ feedback to students. Published in the *International Journal of Research in Mar
 [Generative AI for Scalable Feedback to Multimodal Exercises](research.html#generative-ai-for-scalable-feedback-to-multimodal-exercises)
 describes how well that works (spoiler: quite well!)
 
-I am an expert in the `R` programming language and love
-[teaching](teaching.qmd) `R` to Bachelor's, Master's and Ph.D. students,
-using the language in my [research](research.qmd), and even for
-designing this website.
+My [teaching](teaching.qmd) experience includes:
+
+1. Designing and teaching *Introduction to Data Science* courses in `R` and `Python` for students from all fields,
+2. Teaching a *Marketing Analytics* course that enables students to solve marketing problems with econometrics, programming, and substantive marketing skills,
+3. Teaching an *Empirical Customer Analytics* seminar about machine learning methods in marketing analytics, and
+4. Designing and teaching TechAcademy's blended learning *Data Science with R* courses.
 
 In my free time, I help preparing the next generation for the digital
 future as a member of the supervisory board at TechAcademy e.V., a non-profit

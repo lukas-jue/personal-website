@@ -145,15 +145,13 @@ course or a similar Python course at your institution.
 | **Duration**        | 3 hours per week (\~15 weeks)             |
 +---------------------+-------------------------------------------+
 | **Semesters**       | Summer 2021, Winter 2021/22, Summer 2022, |
-|                     | Winter 2022/23                            |
+|                     | Winter 2022/23, Summer 2023               |
 +---------------------+-------------------------------------------+
 | **Language**        | German                                    |
 +---------------------+-------------------------------------------+
 | **Resources**       | Link to course materials on the           |
-|                     | university learning platform ([Summer     |
-|                     | 2023](                                    |
-|                     | https://olat-ce.server.uni-frankfurt.de/o |
-|                     | lat/auth/RepositoryEntry/17995235331?12)) |
+|                     | university learning platform              |
+|                     | ([Summer 2023](https://tinygu.de/sCMOa)   |
 +---------------------+-------------------------------------------+
 
 ## Course Description
