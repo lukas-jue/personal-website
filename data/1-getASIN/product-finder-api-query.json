@@ -1,0 +1,19 @@
+{
+    "title": "rubber duck",
+    "trackingSince_lte": 4733220,
+    "categories_include": [
+        "330390011"
+    ],
+    "productType": [
+        "0"
+    ],
+    "hasParentASIN": false,
+    "sort": [
+        [
+            "current_SALES",
+            "asc"
+        ]
+    ],
+    "perPage": 100,
+    "page": 0
+}

@@ -27,6 +27,7 @@ website:
       - teaching.qmd
       - curriculum-vitae.qmd
       - techacademy.qmd
+      - keepar.qmd
       - contact.qmd
   #cookie-consent: true
 

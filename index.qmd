@@ -64,20 +64,20 @@ You can contact me via
 
 </span>
 
-# Upcoming Talks
+<!-- # Upcoming Talks -->
 
-![Lukas Jürgensmeier presenting at EMAC Conference 2022 in
-Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest"
-width="1000"}
+<!-- ![Lukas Jürgensmeier presenting at EMAC Conference 2022 in -->
+<!-- Budapest](images/2022-05-EMAC-Budapest-Lukas-Juergensmeier-Presentation.jpg){fig-alt="Lukas Jürgensmeier presenting at EMAC Conference 2022 in Budapest" -->
+<!-- width="1000"} -->
 
-I'll be presenting my research at the following scheduled conferences:
+<!-- I'll be presenting my research at the following scheduled conferences: -->
 
-- EMAC 2024 in Bucharest, Romania (May 2024):
- [Generative AI for Scalable Feedback to Multimodal Exercises](research.qmd#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics)
- *(Special Session on "Novel Applications of Generative AI in Marketing")*
- 
-- DPE Forum "Bytes and Behemoths: Understanding Power in Digital Platform Ecosystems" in Passau, Germany (June 2024)
-  [Measuring Self-Preferencing on Digital Platforms](research.qmd#measuring-self-preferencing-on-digital-platforms)
-  *(Doctoral Consortium)*
+<!-- - EMAC 2024 in Bucharest, Romania (May 2024): -->
+<!--  [Generative AI for Scalable Feedback to Multimodal Exercises](research.qmd#generative-ai-for-scalable-feedback-to-multimodal-exercises-in-marketing-analytics) -->
+<!--  *(Special Session on "Novel Applications of Generative AI in Marketing")* -->
+
+<!-- - DPE Forum "Bytes and Behemoths: Understanding Power in Digital Platform Ecosystems" in Passau, Germany (June 2024) -->
+<!--   [Measuring Self-Preferencing on Digital Platforms](research.qmd#measuring-self-preferencing-on-digital-platforms) -->
+<!--   *(Doctoral Consortium)* -->
 
 

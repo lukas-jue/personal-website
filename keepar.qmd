@@ -1,0 +1,1303 @@
+---
+title: "keepar"
+subtitle: "An R Package for Online Marketplace Data in Social Science Research"
+vignette: >
+  %\VignetteIndexEntry{demo}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+number-sections: true
+number-depth: 5
+execute: 
+  cache: true
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    fig-cap-location: top
+bibliography: references.bib
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+options(rmarkdown.html_vignette.check_title = FALSE)
+```
+
+# Abstract {.unnumbered}
+
+Researchers frequently use online marketplace data for social science
+research. However, obtaining and processing such data is cumbersome and
+often involves web scraping or access to a pre-existing database. One
+such database is the commercial data provider [Keepa](https://keepa.com), which
+tracks Amazon products and sellers over time. While this database is accessible
+via API, identifying, acquiring, and transforming the data into a
+suitable format for social science research requires significant effort.
+This article introduces the `keepar` package, an `R` package designed to
+simplify working with this Amazon marketplace data. Through an
+illustrative research project analyzing the market for rubber ducks on
+Amazon, this article explains how to use the package to work with
+[Keepa](https://keepa.com) data. By making the corresponding `R` package open
+source and available on [GitHub](https://github.com/lukas-jue/keepar), this article
+aims to facilitate further use of this rich data source in social science
+research.
+
+# Introduction
+
+Particularly in business and economics, researchers have frequently used
+online marketplace data to study digital platforms. One research stream,
+for example, pertains to how large digital platforms shape competition
+and how they might engage in self-preferencing—giving preference to their own
+offers over competing ones [e.g., @reimers2023; @farronato2023;
+@waldfogel2024; @jürgensmeier2024d; @jürgensmeier2024b].
+
+Unfortunately, obtaining and processing the relevant online marketplace
+data in sufficient quantity is cumbersome. For example, researchers can
+use web scraping or query commercial databases of historical marketplace
+data. While the former comes with legal, ethical, and technical
+limitations [@boegershausen2022], the latter promises a more convenient
+avenue for researchers to acquire marketplace data. Such commercial
+databases typically provide an application programming interface (API)
+to obtain data. However, users need technical programming expertise to
+interact with this API and transform the acquired data into a
+research-suitable format. Even if such technical skills are available,
+researchers must invest substantial time to understand the API
+documentation and translate it to code that implements the desired
+process.
+
+Researchers could better spend this time and effort dealing with
+research itself---e.g., analyzing the data and drawing conclusions from
+it. Thus, this article introduces `keepar`, a package for the
+programming language `R`, which simplifies the process of identifying,
+obtaining, and transforming online marketplace data from [Keepa](https://keepa.com/)'s database. With this package, researchers can
+easily interface with Keepa's database, which, as of June 2024, contains
+historical records of more than 4.6 billion products on eleven Amazon
+marketplaces across the globe [@keepa2024c].
+
+Keepa has developed software to interface with their API
+using the programming languages `Java` [@keepa2024a] and `PHP`
+[@keepa2024b]. Additionally, a community-developed Python package exists
+to access the Keepa database [@kaszynski2024]. This article and the
+corresponding `R` package make a further contribution to those existing
+software packages in two main ways.
+
+First, it provides users of `R` easy access to the Keepa data
+through the API. Unlike the aforementioned common-purpose programming
+languages, `R` was developed specifically for data analysis and
+visualization [@ihaka1996]. Thus, it is particularly widespread among
+academics for conducting research [@giorgi2022]. Hence, the `keepar`
+package targets users who prefer using `R` for their entire research
+project, from obtaining the raw data to estimating statistical models.
+
+Second, the `keepar` package provides additional functions required to
+transform the obtained raw data into a format suitable for commonly used
+statistical methods for social science research. Thus, researchers can
+leverage the package to identify, acquire, *and* transform the data into
+a required format for their research.
+
+## Aim: Facilitating Research into Online Marketplaces by Introducing the `keepar` Package Through an Illustrative Research Project
+
+This article aims to show how social science researchers can use the
+`keepar` package to identify, acquire, and transform Amazon marketplace
+data. To this end, the article seeks to facilitate use of both the package and data by
+providing and discussing `R` code for all steps required to implement
+this analysis—from data acquisition to data transformation to model
+estimation.
+
+I do so by illustrating a mock research project analyzing the market for
+rubber ducks. Ultimately, this article shows how researchers can
+transform the acquired data for use in standard econometric methods. The
+empirical analysis implements a simple differences-in-differences
+analysis to estimate how much the sales of Christmas-themed rubber ducks
+increase during the Christmas season compared to all other rubber ducks.
+
+When consumers [search for "rubber duck" on
+Amazon](https://www.amazon.com/s?k=rubber+duck), they can choose from
+many different products. These rubber ducks vary in design, price, and
+ratings. @fig-rubber-ducks shows some examples of rubber ducks on
+the first page of the search results---but that is only the beginning. As the
+subsequent analysis reveals, Amazon lists hundreds of rubber ducks on
+the marketplace. Using the illustrative example of these little rubber
+ducks, this article will walk through the functions of the `keepar`
+package. While this rubber duck exercise may initially seem a bit silly, it
+mirrors the relevant steps a social sciences researcher would take when
+acquiring and analyzing online marketplace data.
+
+![A Selection of Rubber Ducks on
+Amazon](figures/rubber-ducks-amazon.PNG){#fig-rubber-ducks}
+
+## Requirement: A Tidy Panel Data Set of Rubber Ducks
+
+Again, this article aims to facilitate research into online marketplaces
+by providing an accessible package for most aspects of data
+identification, acquisition, and preparation for Amazon marketplace
+data. Before obtaining the raw data, let us define which data structure
+we require to fulfill this aim. Many standard econometric methods
+require a tidy panel data set that includes the relevant product
+information---for example, daily historical price data. What exactly does that
+mean? We want to create a data set that is
+
+-   *tidy* by following the tidy data principle [@wickham2019]. Most
+    importantly, every column will represent a variable, and every row
+    will represent a single observation of all variables;
+
+-   a *panel*, meaning it includes the historical data of multiple
+    products. Specifically, this means that we have a variable identifying
+    the product (the ASIN---Amazon Standard Identification Number) and
+    one variable identifying the time (often, it will be a date for a
+    daily panel frequency). The combination of `ASIN` $\times$ `date`
+    will then uniquely identify each observation, i.e., each row.
+
+Eventually, the data set should look like @tbl-mock-data, which
+illustrates the above principles.
+
+| ASIN               | Date      | Price | Sales Rank | ... |
+|--------------------|-----------|-------|------------|-----|
+| ASIN-Rubber-Duck-A | today     | 9.99  | 2          |     |
+| ASIN-Rubber-Duck-A | yesterday | 8.99  | 1          |     |
+| ASIN-Rubber-Duck-B | today     | 12.49 | 1          |     |
+| ASIN-Rubber-Duck-B | yesterday | 14.99 | 2          |     |
+| ...                |           |       |            |     |
+
+: Tidy Panel Data Set {#tbl-mock-data}
+
+This data structure will allow us to work easily with the data in various ways---be it
+visualization through `ggplot2`, data wrangling with `dplyr`, or
+regression modeling with `fixest`. Before estimating sophisticated
+models, however, we must first identify, acquire, and transform the
+data.
+
+The remainder of this article walks the reader through these steps. The
+following section first outlines how to use `keepa`'s functions to
+identify, acquire, and transform the data. Then, the article shows how
+to use this prepared data to conduct an illustrative research project.
+The last section includes a summary, conclusions, and an outlook for
+further research.
+
+
+# Identifying, Acquiring, and Transforming the Data
+
+Fulfilling our aim---facilitating online marketplace research by making
+the Keepa data more accessible through the `R` programming language---requires several steps. In a very simplified
+outline, we will:
+
+1.  Identify the ASINs (i.e., product identifiers) for all relevant
+    products.
+2.  Obtain the raw product data for all identified ASINs.
+3.  Transform the raw product data into a well-structured panel data
+    set.
+
+Before we can do that, however, we must undertake some preparation.
+
+## Preparation
+
+### API Access and Workspace Setup
+
+While Keepa offers a free but restricted account, we will require a paid
+subscription for API access. Currently, the cheapest subscription
+includes limited access to the API. Depending on how much data you need to
+download (and how quickly), you might need a more expensive subscription. You
+can read about the available plans at
+[Keepa.com/#!api](https://keepa.com/#!api). I recommend starting with
+the cheapest subscription and upgrading if necessary.
+
+Before we start, please store your private API key. A convenient way is
+to add this API key as a system environment variable in the `.RProfile`
+file. You can use the following code to open the file:
+
+```{r}
+#| eval: false
+file.edit("~/.Rprofile")
+```
+
+Then, add
+`Sys.setenv("KEEPA_API_KEY" = "insert your private Keepa API Key here")`
+to the `.RProfile` file. Finally, load the API key into your workspace
+by running:
+
+```{r}
+api_key <- Sys.getenv("KEEPA_API_KEY")
+```
+
+Let us start by loading the `keepar` package. Before loading it, you
+must install the package once on your machine by running
+`devtools::install_github("lukas-jue/keepar")`. (You also need the
+package `devtools`, which you can install through
+`install.packages("devtools")`.)
+
+```{r}
+library(keepar)
+```
+
+While this article introduces the most common functions, you can access
+the package's complete documentation, including all available functions,
+by running the command `help(package = keepar)`.
+
+You can test whether your API access works by checking your API
+account's status:
+
+```{r}
+check_status(api_key)
+```
+
+Every API call costs tokens. The greater the number of products or the more detailed the
+requested data is, the more tokens it will consume. Calling the API to
+check its status through `check_status` does not consume any tokens and
+returns `tokensLeft`. This value indicates how many tokens are currently
+available on your account.
+
+If your token balance becomes negative, you can only make new requests
+once the balance becomes positive again. Figuring out when this will occur takes some calculations. The following function implements this functionality:
+
+```{r}
+check_sufficient_tokens(api_key)
+```
+
+### Load Packages and Set Up Project Structure
+
+In addition to the previously loaded `keepar` package, please load the
+`tidyverse` package for visualization and further data processing.
+Because the data can become voluminous, we will use the fast and highly efficient `arrow` package to save and read the data in the `parquet` format.
+Since we will work with many files and paths, we will also load the `fs`
+package to simplify this work.
+
+```{r}
+#| output: false
+#| cache: false
+library(tidyverse)
+library(arrow)
+library(fs)
+```
+
+I suggest setting up an R project, as recommended by @bryan2017. Using a
+project-oriented workflow enables a self-contained project that
+integrates easily into version control systems and is executable on the local
+machines of collaborators or others aiming to replicate or extend your
+analysis. Within this project, please create a folder `data`, into which
+we will download and transform the data.
+
+## Identify Relevant Products
+
+First, we want to identify all relevant available rubber ducks on
+Amazon. But what does *all relevant* mean? How can we filter for
+specific products? This section explains and illustrates this selection
+process. As a first result, we want to count the number of all relevant available rubber ducks in the database.
+
+### Using the Product Finder to Obtain Product ASINs
+
+Our journey starts on the [Keepa](https://keepa.com) website, where we use Keepa's
+[product finder](https://keepa.com/#!finder) to identify the products
+whose data we want to download. The product finder lets users filter the database to identify the relevant products. For example, you can filter products from a specific category, within specific price ranges, or offered by particular sellers. After setting the desired filters, we can use this tool to generate a `.json` file that
+contains all filters. Later, we can send this `.json` along with our API
+request to receive the product identifier---referred to as an ASIN.
+
+After defining the relevant filters, click `SHOW API QUERY` in the product finder. You
+will then see a `.json` file similar to this one:
+
+```{r}
+#| eval: false
+{
+    "title": "rubber duck",
+    "trackingSince_lte": 4733220, 
+    "categories_include": [
+        "330390011" 
+    ],
+     "productType": [
+        "0" 
+    ],
+    "hasParentASIN": false, 
+    "sort": [
+        [
+            "current_SALES", 
+            "asc"
+        ]
+    ],
+    "perPage": 100, 
+    "page": 0 
+}
+```
+
+Save this `.json` file in your project directory. I recommend you name
+it `data/1-getASIN/product-finder-api-query.json`.
+
+### Calling the Product Finder API to Obtain the ASINs
+
+You can obtain the ASINs matching your filter conditions by sending the
+`.json` file as a payload to the API. First, you read the `.json` file
+into your environment.
+
+```{r}
+#| eval: false
+payload <- readr::read_file(
+  "data/1-getASIN/product-finder-api-query.json"
+  )
+```
+
+Second, define the marketplace for which you want to get to get ASINs and
+call the API through `get_product_asin()`.
+
+```{r}
+#| eval: false
+domain_id <- 1
+product_asin <- get_product_asin(api_key, domain_id, payload)
+```
+
+This call will yield a data frame containing the first 100 ASINs that
+match your filter criteria (in ascending order by sales rank, i.e., the
+best-selling product comes first).
+
+```{r}
+#| echo: false
+#| output: false
+product_asin <- read_parquet("data/1-getASIN/asin-page-0.parquet")
+```
+
+```{r}
+product_asin
+```
+
+Now, save this file to the pre-defined folder. Saving the ASINs will
+make your research more reproducible; since Keepa's database (and the
+underlying sales ranks on Amazon) update continuously, re-running the
+same code later will yield a different set of ASINs.
+
+```{r}
+#| eval: false
+write_parquet(product_asin, "data/1-getASIN/asin-page-0.parquet")
+```
+
+If you only need up to 100 products, you can skip the following
+paragraphs and jump to the next subsection.
+
+However, you will often want to obtain more than the first 100 ASINs. In
+this case, we must send multiple requests by iterating through the page
+variable in the `.json` file. Here is how you can do that:
+
+```{r}
+#| eval: false
+pages <- 1:2 # pages 2 and 3
+
+for (i in pages) {
+  payload_edited <- payload |>
+    str_replace("page\\\": 0", paste0("page\\\": ", i))
+  product_asin <- get_product_asin(
+    api_key, domain_id, payload_edited
+    )
+  write_parquet(
+    product_asin, paste0("data/1-getASIN/asin-page-", i, ".parquet")
+    )
+}
+```
+
+Note that, unlike the programming language `R`, the API request starts
+counting from `0`. So the second page is `1` instead of `2`. We number the
+files accordingly, starting from `0`.
+
+Once you have saved multiple ASIN files, we want to re-read them into
+our workspace and bind them together to have a list of all ASINs. First,
+we identify all files on the disk which we want to read in:
+
+```{r}
+vec_path_asin <- dir_ls("data/1-getASIN/") |> str_subset("parquet")
+vec_path_asin
+```
+
+Then, we read them all at once with the help of `purrr::map_dfr`:
+
+```{r}
+df_asin <- map_dfr(vec_path_asin, read_parquet)
+```
+
+After reading the data, we can finally answer the initial question: How
+many rubber ducks are available? We selected quite a narrow set of
+products with `r nrow(df_asin)` rubber ducks, each represented by its
+ASIN.
+
+```{r}
+nrow(df_asin)
+```
+
+However, obtaining the relevant ASINs for our products of interest is
+only the first step. We now want to analyze the product
+characteristics.
+
+## Obtaining Raw Product Data
+
+Once we have identified products for which we want to obtain detailed
+information---by obtaining their ASINs---we can query Keepa's database
+to return such information.
+
+First, we create batches of up to 100 ASINs because the Keepa API will
+only return information on a maximum of 100 products for one API
+request.
+
+```{r}
+lst_product_batches <- 
+  df_asin |> 
+  mutate(batch_id = (row_number() - 1) %/% 100) |> 
+  group_by(batch_id) |> 
+  nest() |>
+  pull(data)
+```
+
+The newly generated `lst_product_batches` is a list of data frames that
+include a maximum of 100 ASINs. Now, we can query the Keepa API for detailed
+data on each of these ASINs.
+
+### Requesting Data for up to 100 Products
+
+First, we build the API request URL for the first 100 ASINs
+
+```{r}
+#| eval: false
+vec_asin <- lst_product_batches[[1]]$asin
+
+product_request_url <- build_product_url(
+  api_key, domain_id, vec_asin,
+  offers = 20,
+  rating = 1,
+  buybox = 1
+  )
+```
+
+Then, we query Keepa's API by calling the defined URL:
+
+```{r}
+#| eval: false
+lst_products <- get_product(product_request_url)
+```
+
+The response is a large list. If it is your first time downloading the
+data, please take some time to view the raw data through
+`View(lst_products)`. The values are not necessarily self-explanatory
+(which is part of the reason for providing the `keepar` package). You
+can read the detailed explanation for each field in Keepa's [Product
+Object](https://keepa.com/#!discuss/t/product-object/116/30)
+documentation.
+
+I recommend saving this raw response in `.json` format to your disk so
+that you can always return to the raw data later. We use the `jsonlite`
+package to save `.json` files.
+
+```{r}
+#| eval: false
+jsonlite::write_json(
+  lst_products,
+  "data/2-rawData/0001-raw-data.json",
+  auto_unbox = TRUE
+)
+```
+
+We have now requested and saved data from 100 products. If that is
+sufficient, you can skip the following subsection and continue with
+@sec-transform-to-tidy.
+
+### Requesting Data for More than 100 Products
+
+If you require data on more than 100 products, you must request the
+data in batches of up to 100 products each. You can execute this request with the
+following loop, which automates the request timing. Once you have used
+up all tokens, the loop will automatically wait until your token balance
+is positive again. Only then will the script execute the subsequent request.
+
+```{r}
+#| eval: false
+for (i in 1:length(lst_product_chunks)) {
+  
+  product_url <- build_product_url(
+    api_key, domain_id, lst_product_batches[[i]]$asin,
+    offers = 20,
+    rating = 1,
+    buybox = 1
+  )
+  
+  # check if there are sufficient tokens, else wait
+  status <- check_sufficient_tokens(api_key)
+  if (status$tokensBalance < 1) {
+    message(
+      paste(
+        "waiting", round(status$secondsUntilTokensPositive / 60, 2),
+        "minutes until",
+        Sys.time() + status$secondsUntilTokensPositive + 60,
+        "when token balance is positive again"
+        )
+    )
+    Sys.sleep(status$secondsUntilTokensPositive + 60)
+  }
+  
+  # request data from API
+  lst_products <- get_product(product_url)
+  
+  # save
+  jsonlite::write_json(
+    lst_products,
+    paste0(
+      "data/2-rawData/",
+      formatC(i, width = 4, format = "d", flag = "0"),
+      "-raw-data.json"
+    ),
+    auto_unbox = TRUE
+  )
+  
+  # print status
+  message(
+    paste0(
+      i, "/", length(lst_product_chunks), " | ",
+      round(100 * i / length(lst_product_chunks), 0), "% ",
+      "of batches saved at ", Sys.time(),
+      " | ", check_sufficient_tokens(api_key)$tokensBalance,
+      " tokens left")
+  )
+  
+}
+
+```
+
+We have now successfully saved all required raw data to our disk.
+However, we cannot do much with the raw `.json` files unless we
+transform them into an appropriate format for typical research methods.
+
+## Transforming the Raw Data to Tidy Panel Data for our Analysis {#sec-transform-to-tidy}
+
+To transform the raw data, we first read it back into the workspace.
+Again, we use the `purrr` package and its `map` function to read all files into one list.
+
+```{r}
+vec_path_json <- dir_ls("data/2-rawData/") |>
+  str_subset("json")
+lst_json <- map(vec_path_json, jsonlite::fromJSON)
+```
+
+Once we have loaded all the raw data into our workspace, we can extract the
+relevant data from it.
+
+We do so with a suite of functions, explained in the following
+subsections. These subsections start with extracting the product
+metadata and then discuss the extraction of time-varying data, such as prices
+and sales ranks.
+
+### Product Metadata
+
+#### `tidy_product` extracts most product-level metadata.
+
+The function `tidy_product` generates a tidy data frame that includes
+most of the product metadata in the raw data. Every row corresponds to a
+single product, identified through its ASIN. This data frame includes,
+for example, information on the product `title`, its `manufacturer`,
+`brand`, and `rootCategory` (i.e., the broadest category of the product).
+
+```{r}
+df_products <- map_dfr(lst_json, tidy_product)
+df_products
+```
+
+#### `get_product_category_tree` extracts products' category trees
+
+Each product can be listed in multiple categories, organized in a
+hierarchical category tree. `get_product_category_tree` extracts this
+category tree:
+
+```{r}
+df_category_tree <- map_dfr(lst_json, get_product_category_tree)
+df_category_tree
+```
+
+This data frame contains the category's ID (`catId`), name (`catName`),
+and depth (`catDepth`). The latter indicates a category's position in
+the category tree: `catDepth == 1` indicates a product's broadest
+category. The higher this value, the narrower (i.e., more specific) the
+category.
+
+For the first product in the data frame, our category tree appears as
+follows:
+
+```{r}
+df_category_tree_first <- df_category_tree |> 
+  filter(asin == "B07L6BBW2Q")
+df_category_tree_first
+```
+
+We can see that the broadest category is
+*`r df_category_tree_first |> get_product_broadest_category() |> pull(catName)`*,
+and the narrowest is
+*`r df_category_tree_first |> get_product_narrowest_category() |> pull(catName)`*.
+You can quickly access those categories through
+`get_product_broadest_category` and `get_product_narrowest_category`.
+
+### Historical Event Data
+
+Beyond obtaining the current metadata, we are interested in the
+historical development of a product's characteristics. We can obtain
+such data through the following functions.
+
+Importantly, all historical data is in an *event data* format. This
+format means that there will only be a new row in the data frame if
+the respective information has changed. This format differs from the
+typical data we use in social sciences, which is often evenly-spaced panel data
+with a single observation on each day or week. In contrast, *event data*
+features an irregularly spaced frequency and can have multiple
+observations per day or none for weeks, depending on how frequently the
+underlying product characteristics have changed.
+
+#### `get_product_price_buybox` extracts the product's buy box price history
+
+Every product on Amazon can have multiple sellers competing to sell the
+same product. Hence, every product can have various offers. Amazon
+simplifies the process of consumers picking a seller by recommending a
+default seller through the buy box. In analyses, it often makes sense to
+focus on the offer that *wins* the buy box because most customers buy
+from this recommended seller [@zeibak2020; @lanxner2019].
+
+We now extract one of the most relevant historical product
+characteristics---the price. More precisely, this is the price of the offer
+occupying the buy box at the given time.
+
+```{r}
+df_buybox_price <- map_dfr(lst_json, get_product_price_buybox)
+df_buybox_price
+```
+
+If `priceBuybox == NA`, then the product did not have an active buy box
+seller at that particular time. That either means that the product was unavailable
+or that no seller qualified to *win* the buy box. Note that the resulting
+data frame includes two price columns: `priceBuybox` (the buy box price)
+and `shippingBuybox` (the shipping cost of the buy box offer). Often,
+`shippingBuybox` is zero. However, I recommend adding both to compute a
+`price` variable.
+
+We can now visualize the development of a product's prices over time.
+For simplicity, let us focus on the first rubber duck.
+
+```{r}
+#| fig-cap: "Buy Box Price Development of the First Rubber Duck in the Data Set"
+#| fig-cap-location: top
+#| label: fig-buy-box-price
+vec_asin_filter <- df_buybox_price |>
+  distinct(asin) |> slice(1) |> pull()
+
+vec_title <- df_products |>
+  filter(asin %in% vec_asin_filter) |> select(title) |>
+  pull() |> str_sub(1, 43)
+
+df_buybox_price |> 
+  filter(asin %in% vec_asin_filter) |> 
+  mutate(price = priceBuybox + shippingBuybox) |> 
+  ggplot(aes(datetime, price)) +
+  geom_step() +
+  scale_y_continuous(labels = scales::dollar) +
+  labs(
+    title = paste0("Product: ", vec_title),
+    x = "Date",
+    y = "Price"
+  ) +
+  theme_minimal()
+
+```
+
+@fig-buy-box-price already provides rich information on the product. We
+can see that the prices of rubber ducks vary strongly over time. While
+the cheapest available price over time is
+$`r df_buybox_price |> filter(asin == vec_asin_filter) |> select(priceBuybox) |> filter(!is.na(priceBuybox)) |> min()`,
+the offer peaked at double this price
+($`r df_buybox_price |> filter(asin == vec_asin_filter) |> select(priceBuybox) |> filter(!is.na(priceBuybox)) |> max()`)
+for short durations.
+
+Because the line indicating the price is missing for some dates, we can
+conclude that the product was not always available---if the price is
+missing, it implies that no seller *won* the buy box.
+
+#### `get_product_buybox_history` extracts the product's buy box seller history
+
+You can obtain information on which seller *won* the buy box at which
+time through `get_product_buybox_history`. Note that this function only
+works if you specify `build_product_url(..., buybox = 1)` such that the
+raw data includes information on the buy box history.
+
+```{r}
+df_buybox_history <- map_dfr(lst_json, get_product_buybox_history)
+df_buybox_history
+```
+
+If you are interested in other prices, you can call
+`get_product_price_amazon` (for the price offered by Amazon as the seller) and
+`get_product_price_marketplace` (for the lowest non-Amazon offer).
+
+#### `get_product_sales_rank_reference` extracts the sales rank history for the reference category
+
+We can obtain the sales rank history to analyze how well a product has
+sold. The sales rank is a proxy for sales based on the following
+simplified logic: Amazon ranks all
+products by sales for a specific product category. The best-selling product in the category
+receives the sales rank `1`, the second-best-selling product receives sales rank `2`, and so
+on. Hence, the absolute value of the sales rank is only comparable
+*within* the same category.
+
+Amazon provides---and Keepa tracks---different sales ranks for the same
+product. Often, the sales rank for a product's *reference category*
+(also called *root category*) is useful---the reference category is the broadest available category. Hence, chances
+are highest that similar products fall into the same reference
+category, making the products' sales ranks directly comparable.
+
+You can extract the products' sales ranks for the reference category
+through `get_product_sales_rank_reference`:
+
+```{r}
+df_salesRank <- map_dfr(lst_json, get_product_sales_rank_reference)
+df_salesRank
+```
+
+As you can see from the number of observations in the resulting data
+frame, the sales rank data is comparatively abundant: `r nrow(df_products)`
+products yield `r scales::label_comma()(nrow(df_salesRank))` sales rank
+observations. Hence, it might be advisable to restrict your observation
+period to the smallest required time frame.
+
+#### `get_product_rating` extracts the products' star rating history
+
+How well did consumers like the product over time? You can answer this
+question by extracting the products' rating history, which shows a
+product's star rating at historical points in time.
+
+```{r}
+df_rating <- map_dfr(lst_json, get_product_rating)
+df_rating
+```
+
+#### `get_product_reviews` extracts the products' history of number of reviews
+
+Beyond the star rating, you can also extract the number of reviews the
+given product had at past dates in its history. You can extract this
+historical information through `get_product_reviews`:
+
+```{r}
+df_count_reviews <- map_dfr(lst_json, get_product_reviews)
+df_count_reviews
+```
+
+### Other functions
+
+The `keepar` package contains some more functions to extract data from
+product objects. These include `get_product_offers` to check a product's
+offers (i.e., which sellers have offered the product at least once) and
+`get_product_offers_history` to obtain the historical prices of those
+sellers' offers.
+
+## Saving Product Data
+
+Once you have extracted all relevant product data, you can save those to
+your disk. I recommend doing so since the data might become larger than
+your available memory once you combine the individual data in the next section. We can
+follow our initial folder structure and create a new `data/3-tidyData/`
+folder for the *tidy*-ed data.
+
+We can either save the data individually by data frame:
+
+```{r}
+#| eval: false
+write_parquet(df_products, "data/3-tidyData/df_products.parquet")
+```
+
+Or we can save them all at once:
+
+```{r}
+#| eval: false
+# define a list with all data frames to save
+lst(
+  df_products, df_category_tree, df_buybox_price,
+  df_buybox_history, df_salesRank, df_rating,
+  df_count_reviews
+) |> 
+  # save all data frames from the list individually
+  iwalk(
+    \(x, y) write_parquet(
+      x, paste0("data/3-tidyData/", y, ".parquet")
+    )
+  )
+```
+
+## Transforming *Event* to *Panel* Data {#sec-transform-to-panel}
+
+Until now, we have extracted product *meta* or *event* data from the raw
+product data. This manner of storing the raw data is efficient---you only
+have to record a new row when a product attribute (e.g., its price) has
+changed. However, many typical methods---for example (fixed effects)
+regressions---require evenly-spaced (panel) data.
+
+Thus, we must convert the unevenly-spaced *event* data set to an
+evenly-spaced panel data set. Also, we only have individual variables
+stored in individual data frames (e.g., prices and sales ranks are in
+two different data sets). Thus, we want to create a single panel data
+set that features a single observation per day per product, and which
+includes all previously introduced historical product variables (e.g.,
+prices, sales ranks, and ratings).
+
+First, we read all previously saved data frames from the
+`data/3-tidyData` folder into a list called `lst_df`.
+
+```{r}
+vec_path <- "data/3-tidyData"
+
+lst_df <- dir_ls(vec_path) |> 
+  map(read_parquet) |>
+  set_names(
+    basename(dir_ls(vec_path)) |>
+    str_remove_all(".parquet")
+            )
+```
+
+### Interlude: A Note on Time Zones
+
+Before we can start transforming the data---specifically, transforming
+the `datetime` variable from irregularly-spaced *events* to
+regularly-spaced *daily* frequency---we must consider time zones. All
+`datetime` values in the above data frames are in *Coordinated
+Universal Time* (UTC). For example:
+
+```{r}
+df_rating |> slice(1) |> pull(datetime)
+```
+
+If you want to merge the above data with external data sources in local
+time, you need to transform the `datetime` variable. For example, the
+offset between UTC and Eastern Standard Time (EST) on the United States
+Amazon marketplace is -5 hours. We can transform the time zones with
+`lubridate`'s `with_tz()`:
+
+```{r}
+df_rating |> slice(1) |> pull(datetime) |> with_tz("EST")
+```
+
+If we want to transform all `datetime` in the `lst_df` data frames into
+the EST time zone, we can run the following code across all elements of
+`lst_df`:
+
+```{r}
+lst_df <- lst_df |> 
+  map(
+    \(x) x |> 
+      mutate(
+        across(
+          where(is.POSIXct),
+          \(y) with_tz(y, "EST")
+        )
+      )
+  )
+```
+
+### Generating a Daily Panel of a Single Variable
+
+Let us now start transforming the data from *event* to daily *panel*
+data. This subsection uses the buy box price data in `df_buybox_price`
+to explain the process and then provides the code for other variables.
+
+#### Buy Box Price
+
+First, however, we need to decide on which observation to use as *the*
+daily observation if there is more than one observation per day. Some
+options would be taking the mean, median, or the first or last price of
+the day. In the following, we take a cue from @jürgensmeier2024b and use the last daily observation to
+represent the daily value.
+
+We start by extracting the last observation on each day for each
+product.
+
+```{r}
+df_price_daily_raw <- lst_df$df_buybox_price |> 
+  mutate(price = priceBuybox + shippingBuybox) |> 
+  mutate(date = as.Date(datetime),
+         isPriceNa = if_else(is.na(price), TRUE, FALSE)) |> 
+  group_by(asin, date) |> 
+  slice(n()) |> # last observation: n(); first observation: 1
+  mutate(isPriceChange = TRUE)
+```
+
+We then create a *grid* data frame---containing one row for each product
+and each date---and *left join* it with `df_price_daily_raw`.
+
+```{r}
+df_grid <- df_price_daily_raw |> 
+  construct_ts_grid_by_group()
+
+df_price_daily <- df_grid |> 
+  left_join(df_price_daily_raw, by = c("asin", "date")) |>
+  fill(c(price , isPriceNa), .direction = "down") |> 
+  replace_na(list(isPriceChange = FALSE)) |> 
+  mutate(price = if_else(isPriceNa == TRUE, as.numeric(NA), price)) |> 
+  select(-c(datetime, priceBuybox, shippingBuybox))
+```
+
+This procedure yields a tidy panel data set with daily frequency including
+all buy box prices.
+
+```{r}
+df_price_daily
+```
+
+Note that this data frame has one observation for each date and
+product---irrespective of whether `df_price_daily_raw` contained an
+observation for that day. In the above code,
+`fill(..., .direction = "down")` fills all `NA` values in a downward
+direction with the last non-`NA` value. This procedure is valid because
+Keepa only stores an entry in the *event* data sets if the underlying
+value (e.g., the price) changes. Thus, if there is no entry in the raw data, the price
+remains unchanged, and we can replace the `NA` value with the last known
+price. Similarly, if the buy box was unavailable, i.e., the price in
+`df_price_daily_raw` is `NA`, the above code ensures that the below
+values will remain `NA` until the buy box becomes available again.
+
+#### Sales Rank
+
+Similar to the buy box price, we can transform the sales rank *event* to
+*panel* data through the following process:
+
+```{r}
+df_sales_rank_daily_raw <- lst_df$df_salesRank |> 
+  mutate(
+    date = as.Date(datetime),
+    isSalesRankNa = if_else(is.na(salesRank), TRUE, FALSE)
+    ) |> 
+  group_by(asin, date) |> 
+  slice(n())
+
+df_salesrank_daily <- df_sales_rank_daily_raw |>
+  construct_ts_grid_by_group() |> 
+  left_join(df_sales_rank_daily_raw, by = c("asin", "date")) |>
+  fill(
+    c(salesRank, salesRankReference, isSalesRankNa),
+    .direction = "down"
+    ) |>
+  mutate(salesRank = if_else(
+    isSalesRankNa == TRUE, as.integer(NA), salesRank)
+    ) |> 
+  select(-datetime)
+```
+
+### Generating a Daily Panel of Multiple Variables
+
+We have now generated two panel data sets, one for the `price` variable
+and one for the `salesRank` variable.
+The following commands join those
+individual panels and generate a full panel data set that includes both
+variables.
+
+```{r}
+df_panel_joined <- df_salesrank_daily |> 
+  full_join(df_price_daily, by = c("asin", "date"))
+```
+
+You can use the `skim()` function from the `skimr` package to easily
+generate the summary statistics for the resulting panel data set. This
+data set contains the daily information regarding prices and sales ranks for
+each product and enables us to use standard statistical methods, such as
+fixed-effects regression analyses, which often require evenly-spaced
+panel data.
+
+```{r}
+skimr::skim(df_panel_joined)
+```
+
+These summary statistics conclude the section on identifying, obtaining,
+and transforming product data with the `keepar` package and lead us
+toward the data analysis.
+
+# Illustrative Analysis: Sales of Christmas-Themed Rubber Ducks
+
+Once we have generated a suitable data set, we can use it for our
+analyses. This section shows how to use the generated panel data for an
+illustrative difference-in-differences analysis, as pioneered by
+@card1993 and discussed in detail in canonical textbooks [e.g.,
+@angrist2009a].
+
+Imagine you are a rubber duck seller offering a variety of
+differently-themed rubber ducks. You suspect that consumers would likely
+purchase more rubber ducks during the period leading up to Christmas.
+Furthermore, you suspect that these additional Christmas sales would be even
+higher for Christmas-themed rubber ducks relative to other types.
+To increase your sales, you
+decided to introduce Christmas-themed rubber ducks one year ago.
+
+After this year, you want to evaluate how well your Christmas-themed
+rubber ducks sold *in comparison* to all other rubber ducks *during* the
+Christmas season. An appropriate method for such an assessment is a
+difference-in-differences analysis. With this approach, you can estimate
+how the Christmas season affects sales of Christmas-themed rubber ducks compared to
+other kinds of rubber ducks, as measured by a product's sales rank.
+
+## Identify Christmas-Themed Ducks
+
+Before we can start this analysis, we have to identify all
+Christmas-themed rubber ducks. We do so by checking whether the `title`
+variable in the data frame `df_products` contains either the word `Santa` or
+`Christmas` (without case sensitivity).
+
+```{r}
+df_products_isChristmasDuck <- df_products |> 
+  mutate(
+    isChristmasDuck = if_else(
+      str_detect(
+        title, "(?i)Santa|Christmas"),
+      "Christmas Ducks", "Other Ducks"
+      )
+    ) |> 
+  select(asin, title, isChristmasDuck)
+```
+
+Our data set of `r nrow(df_products_isChristmasDuck)` contains
+`r ifelse(df_products_isChristmasDuck |> filter(isChristmasDuck == "Christmas Ducks") |> nrow() == 9, "nine", 9)`
+Christmas-themed rubber ducks.
+
+```{r}
+df_products_isChristmasDuck |> 
+  count(isChristmasDuck)
+```
+
+Now that we have identified whether each duck is Christmas-themed
+or not, we can visualize our historical product data set conditional on
+this information.
+
+## Visualize Sales Rank Development
+
+For this analysis, we aim to visualize the sales rank development over
+time as a proxy for the products' sales. Since we are interested in how
+well Christmas-themed rubber ducks sell compared to non-Christmas (i.e.,
+"other") rubber ducks, we visualize the mean daily sales rank for each
+of those two groups. Also, we generate a new variable
+`isChristmasSeason`, which indicates whether the observation is shortly
+before Christmas (i.e., between `2023-11-01` and `2023-12-25`) or
+outside the Christmas season. The following code prepares the data
+accordingly and ensures that we include only the year `2023` for illustrative
+purposes.
+
+```{r}
+#| warning: false
+df_panel_season_2023 <- df_panel_joined |> 
+  left_join(df_products_isChristmasDuck, by = "asin") |> 
+  mutate(
+    isChristmasSeason = if_else(
+      date >= as.Date("2023-11-01") & date <= as.Date("2023-12-25"),
+      TRUE, FALSE
+      )
+    ) |> 
+  group_by(date, isChristmasDuck, isChristmasSeason) |> 
+  summarize(
+    salesRank = mean(salesRank, na.rm = TRUE)
+  ) |> 
+  filter(date >= "2023-01-01" & date <= "2023-12-31") |> 
+  ungroup() |> 
+  mutate(
+    isChristmasSeason = if_else(
+      isChristmasSeason, "Christmas Season",
+      "Before Christmas Season"
+      ),
+    isChristmasSeason = relevel(
+      as.factor(isChristmasSeason), ref = "Before Christmas Season"
+      ),
+    isChristmasDuck = as.factor(isChristmasDuck),
+    isChristmasDuck = relevel(
+      as.factor(isChristmasDuck), ref = "Other Ducks"
+      )
+  )
+```
+
+For the interpretation of the following analysis, remember that a
+*higher* sales rank means *fewer* sales. The best-selling product
+exhibits a sales rank of one within its category. The lower the sales of the
+product, the higher its sales rank. Thus, the sales rank
+decreases when the product sells better.
+
+@fig-sales-rank-time-series plots the mean sales rank over time for
+*Christmas-themed* and *other* rubber ducks. The shaded area indicates
+the Christmas season in November and December, leading to Christmas Day
+on December 25. Based on @fig-sales-rank-time-series, sales of Christmas
+rubber ducks appear to be strongly seasonal. During the weeks before
+Christmas, the sales rank decreases substantially, which implies higher
+sales (note that the y-axis is inverted, such that a lower sales
+rank---reflecting more sales---appears higher).
+
+In comparison, the sales rank of the *other ducks* decreases less
+strongly. Thus, both product groups seem to sell better during the
+Christmas period---compared to all other products in the same root
+category. But this increase in sales appears much stronger for
+Christmas-themed rubber ducks.
+
+```{r}
+#| fig-cap: "Sales Rank Development of Christmas-Themed vs. Other Rubber Ducks Before and During Christmas Season"
+#| label: fig-sales-rank-time-series
+df_panel_season_2023 |> 
+  ggplot(aes(
+    date, salesRank,
+    color = isChristmasDuck, label = isChristmasDuck)
+    ) +
+  geom_line(linewidth = 1.2) +
+  geom_vline(
+    xintercept = as.Date("2023-12-25"),
+    linetype = "dashed", linewidth = 1.2
+    ) +
+  annotate(geom = "rect",
+             xmin = as.Date("2023-11-01"),
+             xmax = as.Date("2023-12-25"),
+             ymin = -Inf,
+             ymax = +Inf,
+             alpha = 0.2) +
+  scale_y_reverse(label = scales::comma) +
+  scale_color_manual(values = c("darkgrey", "darkred")) +
+  labs(
+    x = "Date",
+    y = "Sales Rank"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  facet_wrap(~isChristmasDuck, nrow = 2)
+```
+
+## Difference-in-Differences Estimation
+
+We now want to quantify the difference-in-differences between the sales
+rank of Christmas-themed vs. other rubber ducks before and during the
+Christmas period. Thus, we designate the Christmas-themed rubber ducks
+as the treatment and the other rubber ducks as the control group.
+
+Before we estimate the corresponding regression model, we visualize the
+difference-in-differences between the treatment and control group before
+and during the Christmas season.
+
+By comparing the respective mean sales ranks, @fig-sales-rank-did shows
+that the sales rank of Christmas-themed rubber ducks decreases much more
+strongly (note the reversed y-axis) than the control group of other
+rubber ducks. Again, this visualization implies that Christmas-themed
+rubber ducks sell particularly well, even beyond the expected increase
+in sales for all rubber ducks during the Christmas season.
+
+```{r}
+#| fig-cap: "Mean Sales Rank for Christmas-Themed vs. Other Rubber Ducks Before and During Christmas Season"
+#| label: fig-sales-rank-did
+df_panel_season_2023 |> 
+  group_by(isChristmasDuck, isChristmasSeason) |> 
+  summarize(
+    salesRank = mean(salesRank), .groups = "drop"
+  ) |> 
+  ggplot(aes(x = isChristmasSeason, y = salesRank, color = isChristmasDuck, shape = isChristmasDuck)) +
+  geom_line(aes(group = isChristmasDuck), linewidth = 1) +
+  geom_point(size = 3) +
+  scale_color_manual(values = c("darkgrey", "darkred")) +
+  scale_x_discrete(limit = c("Before Christmas Season", "Christmas Season")) +
+  scale_y_reverse(label = scales::comma) +
+  labs(x = element_blank()) +
+  theme_minimal() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    legend.position = "top",
+    legend.title = element_blank()
+  )
+```
+
+We then estimate the difference-in-differences model with
+`log(salesRank)` as the dependent variable, and `isChristmasDuck`,
+`isChristmasSeason`, as well as their interaction, as independent variables. We
+take the natural logarithm of each sales rank because it enables a
+relative interpretation of changes in the sales rank such that we can
+report more intuitive percentage changes.
+
+More precisely, we aim to estimate the following regression model:
+
+```{=tex}
+\begin{align}
+  log(\mathit{salesRank}_{it}) = \, &\beta_0 + \beta_1 \, \mathit{isChristmasDuck}_i + \, \\
+  & \beta_2 \, \mathit{isChristmasSeason}_t \, + \\
+  & \gamma \, \mathit{(isChristmasDuck}_i \times \mathit{isChristmasSeason}) + \epsilon_{it}
+\end{align}
+```
+We can then interpret the estimated coefficient $\hat\gamma$ of the
+interaction term of `isChristmasDuck` and `isChristmasSeason` as the
+incremental relative difference in `salesRanks` of Christmas vs.
+non-Christmas rubber ducks during the Christmas season.
+
+We can estimate and visualize this regression analysis with the
+following code:
+
+```{r}
+library(fixest)
+
+reg_1 <- feols(
+  log(salesRank) ~ isChristmasDuck * isChristmasSeason,
+  data = df_panel_season_2023
+)
+```
+
+```{r}
+#| tbl-cap: "Difference-in-Differences Estimates for the Impact of the Christmas Season on the Sales Ranks of Christmas-Themed Rubber Ducks" 
+#| eval: false
+
+etable(
+  reg_1, markdown = TRUE,
+  dict = c(
+    isChristmasDuckChristmasDucks = "Christmas Duck",
+    isChristmasSeasonChristmasSeason = "Christmas Season"
+    )
+  )
+```
+
+![Difference-in-Differences Estimates for the Impact of the Christmas
+Season on the Sales Ranks of Christmas-themed Rubber
+Ducks](./images/etable/etable_tex_2024-05-13_1123236403.png){#tbl-regression-did
+width="80%"}
+
+@tbl-regression-did displays the estimation results for the impact of
+the Christmas season on the sales rank of Christmas-themed rubber ducks
+in comparison to other rubber ducks.
+
+Interpreting the coefficient of the `Christmas Duck x Christmas Season`
+interaction (= `r reg_1$coefficients[4]`), we see that Christmas-themed
+rubber ducks exhibit a lower sales rank by
+`r round((exp(reg_1$coefficients[4]) - 1)*100, 2)`%
+($=(exp(\hat{\beta})-1)\times 100\%$) compared to non-Christmas-themed
+rubber ducks during the Christmas season. This result confirms our
+intuition and the visual analysis of the data.
+
+While this analysis is relatively simple, it illustrates how researchers
+can use the acquired and transformed data to estimate standard
+econometric models.
+
+# Summary, Conclusions, and Outlook
+
+This article has introduced the `keepar` package. Using this package, I
+demonstrated how to
+
+1.  identify products from Keepa's Amazon product database,
+
+2.  obtain (historical) product data, and
+
+3.  transform this raw data into a tidy panel data set.
+
+Illustrated with the example of rubber ducks on Amazon, this procedure
+generated a suitable data set for a difference-in-differences analysis.
+This article showcased such analysis by estimating the impact of the
+Christmas season on the sales ranks of Christmas-themed rubber ducks as
+compared to other rubber ducks.
+
+Researchers can use the `keepar` package and its functions to simplify
+working with Keepa's Amazon product data in `R`. Thus, researchers can
+focus on tasks related to answering substantive research questions
+instead of spending time acquiring and transforming the data.
+
+This paper has introduced the core functionality of the `keepar`
+package, focused on obtaining select product-related metadata and
+historical information concerning prices, sales ranks, star ratings, and number
+of reviews. Beyond this capability, the package can also extract
+historical information concerning competing offers for the same product (i.e.,
+multiple offers from different sellers for the same product). Furthermore,
+`keepar` users can extract information on sellers, such as the seller
+rating. Readers can find all available functions in the package
+documentation (accessible through `help(package = keepar)`), which
+explains in detail how to use the functions.
+
+However, the package does not cover all available methods from the Keepa
+API. Further versions of `keepar` could integrate the product search
+method, which mirrors a search request through Amazon's search engine,
+or the best seller request, which returns the best-selling list for a
+specified category. I encourage other researchers to collaborate and
+contribute to the package via its [GitHub
+repository](https://github.com/lukas-jue/keepar) [@jürgensmeier2024e].
