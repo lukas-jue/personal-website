@@ -17,8 +17,7 @@ about:
       href: https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
-I am a Ph.D. Student and Research Associate in Quantitative Marketing at
-Goethe University Frankfurt. My research and teaching focuses on the interface
+My research and teaching focuses on the interface
 between Data Science and Marketing. I like applying modern econometric
 methods to novel data sources in the digital economy---and teach students
 how to do that with `R` and `Python`.
@@ -51,7 +50,9 @@ organization teaching coding and promoting tech literacy.
 On this website, you will find information about my Academic
 [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum
 Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy
-e.V.](techacademy.qmd)
+e.V.](techacademy.qmd).
+
+I currently work at the European Central Bank. The views expressed in my research and on this website are my personal ones and do not necessarily reflect those of my employer.
 
 You can contact me via
 [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier/) or

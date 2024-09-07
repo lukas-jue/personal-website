@@ -1,6 +1,6 @@
 ---
 title: "keepar"
-subtitle: "An R Package for Online Marketplace Data in Social Science Research"
+subtitle: "keepar: An R Package for Online Marketplace Data in Social Science Research"
 vignette: >
   %\VignetteIndexEntry{demo}
   %\VignetteEngine{quarto::html}
@@ -8,10 +8,10 @@ vignette: >
 number-sections: true
 number-depth: 5
 execute: 
-  cache: true
+  cache: false
 format:
   html:
-    theme: cosmo
+    #theme: cosmo
     toc: true
     toc-location: left
     fig-cap-location: top

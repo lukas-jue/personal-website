@@ -11,7 +11,7 @@ website:
   google-analytics: "G-SRCXLB0QJK"
   open-graph:
     title: "Lukas Jürgensmeier"
-    description: "Lukas Jürgensmeier is a Ph.D. Student and Research Associate in Quantitative Marketing at Goethe University Frankfurt. His research focuses on the interface between Data Science and Marketing. Lukas applies modern econometric methods to novel data sources in the digital economy---especially with the `R` programming language."
+#    description: ""
   
   navbar:
   #sidebar:
@@ -29,7 +29,7 @@ website:
       - techacademy.qmd
       - keepar.qmd
       - contact.qmd
-  #cookie-consent: true
+  cookie-consent: true
 
 format:
   html:
