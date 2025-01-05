@@ -12,29 +12,13 @@ about:
     - icon: github
       text: Github
       href: https://github.com/lukas-jue
-    - icon: mortarboard-fill
-      text: Goethe University Profile
-      href: https://www.marketing.uni-frankfurt.de/en/departments/marketing/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
-
-Lukas Jürgensmeier is Ph.D. Student and Research Assistant in
-Quantitative Marketing at Goethe University. In his free time, Lukas
-enjoys preparing the next generation for the digital future as a Member
-of the Board at TechAcademy e.V., a non-profit organization teaching
-coding and promoting tech literacy.
-
-## Education
-
-| Degree                           | Institution                              | Date         |
-|-------------------------|-------------------------------|----------------|
-| Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
-| M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
-| Washington Semester Program      | American University, Washington, DC, USA | 2017         |
-| B.Sc. in Business Administration | University of Augsburg, Germany          | 2015 -- 2018 |
 
 ## Experience
 
-Currently, I am a Graduate Programme Participant at the European Central Bank. Additionally, I am a member of the supervisory board at [TechAcademy
+After finishing my Ph.D. in Quantitative Marketing in 2024, I joined the European Central Bank through the Graduate Programme.
+
+Additionally, I am a member of the supervisory board at [TechAcademy
 e.V.](https://tech-academy.io/), a non-profit organization teaching
 coding and promoting tech literacy.
 
@@ -53,6 +37,16 @@ Please see my
 [LinkedIn](https://www.linkedin.com/in/lukas-juergensmeier) profile for
 more information.
 
+## Education
+
+| Degree                           | Institution                              | Date         |
+|-------------------------|-------------------------------|----------------|
+| Ph.D. in Quantitative Marketing  | Goethe University, Frankfurt, Germany    | 2021 -- 2024 |
+| M.Sc. in Business Administration | Goethe University, Frankfurt, Germany    | 2018 -- 2021 |
+| Washington Semester Program      | American University, Washington, DC, USA | 2017         |
+| B.Sc. in Business Administration | University of Augsburg, Germany          | 2015 -- 2018 |
+
+
 ## Publications
 
 1. Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, 41 (3), pp. 468-488, [doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
@@ -68,7 +62,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Working Papers
 
-6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (currently revising for the fourth-round submission at the Journal of Marketing).
+6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (currently under fourth-round review at the Journal of Marketing).
 
 7. Lukas Jürgensmeier (2024): "`keepar`: An R Package for Online Marketplace Data in Social Science Research," available at [lukas-juergensmeier.com/keepar.html](https://lukas-juergensmeier.com/keepar.html) package available on [GitHub](https://github.com/lukas-jue/keepar).
 
@@ -100,6 +94,12 @@ Please see [Research](research.qmd) for detailed information.
     Point, Huawei, zeb, and Lidl.
 
 ## Honors & Awards
+
+#### Dr.-Dietmar-Harting-Award 2024 — Erich-Gutenberg-Award for Young Scientists
+
+The Dr. Dietmar Harting Prize of the Erich-Gutenberg-Arbeitsgemeinschaft is awarded annually for outstanding achievements in business administration to young scientists who have made original contributions to business research.
+
+More information on the award [here](https://www.erich-gutenberg-arbeitsgemeinschaft.de/aktivitaeten/nachwuchspreis/).
 
 #### ISMS Doctoral Dissertation Award 2023
 

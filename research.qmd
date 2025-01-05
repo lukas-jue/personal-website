@@ -26,7 +26,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Working Papers
 
-6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (third-round revise-and-resubmit at the Journal of Marketing).
+6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (under fourth-round review at the Journal of Marketing).
 
 7. Lukas Jürgensmeier (2024): "`keepar`: An R Package for Online Marketplace Data in Social Science Research," available at [lukas-juergensmeier.com/keepar.html](https://lukas-juergensmeier.com/keepar.html) package available on [GitHub](https://github.com/lukas-jue/keepar).
 
@@ -34,7 +34,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Generative AI for Scalable Feedback to Multimodal Exercises
 
-Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, forthcoming, [https://doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
+Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, 41 (3), pp. 468-488, [doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
 
 **Abstract**
 
@@ -64,7 +64,7 @@ cultural openness to moderate the strength of this ethnocentric effect.
 
 ## Opportunities for Self-Preferencing in International Online Marketplaces
 
-Jürgensmeier, Lukas, Jan Bischoff, and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Opportunities for Self-Preferencing in International Online Marketplaces", International Marketing Review, forthcoming.
+Jürgensmeier, Lukas, Jan Bischoff, and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Opportunities for Self-Preferencing in International Online Marketplaces", International Marketing Review, [doi.org/10.1108/IMR-03-2024-0094](https://doi.org/10.1108/IMR-03-2024-0094)
 
 **Abstract**
 
@@ -77,7 +77,7 @@ Most of the self-preferencing debate often focuses on private-label products. In
 ## Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills
 
 [Skiera, Bernd](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) and Lukas Jürgensmeier (2024), "Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,"
-Journal of Marketing Analytics, forthcoming, [https://doi.org/10.1057/s41270-024-00313-2](https://doi.org/10.1057/s41270-024-00313-2).
+Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024-00313-2](https://doi.org/10.1057/s41270-024-00313-2).
 
 The case study, solution, and data is available through [GitHub](https://github.com/lukas-jue/marketing-analytics-exercise).
 
@@ -120,33 +120,14 @@ Coding; Survey
 **Authors:** Lukas Jürgensmeier and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
 
-**Status:** Currently revising for the fourt-round submission at the Journal of Marketing.
+**Status:** Under fourth-round review at the Journal of Marketing.
 
 Read the full working paper on
 [SSRN](https://papers.ssrn.com/abstract_id=4393726).
 
 **Abstract**
 
-Digital platforms use recommendations to facilitate exchanges between platform
-actors, such as trade between buyers and sellers. Aiming to protect consumers
-and guarantee fair competition on platforms, legislators increasingly require
-that recommendations on market-dominating platforms be free from
-self-preferencing. That is, platforms that also act as sellers (e.g., Amazon)
-or information providers (e.g., Google) must not prefer their own offers over
-comparable third-party offers. Yet, successful enforcement of self-preferencing
-bans—to the potential benefit of consumers and third-party actors—requires
-defining and measuring self-preferencing across a platform. In the context of
-recommendations through search results, this research contributes by i)
-conceptualizing a “recommendation” as an offer’s level of search engine
-visibility across an entire platform (instead of its position in specific
-search queries, as in previous research); ii) discussing two tests for
-self-preferencing, and iii) implementing them in two empirical studies across
-three international Amazon marketplaces. Contrary to consumer expectations and
-emerging literature, our analysis finds almost no evidence for
-self-preferencing. A survey reveals that even if Amazon were proven to engage
-in self-preferencing, most consumers would not change their shopping behavior
-on the platform—highlighting Amazon’s significant market power and suggesting
-the need for robust protections for sellers and consumers.
+Digital platforms facilitate exchanges between platform actors, such as trading between buyers and sellers. However, providers of digital platforms also act on those platforms as direct competitors of third parties. Therefore, an inappropriate behavior, referred to as self-preferencing, could occur, i.e., treating the platform’s own offers better than comparable third-party offers. However, detecting self-preferencing is challenging. This article addresses this challenge conceptually and empirically. First, it puts forward a conceptual framework that defines self-preferencing and conceptualizes two self-preferencing tests. It further develops a six-step approach to implement this framework. This approach includes a novel metric of a product’s visibility on a platform, uniquely suited for self-preferencing tests. To illustrate the approach, this article applies it in two empirical studies across three international Amazon marketplaces. The results find only modest evidence for self-preferencing. However, implementing these tests requires researchers to choose between several alternative empirical choices and assumptions—all reasonable, but each can potentially affect the results. The approach proposed herein includes extensive sensitivity, specification curve, and heterogeneity analyses, which provide means to systematically assess the robustness of the conclusions—and show that the main results are not driven by those choices.
 
 **Keywords:** Digital Platforms, Amazon, Competition, Antitrust, Search Engines,
 Digital Markets Act, American Innovation and Choice Online Act.

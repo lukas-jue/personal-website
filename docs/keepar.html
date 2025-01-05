@@ -451,7 +451,7 @@ Table&nbsp;1: Tidy Panel Data Set
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 1 x 7</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   timestamp           tokensLeft refillIn refillRate tokenFlowReduction</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;dttm&gt;                   &lt;int&gt; &lt;Period&gt;      &lt;int&gt;              &lt;dbl&gt;</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 2024-09-07 14:08:15        300 52.484S           5                  0</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 2025-01-05 16:32:40        300 40.16S            5                  0</span></span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # i 2 more variables: tokensConsumed &lt;int&gt;, processingTimeInMs &lt;int&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Every API call costs tokens. The greater the number of products or the more detailed the requested data is, the more tokens it will consume. Calling the API to check its status through <code>check_status</code> does not consume any tokens and returns <code>tokensLeft</code>. This value indicates how many tokens are currently available on your account.</p>
@@ -461,7 +461,7 @@ Table&nbsp;1: Tidy Panel Data Set
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 1 x 3</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   tokensBalance secondsUntilTokensPositive datetimeTokensPositive</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           &lt;int&gt;                      &lt;dbl&gt; &lt;dttm&gt;                </span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1           300                          0 2024-09-07 16:08:16</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1           300                          0 2025-01-05 17:32:40</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="load-packages-and-set-up-project-structure" class="level3" data-number="2.1.2">
@@ -1466,8 +1466,7 @@ Figure&nbsp;4: Mean Sales Rank for Christmas-Themed vs.&nbsp;Other Rubber Ducks 
 <span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">isChristmasDuckChristmasDucks =</span> <span class="st">"Christmas Duck"</span>,</span>
 <span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">isChristmasSeasonChristmasSeason =</span> <span class="st">"Christmas Season"</span></span>
 <span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; &lt;div class = "etable"&gt;&lt;img src = "./images/etable/etable_tex_2024-09-07_1123236403.png"&gt;&lt;/div&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="tbl-regression-did" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
