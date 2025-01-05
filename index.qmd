@@ -12,9 +12,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/lukas-jue
-    - icon: mortarboard-fill
-      text: Goethe University Profile
-      href: https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html
 ---
 
 My research and teaching focuses on the interface
