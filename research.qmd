@@ -26,7 +26,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Working Papers
 
-6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (under fourth-round review at the Journal of Marketing).
+6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (under fifth-round review at the Journal of Marketing after minor revision decision).
 
 7. Lukas Jürgensmeier (2024): "`keepar`: An R Package for Online Marketplace Data in Social Science Research," available at [lukas-juergensmeier.com/keepar.html](https://lukas-juergensmeier.com/keepar.html) package available on [GitHub](https://github.com/lukas-jue/keepar).
 
@@ -120,24 +120,23 @@ Coding; Survey
 **Authors:** Lukas Jürgensmeier and [Bernd
 Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
 
-**Status:** Under fourth-round review at the Journal of Marketing.
+**Status:** Under fifth-round review at the Journal of Marketing after minor revision decision.
 
 Read the full working paper on
 [SSRN](https://papers.ssrn.com/abstract_id=4393726).
 
 **Abstract**
 
-Digital platforms facilitate exchanges between platform actors, such as trading between buyers and sellers. However, providers of digital platforms also act on those platforms as direct competitors of third parties. Therefore, an inappropriate behavior, referred to as self-preferencing, could occur, i.e., treating the platform’s own offers better than comparable third-party offers. However, detecting self-preferencing is challenging. This article addresses this challenge conceptually and empirically. First, it puts forward a conceptual framework that defines self-preferencing and conceptualizes two self-preferencing tests. It further develops a six-step approach to implement this framework. This approach includes a novel metric of a product’s visibility on a platform, uniquely suited for self-preferencing tests. To illustrate the approach, this article applies it in two empirical studies across three international Amazon marketplaces. The results find only modest evidence for self-preferencing. However, implementing these tests requires researchers to choose between several alternative empirical choices and assumptions—all reasonable, but each can potentially affect the results. The approach proposed herein includes extensive sensitivity, specification curve, and heterogeneity analyses, which provide means to systematically assess the robustness of the conclusions—and show that the main results are not driven by those choices.
+Digital platforms facilitate exchanges between platform actors, such as trading between buyers and sellers. However, providers of digital platforms also compete with other actors, referred to as third parties, on their own platforms. In such settings, self-preferencing can occur if the platform treats its own offerings better than comparable third-party offerings—a practice often deemed inappropriate. However, detecting self-preferencing is challenging. This article addresses this challenge conceptually and empirically by putting forward a conceptual framework that defines self-preferencing and conceptualizes two self-preferencing tests. It implements this framework empirically in two studies across three international Amazon marketplaces using a novel metric to measure a product's non-personalized visibility. The aggregate findings provide little evidence for self-preferencing in both studies. However, the more disaggregated findings at a country- and product category-level vary from weak self-preferencing to strong self-depreferencing. As implementing self-preferencing tests requires researchers to choose between several empirical alternatives and assumptions, the approach proposed herein includes extensive sensitivity, specification curve, and heterogeneity analyses whose results support the robustness of the findings.
 
-**Keywords:** Digital Platforms, Amazon, Competition, Antitrust, Search Engines,
-Digital Markets Act, American Innovation and Choice Online Act.
+**Keywords:** Digital Platforms, Electronic Commerce, Amazon, Competition, Search Engines, Self-Preferencing.
 
 
 ## `keepar`: An R Package to Identify, Acquire, and Transform Online Marketplace Data for Social Science Research
 
 **Authors:** Lukas Jürgensmeier
 
-**Status:** Package available at [GitHub](https://github.com/lukas-jue/keepar); draft working paper available upon request.
+**Status:** Package available at [GitHub](https://github.com/lukas-jue/keepar); working paper available [here](keepar.html).
 
 **Abstract**
 

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lukas Jürgensmeier - keepar</title>
+<title>keepar – Lukas Jürgensmeier</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -151,7 +151,7 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -199,7 +199,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -234,7 +234,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -296,7 +296,7 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -338,7 +338,7 @@ window.Quarto = {
 <p>This article aims to show how social science researchers can use the <code>keepar</code> package to identify, acquire, and transform Amazon marketplace data. To this end, the article seeks to facilitate use of both the package and data by providing and discussing <code>R</code> code for all steps required to implement this analysis—from data acquisition to data transformation to model estimation.</p>
 <p>I do so by illustrating a mock research project analyzing the market for rubber ducks. Ultimately, this article shows how researchers can transform the acquired data for use in standard econometric methods. The empirical analysis implements a simple differences-in-differences analysis to estimate how much the sales of Christmas-themed rubber ducks increase during the Christmas season compared to all other rubber ducks.</p>
 <p>When consumers <a href="https://www.amazon.com/s?k=rubber+duck">search for “rubber duck” on Amazon</a>, they can choose from many different products. These rubber ducks vary in design, price, and ratings. <a href="#fig-rubber-ducks" class="quarto-xref">Figure&nbsp;1</a> shows some examples of rubber ducks on the first page of the search results—but that is only the beginning. As the subsequent analysis reveals, Amazon lists hundreds of rubber ducks on the marketplace. Using the illustrative example of these little rubber ducks, this article will walk through the functions of the <code>keepar</code> package. While this rubber duck exercise may initially seem a bit silly, it mirrors the relevant steps a social sciences researcher would take when acquiring and analyzing online marketplace data.</p>
-<div id="fig-rubber-ducks" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-rubber-ducks" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-rubber-ducks-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A Selection of Rubber Ducks on Amazon
@@ -357,7 +357,7 @@ Figure&nbsp;1: A Selection of Rubber Ducks on Amazon
 <li><p>a <em>panel</em>, meaning it includes the historical data of multiple products. Specifically, this means that we have a variable identifying the product (the ASIN—Amazon Standard Identification Number) and one variable identifying the time (often, it will be a date for a daily panel frequency). The combination of <code>ASIN</code> <span class="math inline">\(\times\)</span> <code>date</code> will then uniquely identify each observation, i.e., each row.</p></li>
 </ul>
 <p>Eventually, the data set should look like <a href="#tbl-mock-data" class="quarto-xref">Table&nbsp;1</a>, which illustrates the above principles.</p>
-<div id="tbl-mock-data" class="quarto-float anchored">
+<div id="tbl-mock-data" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mock-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Tidy Panel Data Set
@@ -451,7 +451,7 @@ Table&nbsp;1: Tidy Panel Data Set
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 1 x 7</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   timestamp           tokensLeft refillIn refillRate tokenFlowReduction</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   &lt;dttm&gt;                   &lt;int&gt; &lt;Period&gt;      &lt;int&gt;              &lt;dbl&gt;</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 2025-01-05 16:37:14        300 6.927S            5                  0</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1 2025-06-08 15:07:24        300 24.296S           5                  0</span></span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # i 2 more variables: tokensConsumed &lt;int&gt;, processingTimeInMs &lt;int&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Every API call costs tokens. The greater the number of products or the more detailed the requested data is, the more tokens it will consume. Calling the API to check its status through <code>check_status</code> does not consume any tokens and returns <code>tokensLeft</code>. This value indicates how many tokens are currently available on your account.</p>
@@ -461,7 +461,7 @@ Table&nbsp;1: Tidy Panel Data Set
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; # A tibble: 1 x 3</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   tokensBalance secondsUntilTokensPositive datetimeTokensPositive</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           &lt;int&gt;                      &lt;dbl&gt; &lt;dttm&gt;                </span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1           300                          0 2025-01-05 17:37:15</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1           300                          0 2025-06-08 17:07:24</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="load-packages-and-set-up-project-structure" class="level3" data-number="2.1.2">
@@ -799,7 +799,7 @@ Table&nbsp;1: Tidy Panel Data Set
 <span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-buy-box-price" class="quarto-figure quarto-figure-center quarto-float anchored" data-cap-location="top">
+<div id="fig-buy-box-price" class="quarto-float quarto-figure quarto-figure-center anchored" data-cap-location="top">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-buy-box-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Buy Box Price Development of the First Rubber Duck in the Data Set
@@ -1391,7 +1391,7 @@ Figure&nbsp;2: Buy Box Price Development of the First Rubber Duck in the Data Se
 <span id="cb46-24"><a href="#cb46-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
 <span id="cb46-25"><a href="#cb46-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>isChristmasDuck, <span class="at">nrow =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-sales-rank-time-series" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-sales-rank-time-series" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-sales-rank-time-series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Sales Rank Development of Christmas-Themed vs.&nbsp;Other Rubber Ducks Before and During Christmas Season
@@ -1430,7 +1430,7 @@ Figure&nbsp;3: Sales Rank Development of Christmas-Themed vs.&nbsp;Other Rubber 
 <span id="cb47-18"><a href="#cb47-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>()</span>
 <span id="cb47-19"><a href="#cb47-19" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-sales-rank-did" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-sales-rank-did" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-sales-rank-did-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Mean Sales Rank for Christmas-Themed vs.&nbsp;Other Rubber Ducks Before and During Christmas Season
@@ -1468,7 +1468,7 @@ Figure&nbsp;4: Mean Sales Rank for Christmas-Themed vs.&nbsp;Other Rubber Ducks 
 <span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>    )</span>
 <span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="tbl-regression-did" class="quarto-float anchored">
+<div id="tbl-regression-did" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regression-did-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;2: Difference-in-Differences Estimates for the Impact of the Christmas Season on the Sales Ranks of Christmas-themed Rubber Ducks
@@ -1594,18 +1594,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1637,7 +1626,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/lukas-juergensmeier\.com");
@@ -1645,7 +1656,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

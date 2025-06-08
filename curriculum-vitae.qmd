@@ -62,7 +62,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Working Papers
 
-6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (currently under fourth-round review at the Journal of Marketing).
+6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (under fifth-round review at the Journal of Marketing after minor revision decision).
 
 7. Lukas Jürgensmeier (2024): "`keepar`: An R Package for Online Marketplace Data in Social Science Research," available at [lukas-juergensmeier.com/keepar.html](https://lukas-juergensmeier.com/keepar.html) package available on [GitHub](https://github.com/lukas-jue/keepar).
 
