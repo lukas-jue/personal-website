@@ -19,8 +19,7 @@ between Data Science and Marketing. I like applying modern econometric
 methods to novel data sources in the digital economy---and teach students
 how to do that with `R` and `Python`.
 
-In my research project [Measuring Self-Preferencing on Digital Platforms](research.html#measuring-self-preferencing-on-digital-platforms),
-we develop an approach to test for self-preferencing through platform recommendations.
+In [Measuring Self-Preferencing on Digital Platforms](research.html#measuring-self-preferencing-on-digital-platforms), we develop an approach to test for self-preferencing through platform recommendations. This article is forthcoming in the Journal of Marketing.
 
 "[Do Political Conflicts Influence Daily
 Consumption
@@ -28,7 +27,7 @@ Choices?](research.qmd#do-political-conflicts-influence-daily-consumption-choice
 vast smartphone location data and textual analysis of newspaper articles
 to assess the impact of political conflict on consumption.
 
-For the newest project, we created a Generative AI app that provide personalized
+For a teaching-inspired project, we created a Generative AI app that provide personalized
 feedback to students. Published in the *International Journal of Research in Marketing,*
 [Generative AI for Scalable Feedback to Multimodal Exercises](research.html#generative-ai-for-scalable-feedback-to-multimodal-exercises)
 describes how well that works (spoiler: quite well!)
@@ -47,7 +46,7 @@ organization teaching coding and promoting tech literacy.
 On this website, you will find information about my Academic
 [Research](research.qmd) and [Teaching](teaching.qmd), my [Curriculum
 Vitae](curriculum-vitae.qmd), and my passion project---[TechAcademy
-e.V.](techacademy.qmd).
+e.V.](techacademy.qmd)
 
 I currently work at the European Central Bank. The views expressed in my research and on this website are my personal ones and do not necessarily reflect those of my employer.
 

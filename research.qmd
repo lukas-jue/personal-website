@@ -13,24 +13,35 @@ grouped by [publications](research.qmd#publications) and
 
 ## Publications
 
-1. Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, 41 (3), pp. 468-488, [doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
+1. Jürgensmeier, Lukas and Bernd Skiera (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), available at [SSRN](https://ssrn.com/abstract=4393726).
 
-2. [Proffen, Celina](https://www.celinaproffen.com/)  and Lukas Jürgensmeier (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031), shared first authorship.
+2. Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, 41 (3), pp. 468-488, [doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
 
-3. Jürgensmeier, Lukas, Jan Bischoff, and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Opportunities for Self-Preferencing in International Online Marketplaces", International Marketing Review, [doi.org/10.1108/IMR-03-2024-0094](https://doi.org/10.1108/IMR-03-2024-0094)
+3. [Proffen, Celina](https://www.celinaproffen.com/)  and Lukas Jürgensmeier (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031), shared first authorship.
 
-4. [Skiera, Bernd](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) and Lukas Jürgensmeier (2024), "Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,"
+4. Jürgensmeier, Lukas, Jan Bischoff, and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Opportunities for Self-Preferencing in International Online Marketplaces", International Marketing Review, [doi.org/10.1108/IMR-03-2024-0094](https://doi.org/10.1108/IMR-03-2024-0094)
+
+5. [Skiera, Bernd](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) and Lukas Jürgensmeier (2024), "Teaching Marketing Analytics: A Pricing Case Study for Quantitative and Substantive Marketing Skills,"
 Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024-00313-2](https://doi.org/10.1057/s41270-024-00313-2).
 
-5. [Schönborn, Sofie](https://www.linkedin.com/in/sofieschoenborn/), Lukas Jürgensmeier, [Carolin Neumann](https://de.linkedin.com/in/neumanncarolin), [Stefan Hildebrand](https://www.linkedin.com/in/stefan-hildebrand-a246501b9/), [Gabriel Häusler](https://www.linkedin.com/in/gabrielhaeusler), [David Middelbeck](https://www.linkedin.com/in/davidmiddelbeck) (2023): "Wind of Change: Ehrenamtliche Organisationen und Angebote der jungen Generation zur Digitalbildung in Deutschland," in: Digitalisierung in der Hochschullehre: Perspektiven und Gestaltungsoptionen, Forum Lehrerinnen- und Lehrerbildung (11). University of Bamberg Press, [https://doi.org/10.20378/irb-59190](https://fis.uni-bamberg.de/server/api/core/bitstreams/a1ba0881-1e3c-4f4a-acdd-04c8e41b8f7d/content).
+6. [Schönborn, Sofie](https://www.linkedin.com/in/sofieschoenborn/), Lukas Jürgensmeier, [Carolin Neumann](https://de.linkedin.com/in/neumanncarolin), [Stefan Hildebrand](https://www.linkedin.com/in/stefan-hildebrand-a246501b9/), [Gabriel Häusler](https://www.linkedin.com/in/gabrielhaeusler), [David Middelbeck](https://www.linkedin.com/in/davidmiddelbeck) (2023): "Wind of Change: Ehrenamtliche Organisationen und Angebote der jungen Generation zur Digitalbildung in Deutschland," in: Digitalisierung in der Hochschullehre: Perspektiven und Gestaltungsoptionen, Forum Lehrerinnen- und Lehrerbildung (11). University of Bamberg Press, [https://doi.org/10.20378/irb-59190](https://fis.uni-bamberg.de/server/api/core/bitstreams/a1ba0881-1e3c-4f4a-acdd-04c8e41b8f7d/content).
 
 ## Working Papers
-
-6. Jürgensmeier, Lukas and Bernd Skiera (2024), "Measuring Self-preferencing on Digital Platforms," working paper available at [SSRN](https://ssrn.com/abstract=4393726) (under fifth-round review at the Journal of Marketing after minor revision decision).
 
 7. Lukas Jürgensmeier (2024): "`keepar`: An R Package for Online Marketplace Data in Social Science Research," available at [lukas-juergensmeier.com/keepar.html](https://lukas-juergensmeier.com/keepar.html) package available on [GitHub](https://github.com/lukas-jue/keepar).
 
 # Detailed Information on Publications
+
+## Measuring Self-Preferencing on Digital Platforms
+
+Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), available at [SSRN](https://ssrn.com/abstract=4393726).
+
+**Abstract**
+
+Digital platforms facilitate exchanges between platform actors, such as trading between buyers and sellers. However, providers of digital platforms also compete with other actors, referred to as third parties, on their own platforms. In such settings, self-preferencing can occur if the platform treats its own offerings better than comparable third-party offerings—a practice often deemed inappropriate. However, detecting self-preferencing is challenging. This article addresses this challenge conceptually and empirically by putting forward a conceptual framework that defines self-preferencing and conceptualizes two self-preferencing tests. It implements this framework empirically in two studies across three international Amazon marketplaces using a novel metric to measure a product’s non-personalized visibility. The aggregate findings provide little evidence for self-preferencing in both studies. However, the more disaggregated findings at a country- and product category-level vary from weak self-preferencing to strong self-depreferencing. As implementing self-preferencing tests requires researchers to choose between several empirical alternatives and assumptions, the approach proposed herein includes extensive sensitivity, specification curve, and heterogeneity analyses whose results support the robustness of the findings.
+
+**Keywords:** Digital Platforms, Electronic Commerce, Amazon, Competition, Search Engines, Self-Preferencing.
+
 
 ## Generative AI for Scalable Feedback to Multimodal Exercises
 
@@ -45,7 +56,7 @@ Analytics, Learning.
 
 ## Do Political Conflicts Influence Daily Consumption Choices? Evidence from US-China Relations
 
-[Proffen, Celina](https://www.celinaproffen.com/)  and Lukas Jürgensmeier (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [https://doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031), shared first authorship.
+[Proffen, Celina](https://www.celinaproffen.com/) and Lukas Jürgensmeier (2024), "Do political conflicts influence daily consumption choices? Evidence from US-China relations," Journal of Economic Behavior & Organization, 220, pp. 660-674, [https://doi.org/10.1016/j.jebo.2024.02.031](https://doi.org/10.1016/j.jebo.2024.02.031), shared first authorship.
 
 **Abstract**
 
@@ -114,22 +125,6 @@ Coding; Survey
 
 
 # Detailed Information on Working Papers
-
-## Measuring Self-Preferencing on Digital Platforms
-
-**Authors:** Lukas Jürgensmeier and [Bernd
-Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html).
-
-**Status:** Under fifth-round review at the Journal of Marketing after minor revision decision.
-
-Read the full working paper on
-[SSRN](https://papers.ssrn.com/abstract_id=4393726).
-
-**Abstract**
-
-Digital platforms facilitate exchanges between platform actors, such as trading between buyers and sellers. However, providers of digital platforms also compete with other actors, referred to as third parties, on their own platforms. In such settings, self-preferencing can occur if the platform treats its own offerings better than comparable third-party offerings—a practice often deemed inappropriate. However, detecting self-preferencing is challenging. This article addresses this challenge conceptually and empirically by putting forward a conceptual framework that defines self-preferencing and conceptualizes two self-preferencing tests. It implements this framework empirically in two studies across three international Amazon marketplaces using a novel metric to measure a product's non-personalized visibility. The aggregate findings provide little evidence for self-preferencing in both studies. However, the more disaggregated findings at a country- and product category-level vary from weak self-preferencing to strong self-depreferencing. As implementing self-preferencing tests requires researchers to choose between several empirical alternatives and assumptions, the approach proposed herein includes extensive sensitivity, specification curve, and heterogeneity analyses whose results support the robustness of the findings.
-
-**Keywords:** Digital Platforms, Electronic Commerce, Amazon, Competition, Search Engines, Self-Preferencing.
 
 
 ## `keepar`: An R Package to Identify, Acquire, and Transform Online Marketplace Data for Social Science Research
