@@ -13,7 +13,7 @@ grouped by [publications](research.qmd#publications) and
 
 ## Publications
 
-1. Jürgensmeier, Lukas and Bernd Skiera (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), available at [SSRN](https://ssrn.com/abstract=4393726).
+1. Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), [doi.org/10.1177/00222429251360772](https://doi.org/10.1177/00222429251360772), also available at [SSRN](https://ssrn.com/abstract=4393726).
 
 2. Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2024), "Generative AI for Scalable Feedback to Multimodal Exercises," International Journal of Research in Marketing, 41 (3), pp. 468-488, [doi.org/10.1016/j.ijresmar.2024.05.005](https://doi.org/10.1016/j.ijresmar.2024.05.005).
 
@@ -34,7 +34,7 @@ Journal of Marketing Analytics, 12 (2), pp. 209-226, [doi.org/10.1057/s41270-024
 
 ## Measuring Self-Preferencing on Digital Platforms
 
-Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), available at [SSRN](https://ssrn.com/abstract=4393726).
+Jürgensmeier, Lukas and [Bernd Skiera](https://www.marketing.uni-frankfurt.de/abteilungen/marketing/professoren/skiera/prof-dr-bernd-skiera.html) (2025), "Measuring Self-preferencing on Digital Platforms," Journal of Marketing (forthcoming), [doi.org/10.1177/00222429251360772](https://doi.org/10.1177/00222429251360772), also available at [SSRN](https://ssrn.com/abstract=4393726).
 
 **Abstract**
 
